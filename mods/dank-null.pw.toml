@@ -1,0 +1,13 @@
+name = "/dank/null"
+filename = "DankNull-1.12.2-1.7.91.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4db0be5d1557d2c6754579177c0cab361462304b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2920596
+project-id = 272514

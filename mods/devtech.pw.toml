@@ -1,0 +1,13 @@
+name = "DevTech"
+filename = "devtech-2.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/A0NmmAZH/versions/M7OPcUk2/devtech-2.1.4.jar"
+hash-format = "sha1"
+hash = "23377c9f5a08c3485bf796e71df29fe4390e7ae1"
+
+[update]
+[update.modrinth]
+mod-id = "A0NmmAZH"
+version = "M7OPcUk2"

@@ -1,0 +1,13 @@
+name = "Mixin 0.7-0.8 Compatibility"
+filename = "[___MixinCompat-0.8___].jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PHISlklk/versions/7sIngbMk/%5B___MixinCompat-0.8___%5D.jar"
+hash-format = "sha1"
+hash = "b70fe3fa98be2c0ffb673e88505dada51c1b12d5"
+
+[update]
+[update.modrinth]
+mod-id = "PHISlklk"
+version = "7sIngbMk"

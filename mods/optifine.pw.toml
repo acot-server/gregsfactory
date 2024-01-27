@@ -1,0 +1,13 @@
+name = "OptiFine"
+filename = "OptiFine_1.12.2_HD_U_G5.jar"
+side = "client"
+
+[download]
+url = "https://push.annwan.me/OptiFine_1.12.2_HD_U_G5.jar"
+hash-format = "sha256"
+hash = "3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e"
+
+[option]
+optional = true
+default = true
+description = "Visual and performance enhancements"

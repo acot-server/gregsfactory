@@ -1,0 +1,13 @@
+name = "Dark Utilities"
+filename = "DarkUtils-1.12.2-1.8.230.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CkqTAIaP/versions/NYqAjxPp/DarkUtils-1.12.2-1.8.230.jar"
+hash-format = "sha1"
+hash = "3f34c35903ca09e637dc3426eb81ca64ced0429a"
+
+[update]
+[update.modrinth]
+mod-id = "CkqTAIaP"
+version = "NYqAjxPp"

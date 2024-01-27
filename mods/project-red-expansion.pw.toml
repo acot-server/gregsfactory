@@ -1,0 +1,13 @@
+name = "Project Red - Expansion"
+filename = "ProjectRed-1.12.2-4.9.4.120-mechanical.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2b8690aefe03ea47212001fadd2b6883b5284924"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2745550
+project-id = 229048

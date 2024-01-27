@@ -1,0 +1,13 @@
+name = "Future MC"
+filename = "future-mc-0.2.15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dKv1FGT7/versions/c8canEGy/future-mc-0.2.15.jar"
+hash-format = "sha1"
+hash = "d9af0ca5bb1c918f3cbbf0a88d730599f2b9599d"
+
+[update]
+[update.modrinth]
+mod-id = "dKv1FGT7"
+version = "c8canEGy"

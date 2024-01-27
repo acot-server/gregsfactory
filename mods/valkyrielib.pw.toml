@@ -1,0 +1,13 @@
+name = "ValkyrieLib"
+filename = "valkyrielib-1.12.2-2.0.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/58d5Rm2F/versions/FeARGLGL/valkyrielib-1.12.2-2.0.20.1.jar"
+hash-format = "sha1"
+hash = "e640e231cb83ea9ff7cda8710e6d7c44467b9658"
+
+[update]
+[update.modrinth]
+mod-id = "58d5Rm2F"
+version = "FeARGLGL"

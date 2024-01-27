@@ -1,0 +1,13 @@
+name = "Phosphor (Forge)"
+filename = "phosphor-forge-mc1.12.2-0.2.7-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1c75738ecd4bc5f7021b2b23ea04602aac3d16ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2919497
+project-id = 318255

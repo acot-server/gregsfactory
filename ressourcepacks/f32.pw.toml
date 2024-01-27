@@ -1,0 +1,13 @@
+name = "F32"
+filename = "F32-1.12.2.zip"
+side = "client"
+
+[download]
+hash-format = "sha256"
+hash = "c0555518a4fac5445728bbf293abb16a7d1238b97adc9033d8d799510f1fe276"
+url = "https://push.annwan.me/F32-1.12.2.zip"
+
+[option]
+optional = true
+default = true
+description = "32x textures for most modded blocks"

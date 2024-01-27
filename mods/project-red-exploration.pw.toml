@@ -1,0 +1,13 @@
+name = "Project Red - Exploration"
+filename = "ProjectRed-1.12.2-4.9.4.120-world.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7184d18c1511526f0e266ab92f4d05cd728c247f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2745551
+project-id = 229049

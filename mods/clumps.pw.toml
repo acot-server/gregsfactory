@@ -1,0 +1,13 @@
+name = "Clumps"
+filename = "Clumps-3.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/nZvGITpT/Clumps-3.1.2.jar"
+hash-format = "sha1"
+hash = "6ea78bea8006e3924bc37c2aef0115134c8af07b"
+
+[update]
+[update.modrinth]
+mod-id = "Wnxd13zP"
+version = "nZvGITpT"

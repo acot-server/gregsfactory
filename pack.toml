@@ -1,0 +1,13 @@
+name = "Greg's Factory"
+author = "Greg's Factory Authors"
+version = "1.3.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0c5fe146f2d377d79bd502dfb9eb137f48d820c01858aae8c2edccdb71937519"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"
