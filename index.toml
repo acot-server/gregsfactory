@@ -643,12 +643,12 @@ hash = "6c0516b9ed7436ab1b5a3c79709bb0d508e8586abdc0ef3fbfffb33601b20a96"
 metafile = true
 
 [[files]]
-file = "ressourcepacks/f32.pw.toml"
+file = "resourcepacks/f32.pw.toml"
 hash = "b44f10f85cd9e7288dabbba5440ff042379d9b5c8d7fd642bc25233d73c07b5a"
 metafile = true
 
 [[files]]
-file = "ressourcepacks/faithful.pw.toml"
+file = "resourcepacks/faithful.pw.toml"
 hash = "e83509fa695a2705f8d05b2a2154daf8f433631914ec74b221d050d6c5ebde55"
 metafile = true
 
