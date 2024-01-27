@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "CNAME"
-hash = "6d45ff5b881342830e31844d933bbf6cf041fc86ce451cc7337131f46768a55c"
-
-[[files]]
 file = "configs/AppliedEnergistics2/AppliedEnergistics2.cfg"
 hash = "771df1a9806222ce2134195887f02735d0ee5d07e6cf624f1cb865a17a658515"
 
