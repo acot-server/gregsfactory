@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CNAME"
+hash = "6d45ff5b881342830e31844d933bbf6cf041fc86ce451cc7337131f46768a55c"
+
+[[files]]
 file = "configs/AppliedEnergistics2/AppliedEnergistics2.cfg"
 hash = "771df1a9806222ce2134195887f02735d0ee5d07e6cf624f1cb865a17a658515"
 
@@ -349,8 +353,8 @@ hash = "3c7a58fcef9e70066781f991e455df2bb0152f7fcebecbb4441270869e1f0b29"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-1.12.2-2.6.1-custom.jar"
-hash = "8abebe59d5be76c68891bb354985f4631699d4f6f5687ebc672bb26d4f61c659"
+file = "mods/gregtech-1.12.2-2.7.4.3-beta.jar"
+hash = "7bd2e43a77079954ed4064fffa2900eba321aa3430a3cf54398c4b796cc58824"
 
 [[files]]
 file = "mods/guide-api-legacy.pw.toml"
