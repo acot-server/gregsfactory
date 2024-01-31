@@ -638,7 +638,7 @@ metafile = true
 
 [[files]]
 file = "mods/visualores.pw.toml"
-hash = "fffd4a12d68a26b1b364d9149ada62b35e5b7efa1b5b71b6a208c8baf396fe1d"
+hash = "b7a8aa2e3552388c1406ecb1c175779fe5c1fc313cbced073349186945891a2d"
 metafile = true
 
 [[files]]
