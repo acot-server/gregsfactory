@@ -33,6 +33,10 @@ file = "configs/environmentaltech/multiblocks/void_miner/ore/tier_6.json"
 hash = "fd68cd7868a96398c340f582b603035db825a72faa07650190fca1be41962d9b"
 
 [[files]]
+file = "configs/forestry/lepidopterology.cfg"
+hash = "4e2688f581c0d5d75b355b5d53be77a38680f9f8ed923286c96ec5e130ca51b5"
+
+[[files]]
 file = "configs/gregtech.cfg"
 hash = "12ba3962dace928638b771ef541cca7837619452580a2a0313e5e933bb90cdb2"
 
@@ -56,6 +60,11 @@ metafile = true
 [[files]]
 file = "mods/adventofascension.pw.toml"
 hash = "0e651576a1586658c69a01f722939eab6560ab33c297eed07ec9ce95f600a73d"
+metafile = true
+
+[[files]]
+file = "mods/ae-additions-extra-cells-2-fork.pw.toml"
+hash = "ec57ba40845c668483e987f4329ad90eeaefc51df4660a3b84a02118c9fcdfb1"
 metafile = true
 
 [[files]]
@@ -259,18 +268,18 @@ hash = "07b07b3471076717ee2fc837c7e53eb237766c5e6218d48a5d00f115b5ee872b"
 metafile = true
 
 [[files]]
+file = "mods/ender-io.pw.toml"
+hash = "90b8f96283a98af81b8a4826e9544ec4326cdcadc72930a76e1c19bc46fdb443"
+metafile = true
+
+[[files]]
 file = "mods/ender-storage-1-8.pw.toml"
 hash = "bf089669a08776c6c3019cc2ed786ee1583fcb297784427b21cff7f9564d3c92"
 metafile = true
 
 [[files]]
 file = "mods/endercore.pw.toml"
-hash = "95a18eb1874edc1f94b93ac730249be28db12f0a643d360e29bd8ce9135bc42c"
-metafile = true
-
-[[files]]
-file = "mods/enderio.pw.toml"
-hash = "dd373934589a5dce66108c99d75e09444fe84fc470efa8f97587d1115131c8a1"
+hash = "f41bf1c7154b656b303822ea5fe596d4afc97c5712facf03c244d08ae9c129d3"
 metafile = true
 
 [[files]]
@@ -438,6 +447,11 @@ hash = "c09ef7a87aaa6c9db80818c57236f08265aaf43b66177f138a0ae69b8c776893"
 metafile = true
 
 [[files]]
+file = "mods/lolasm.pw.toml"
+hash = "b9d0fa17a02f9eb096c35e62624bbc34221c205c57c0599845ccf0f8c2a044ab"
+metafile = true
+
+[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "4389388fec84ee12d7965fa633529f870fd12bc70905ade7daddb3012008ac0c"
 metafile = true
@@ -460,6 +474,11 @@ metafile = true
 [[files]]
 file = "mods/mcjtylib.pw.toml"
 hash = "46b6fe4b838212d19da58719e4782d0c54689f3cbec148921c41a3297f96caf6"
+metafile = true
+
+[[files]]
+file = "mods/mixinbooter.pw.toml"
+hash = "55611236dd43081a8f83c3a6f553b3b51ad885f5ecfc0c0f9ef2ca6c80282027"
 metafile = true
 
 [[files]]
@@ -488,6 +507,11 @@ hash = "427f7b7c79dd9bc8e2a1c961618cf4879f5038be1158df20b883a36c6ce88da6"
 metafile = true
 
 [[files]]
+file = "mods/nae2.pw.toml"
+hash = "c873096b91156cd72345e082b701201721773393fd359c0ed37b25d5f4227a78"
+metafile = true
+
+[[files]]
 file = "mods/opencomputers.pw.toml"
 hash = "06967deeec89df4483327d9cded794df0f8a7ce329f3146f29e1abc51cecb8dd"
 metafile = true
@@ -505,11 +529,6 @@ metafile = true
 [[files]]
 file = "mods/p455w0rds-library.pw.toml"
 hash = "f7e6f638078c6717ea9e2e76bac01d7680fb48634bf04bf7f1e9d430cd27e626"
-metafile = true
-
-[[files]]
-file = "mods/phosphor-forge.pw.toml"
-hash = "900c33ef3ec1924d7557882e955063e30726a81f662e1443b7a3d3ff66a557d1"
 metafile = true
 
 [[files]]
@@ -615,6 +634,11 @@ metafile = true
 [[files]]
 file = "mods/valkyrielib.pw.toml"
 hash = "bbaf264bc4c3ee6462ca143251b6e0e08dd5c6fd7556256da31c3641a5ae14cb"
+metafile = true
+
+[[files]]
+file = "mods/visualores.pw.toml"
+hash = "fffd4a12d68a26b1b364d9149ada62b35e5b7efa1b5b71b6a208c8baf396fe1d"
 metafile = true
 
 [[files]]
@@ -1226,7 +1250,7 @@ hash = "17efacfd12264d1a41376fd3a4ba8fe9ccf20e78612f187fc45ce48307063d0d"
 
 [[files]]
 file = "scripts/EIO.zs"
-hash = "7dc35c718099a8021c908d07ab5f505e26240bf1316715665c9fedf6c6147d23"
+hash = "8c1155adf8a29be2094f383722e5a1bf816dc1cfc77ea0390ed42f82b5a90f03"
 
 [[files]]
 file = "scripts/acot_black_hole.zs"
@@ -1250,11 +1274,11 @@ hash = "b66d46ee1c32e29836173607aef4275cec1c1c9402208e1a1b35b2c733fe7113"
 
 [[files]]
 file = "scripts/circuitoreditct.zs"
-hash = "4593bac1529d732f9917fa3e320e4b21842f10c6c374270536290dbdb8178a98"
+hash = "2c10ed4664c577294e21e9b5f1c1714104d64480b2c3b08b385cd25dc745f8ed"
 
 [[files]]
 file = "scripts/contenttweaker.zs"
-hash = "a4f18e635d6e6476b6ebe8dbf3357e4d1b5f9d950586afc2cd0fbfd86a079e74"
+hash = "5f4ac2dcbdfc5447ff2d431a1822e07a06c0e0b044c783d0a0e25e6961aec49c"
 
 [[files]]
 file = "scripts/dark_matter_electronics.zs"
@@ -1341,6 +1365,10 @@ file = "scripts/recipe_map.zs"
 hash = "580c5d75376c0cb57c12dcb7d1aae97d752149a1d3c0938d95c742927b4b6caa"
 
 [[files]]
+file = "scripts/resonating_circuit.zs.bak"
+hash = "390f642212e096b0b231ef12f2eea324b7095950e990d01e07c717f58d154923"
+
+[[files]]
 file = "scripts/rock_breaker.zs"
 hash = "2874d5e6e3aa9472638d32d227d6ea947104d89e066119fb1602efe5f360b68c"
 
@@ -1391,3 +1419,7 @@ hash = "7f775ea2b5366f2f0c328ef3320cbe6bc47a273ea399c0c92eb205a4852fb283"
 [[files]]
 file = "scripts/wrought_iron.zs"
 hash = "a06bd36f801e37a5a65cce2a9195aad376537ddee31bd1d52aadd5c0531fdf63"
+
+[[files]]
+file = "scripts/zero_point_energy.zs.bak"
+hash = "e0f0c00f62839575297c75f36086f0aa953010682d464f0bc80d37ee96d9c0e2"

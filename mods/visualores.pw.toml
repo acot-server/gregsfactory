@@ -1,0 +1,13 @@
+name = "VisualOres"
+filename = "visualores-0.2.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tzkhlWzj/versions/kECCTqf2/visualores-0.2.3.jar"
+hash-format = "sha1"
+hash = "21698b439393457235bf580709b5d3805713c905"
+
+[update]
+[update.modrinth]
+mod-id = "tzkhlWzj"
+version = "kECCTqf2"

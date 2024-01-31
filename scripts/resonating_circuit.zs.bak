@@ -1,0 +1,312 @@
+import crafttweaker.item.IIngredient;
+import mods.gregtech.recipe.RecipeMap;
+import crafttweaker.item.IItemStack;
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <gregtech:meta_dust:395> * 4,
+        <gregtech:meta_dust:276> * 16,
+        <gregtech:meta_item_1:567> * 32,
+        <gregtech:meta_item_1:523> * 16,
+        <gregtech:meta_item_1:524> * 16,
+        <gregtech:meta_item_1:525> * 16,
+        <gregtech:meta_item_1:526> * 16,
+        <gregtech:meta_item_1:527> * 16
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:ulv_resonating> * 16)
+    .EUt(4096)
+    .duration(200)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:ulv_resonating> * 2,
+        <gregtech:meta_stick:395> * 4,
+        <gregtech:meta_dust:276> * 16,
+        <gregtech:meta_item_1:567> * 32,
+        <gregtech:meta_item_1:523> * 16,
+        <gregtech:meta_item_1:524> * 16,
+        <gregtech:meta_item_1:525> * 16,
+        <gregtech:meta_item_1:526> * 16,
+        <gregtech:meta_item_1:527> * 16
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:lv_resonating> * 16)
+    .EUt(16384)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:lv_resonating> * 2,
+        <gregtech:meta_stick:2035> * 4,
+        <gregtech:meta_dust:276> * 32,
+        <gregtech:meta_item_1:567> * 32,
+        <gregtech:meta_item_1:523> * 32,
+        <gregtech:meta_item_1:524> * 32,
+        <gregtech:meta_item_1:525> * 32,
+        <gregtech:meta_item_1:526> * 32,
+        <gregtech:meta_item_1:527> * 32
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:mv_resonating> * 16)
+    .EUt(32768)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:mv_resonating> * 2,
+        <gregtech:meta_stick:2035> * 8,
+        <gregtech:meta_dust:276> * 64,
+        <gregtech:meta_item_1:567> * 64,
+        <gregtech:meta_item_1:523> * 64,
+        <gregtech:meta_item_1:524> * 64,
+        <gregtech:meta_item_1:525> * 64,
+        <gregtech:meta_item_1:526> * 64,
+        <gregtech:meta_item_1:527> * 64
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:hv_resonating> * 16)
+    .EUt(65536)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:hv_resonating> * 2,
+        <gregtech:meta_stick:418> * 4,
+        <gregtech:meta_dust:276> * 16,
+        <gregtech:meta_item_1:592> * 8,
+        <gregtech:meta_item_1:528> * 8,
+        <gregtech:meta_item_1:529> * 8,
+        <gregtech:meta_item_1:530> * 8,
+        <gregtech:meta_item_1:531> * 8,
+        <gregtech:meta_item_1:532> * 8
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:ev_resonating> * 16)
+    .EUt(131072)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:ev_resonating> * 2,
+        <gregtech:meta_stick:418> * 6,
+        <gregtech:meta_dust:276> * 24,
+        <gregtech:meta_item_1:592> * 12,
+        <gregtech:meta_item_1:528> * 12,
+        <gregtech:meta_item_1:529> * 12,
+        <gregtech:meta_item_1:530> * 12,
+        <gregtech:meta_item_1:531> * 12,
+        <gregtech:meta_item_1:532> * 12
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:iv_resonating> * 16)
+    .EUt(262144)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:iv_resonating> * 4,
+        <gregtech:meta_stick:418> * 12,
+        <gregtech:meta_dust:276> * 48,
+        <gregtech:meta_item_1:592> * 20,
+        <gregtech:meta_item_1:528> * 20,
+        <gregtech:meta_item_1:529> * 20,
+        <gregtech:meta_item_1:530> * 20,
+        <gregtech:meta_item_1:531> * 20,
+        <gregtech:meta_item_1:532> * 20
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:luv_resonating> * 16)
+    .EUt(524288)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:luv_resonating> * 4,
+        <gregtech:meta_stick:418> * 20,
+        <gregtech:meta_dust:276> * 64,
+        <gregtech:meta_item_1:592> * 32,
+        <gregtech:meta_item_1:528> * 32,
+        <gregtech:meta_item_1:529> * 32,
+        <gregtech:meta_item_1:530> * 32,
+        <gregtech:meta_item_1:531> * 32,
+        <gregtech:meta_item_1:532> * 32
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 1440)
+    .outputs(<contenttweaker:zpm_resonating> * 16)
+    .EUt(1048576)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:zpm_resonating> * 4,
+        <gregtech:meta_stick:418> * 32,
+        <gregtech:meta_dust:276> * 64,
+        <gregtech:meta_item_1:592> * 64,
+        <gregtech:meta_item_1:528> * 64,
+        <gregtech:meta_item_1:529> * 64,
+        <gregtech:meta_item_1:530> * 64,
+        <gregtech:meta_item_1:531> * 64,
+        <gregtech:meta_item_1:532> * 64
+    ])
+    .fluidInputs([
+        <liquid:soldering_alloy> * 1440,
+        <liquid:darkmatteralloy> * 1440
+        ])
+    .outputs(<contenttweaker:uv_resonating> * 16)
+    .EUt(2097152)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:uv_resonating> * 4,
+        <gregtech:meta_stick:423> * 8,
+        <projecte:item.pe_matter> * 16,
+        <gregtech:meta_item_1:592> * 16,
+        <gregtech:meta_item_1:536> * 8,
+        <gregtech:meta_item_1:535> * 8,
+        <gregtech:meta_item_1:534> * 8,
+        <gregtech:meta_item_1:533> * 8
+    ])
+    .fluidInputs([
+        <liquid:soldering_alloy> * 1440,
+        <liquid:darkmatteralloy> * 1440
+    ])
+    .outputs(<contenttweaker:uhv_resonating> * 16)
+    .EUt(4194304)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <contenttweaker:uhv_resonating> * 4,
+        <gregtech:meta_stick:423> * 12,
+        <projecte:item.pe_matter> * 18,
+        <gregtech:meta_item_1:592> * 24,
+        <gregtech:meta_item_1:536> * 12,
+        <gregtech:meta_item_1:535> * 12,
+        <gregtech:meta_item_1:534> * 12,
+        <gregtech:meta_item_1:533> * 12
+    ])
+    .fluidInputs([
+        <liquid:soldering_alloy> * 1440,
+        <liquid:darkmatteralloy> * 1440
+    ])
+    .outputs(<gregtech:meta_item_1:648> * 16)
+    .EUt(4194304)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <gregtech:meta_item_1:648> * 4,
+        <gregtech:meta_stick:423> * 16,
+        <projecte:item.pe_matter> * 24,
+        <gregtech:meta_item_1:592> * 32,
+        <gregtech:meta_item_1:536> * 16,
+        <gregtech:meta_item_1:535> * 16,
+        <gregtech:meta_item_1:534> * 16,
+        <gregtech:meta_item_1:533> * 16
+    ])
+    .fluidInputs([
+        <liquid:soldering_alloy> * 1440,
+        <liquid:darkenergyalloy> * 1440
+        ])
+    .outputs(<gregtech:meta_item_1:649> * 16)
+    .EUt(8388608)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <gregtech:meta_item_1:649> * 4,
+        <gregtech:meta_stick:423> * 32,
+        <projecte:item.pe_matter> * 48,
+        <gregtech:meta_item_1:592> * 64,
+        <gregtech:meta_item_1:536> * 32,
+        <gregtech:meta_item_1:535> * 32,
+        <gregtech:meta_item_1:534> * 32,
+        <gregtech:meta_item_1:533> * 32
+    ])
+    .fluidInputs([
+        <liquid:soldering_alloy> * 1440,
+        <liquid:darkenergyalloy> * 1440
+    ])
+    .outputs(<gregtech:meta_item_1:650> * 16)
+    .EUt(33554432)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([
+        <gregtech:meta_item_1:650> * 4,
+        <gregtech:meta_stick:423> * 64,
+        <projecte:item.pe_matter> * 64,
+        <gregtech:meta_item_1:592> * 64,
+        <gregtech:meta_item_1:592> * 64,
+        <gregtech:meta_item_1:536> * 64,
+        <gregtech:meta_item_1:535> * 64,
+        <gregtech:meta_item_1:534> * 64,
+        <gregtech:meta_item_1:533> * 64
+    ])
+    .fluidInputs([
+        <liquid:soldering_alloy> * 1440,
+        <liquid:darkenergyalloy> * 1440
+    ])
+    .outputs(<gregtech:meta_item_1:651> * 16)
+    .EUt(134217728)
+    .duration(300)
+    .buildAndRegister();
+
+// Energy Cluster * 1
+<recipemap:assembly_line>.findRecipe(200000,
+[<metaitem:circuit_board.wetware>, 
+ <metaitem:plateAmericium> * 16, 
+ <metaitem:circuit.wetware_computer> * 4, 
+ <metaitem:energy.module>, 
+ <metaitem:field.generator.zpm>, 
+ <metaitem:plate.ultra_high_power_integrated_circuit> * 32, 
+ <metaitem:component.advanced_smd.diode> * 16, 
+ <metaitem:component.advanced_smd.capacitor> * 16, 
+ <metaitem:component.advanced_smd.resistor> * 16, 
+ <metaitem:component.advanced_smd.transistor> * 16, 
+ <metaitem:component.advanced_smd.inductor> * 16, 
+ <metaitem:wireFineOsmiridium> * 64, 
+ <metaitem:boltNaquadria> * 16], 
+ [<liquid:soldering_alloy> * 2880, 
+  <liquid:polybenzimidazole> * 576]).remove();
+
+assembly_line.recipeBuilder()
+    .inputs([
+       <metaitem:circuit_board.wetware> * 1,
+        <metaitem:plateAmericium> * 16,
+        <metaitem:plateAmericium> * 16,
+        <ore:circuitUv> * 4,
+        <metaitem:energy.module> * 1,
+        <metaitem:field.generator.zpm> * 1,
+        <metaitem:plate.ultra_high_power_integrated_circuit> * 32,
+        <metaitem:component.advanced_smd.diode> * 16, 
+        <metaitem:component.advanced_smd.capacitor> * 16, 
+        <metaitem:component.advanced_smd.resistor> * 16, 
+        <metaitem:component.advanced_smd.transistor> * 16, 
+        <metaitem:component.advanced_smd.inductor> * 16, 
+        <metaitem:wireFineOsmiridium> * 64, 
+        <metaitem:boltNaquadria> * 16
+    ])
+    .fluidInputs([
+        <liquid:soldering_alloy> * 2880, 
+        <liquid:polybenzimidazole> * 576  
+    ])
+    .outputs(<gregtech:meta_item_1:751> * 1)
+    .EUt(200000)
+    .duration(1400)
+    .buildAndRegister();

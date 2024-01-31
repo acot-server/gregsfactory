@@ -145,7 +145,6 @@ assembler.recipeBuilder()
 
 
 
-// Remove crafts for the S.A.G Mill and the Alloy Smelter
 JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
 JEI.removeAndHide(<enderio:block_alloy_smelter>);
 JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
@@ -153,12 +152,3 @@ JEI.removeAndHide(<enderio:block_simple_sag_mill>);
 JEI.removeAndHide(<enderio:block_sag_mill>);
 JEI.removeAndHide(<enderio:block_enhanced_sag_mill>);
 
-
-// recipes.removeByRecipeName("enderio:s_a_g_mill");
-// recipes.removeByRecipeName("enderio:s_a_g_mill_upgrade");
-// recipes.removeByRecipeName("enderio:enhanced_s_a_g_mill");
-// recipes.removeByRecipeName("enderio:enhanced_s_a_g_mill_upgrade");
-// recipes.removeByRecipeName("enderio:alloy_smelter");
-// recipes.removeByRecipeName("enderio:alloy_smelter_upgrade");
-// recipes.removeByRecipeName("enderio:enhanced_alloy_smelter");
-// recipes.removeByRecipeName("enderio:enhanced_alloy_smelter_upgrade");

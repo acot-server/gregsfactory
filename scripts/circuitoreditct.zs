@@ -1,3 +1,4 @@
+#priority 4000
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemDefinition;
 
