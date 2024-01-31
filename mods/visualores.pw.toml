@@ -1,6 +1,6 @@
 name = "VisualOres"
 filename = "visualores-0.2.3.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/tzkhlWzj/versions/kECCTqf2/visualores-0.2.3.jar"
