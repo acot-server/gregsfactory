@@ -38,7 +38,7 @@ hash = "4e2688f581c0d5d75b355b5d53be77a38680f9f8ed923286c96ec5e130ca51b5"
 
 [[files]]
 file = "config/gregtech.cfg"
-hash = "12ba3962dace928638b771ef541cca7837619452580a2a0313e5e933bb90cdb2"
+hash = "E57FBBFF4F1DB518C623C5D1872AD29702A9998F0E49CE6145DB04EEFBA2FB8A"
 
 [[files]]
 file = "config/jsg/jsgConfig_3.2/general.cfg"
@@ -363,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-1.12.2-2.7.4.3-beta.jar"
-hash = "7bd2e43a77079954ed4064fffa2900eba321aa3430a3cf54398c4b796cc58824"
+hash = "7BD2E43A77079954ED4064FFFA2900EBA321AA3430A3CF54398C4B796CC58824"
 
 [[files]]
 file = "mods/guide-api-legacy.pw.toml"
