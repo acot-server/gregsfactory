@@ -38,7 +38,7 @@ hash = "4e2688f581c0d5d75b355b5d53be77a38680f9f8ed923286c96ec5e130ca51b5"
 
 [[files]]
 file = "config/gregtech.cfg"
-hash = "E57FBBFF4F1DB518C623C5D1872AD29702A9998F0E49CE6145DB04EEFBA2FB8A"
+hash = "e57fbbff4f1db518c623c5d1872ad29702a9998f0e49ce6145db04eefba2fb8a"
 
 [[files]]
 file = "config/jsg/jsgConfig_3.2/general.cfg"
@@ -50,7 +50,7 @@ hash = "6af86e019402e25e23adbad495d834a211b703dad2a71802d87902fac923bac9"
 
 [[files]]
 file = "config/loliasm.cfg"
-hash = "dca7f56eb4a3c9ebe814c32650dfa0f4da0e9177b48793fd690d378f8c8881ce"
+hash = "8c266d93b6a8448ad93727676f66c2d4c02e1a251e8427bfce8bb4cfc94ca67f"
 
 [[files]]
 file = "config/scalinghealth/main.cfg"
@@ -363,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-1.12.2-2.7.4.3-beta.jar"
-hash = "7BD2E43A77079954ED4064FFFA2900EBA321AA3430A3CF54398C4B796CC58824"
+hash = "0fb9d37581f78042a2903a77e16faba256bd324381bd312b51d726047bcaf29d"
 
 [[files]]
 file = "mods/guide-api-legacy.pw.toml"
@@ -919,10 +919,6 @@ hash = "a0982185a2685d70524fba64708d20829046dc19391d05377e7f09a6465e61ab"
 [[files]]
 file = "resources/contenttweaker/models/item/iv_resonating.json"
 hash = "cb414f0538be239ff94301aeea832cc5f6231c4a965d97595bbf395f582e5af5"
-
-[[files]]
-file = "resources/contenttweaker/models/item/lightmatter.json"
-hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
 
 [[files]]
 file = "resources/contenttweaker/models/item/luv_resonating.json"
