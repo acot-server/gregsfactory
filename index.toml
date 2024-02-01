@@ -49,6 +49,10 @@ file = "config/laser_drill_ores/default_ores.json"
 hash = "6af86e019402e25e23adbad495d834a211b703dad2a71802d87902fac923bac9"
 
 [[files]]
+file = "config/loliasm.cfg"
+hash = "8c266d93b6a8448ad93727676f66c2d4c02e1a251e8427bfce8bb4cfc94ca67f"
+
+[[files]]
 file = "config/scalinghealth/main.cfg"
 hash = "9dd21f4bb12497e45fceca62ed8defa7c3b324d1a87017d2daebdda4ee9330bc"
 
@@ -917,10 +921,6 @@ file = "resources/contenttweaker/models/item/iv_resonating.json"
 hash = "cb414f0538be239ff94301aeea832cc5f6231c4a965d97595bbf395f582e5af5"
 
 [[files]]
-file = "resources/contenttweaker/models/item/lightmatter.json"
-hash = "7af20e5899fa0ed81e80005f9ccd1808ca6e004c764a725cfe71ad4b257d7e68"
-
-[[files]]
 file = "resources/contenttweaker/models/item/luv_resonating.json"
 hash = "faafabcb5a26658ccdf4754286ce708a3201ce82fe9acbb81f8f1e66a332d13d"
 
@@ -1242,7 +1242,7 @@ hash = "ce5933dacc7ac0d21c86d5dcfc0c938960c02eb16ec474659253a08cbb67decf"
 
 [[files]]
 file = "resources/gregtech/lang/en_us.lang"
-hash = "227489cb3992598d00ba63ee0848145d3e069db04e6926742d8e2660b265f719"
+hash = "8ef2ec12474f5f6fc2008c365b61a2d5491129f89d73548b3b9d80b0f7dadbc7"
 
 [[files]]
 file = "resources/pack.mcmeta"
