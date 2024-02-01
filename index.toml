@@ -38,7 +38,7 @@ hash = "4e2688f581c0d5d75b355b5d53be77a38680f9f8ed923286c96ec5e130ca51b5"
 
 [[files]]
 file = "config/gregtech.cfg"
-hash = "e57fbbff4f1db518c623c5d1872ad29702a9998f0e49ce6145db04eefba2fb8a"
+hash = "1f2901d9169fd432c53aa6caa614b0cef8b8c2e3bc4d3b457dd864334fe8925f"
 
 [[files]]
 file = "config/jsg/jsgConfig_3.2/general.cfg"
@@ -50,7 +50,7 @@ hash = "6af86e019402e25e23adbad495d834a211b703dad2a71802d87902fac923bac9"
 
 [[files]]
 file = "config/loliasm.cfg"
-hash = "8c266d93b6a8448ad93727676f66c2d4c02e1a251e8427bfce8bb4cfc94ca67f"
+hash = "dca7f56eb4a3c9ebe814c32650dfa0f4da0e9177b48793fd690d378f8c8881ce"
 
 [[files]]
 file = "config/scalinghealth/main.cfg"
@@ -733,10 +733,6 @@ file = "resources/contenttweaker/models/item/LV_computer_pregoc.json"
 hash = "7496a9f2f6b4f89be211d0c86e81f1d1863d3e8d42679f436015ef94600bf505"
 
 [[files]]
-file = "resources/contenttweaker/models/item/Lightmatter.json"
-hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
-
-[[files]]
 file = "resources/contenttweaker/models/item/LuV_computer_pregoc.json"
 hash = "54cc170758dc933020a910b2bdb895b1030f7f57cf14e53cd5471029e2335dd2"
 
@@ -919,6 +915,10 @@ hash = "a0982185a2685d70524fba64708d20829046dc19391d05377e7f09a6465e61ab"
 [[files]]
 file = "resources/contenttweaker/models/item/iv_resonating.json"
 hash = "cb414f0538be239ff94301aeea832cc5f6231c4a965d97595bbf395f582e5af5"
+
+[[files]]
+file = "resources/contenttweaker/models/item/lightmatter.json"
+hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
 
 [[files]]
 file = "resources/contenttweaker/models/item/luv_resonating.json"
