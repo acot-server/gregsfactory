@@ -50,7 +50,7 @@ hash = "6af86e019402e25e23adbad495d834a211b703dad2a71802d87902fac923bac9"
 
 [[files]]
 file = "config/loliasm.cfg"
-hash = "8c266d93b6a8448ad93727676f66c2d4c02e1a251e8427bfce8bb4cfc94ca67f"
+hash = "dca7f56eb4a3c9ebe814c32650dfa0f4da0e9177b48793fd690d378f8c8881ce"
 
 [[files]]
 file = "config/scalinghealth/main.cfg"
@@ -919,6 +919,10 @@ hash = "a0982185a2685d70524fba64708d20829046dc19391d05377e7f09a6465e61ab"
 [[files]]
 file = "resources/contenttweaker/models/item/iv_resonating.json"
 hash = "cb414f0538be239ff94301aeea832cc5f6231c4a965d97595bbf395f582e5af5"
+
+[[files]]
+file = "resources/contenttweaker/models/item/lightmatter.json"
+hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
 
 [[files]]
 file = "resources/contenttweaker/models/item/luv_resonating.json"
