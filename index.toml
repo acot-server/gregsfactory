@@ -1349,7 +1349,7 @@ hash = "b7c7d3af774490de2a9a2b153757d54418e8de444f66b9f65ec75b816bca368f"
 
 [[files]]
 file = "scripts/bio-electronics.zs"
-hash = "b32f21f3eaf39c01f68b45ecc4a41907b8db96c936b4490a036d49e0885b2661"
+hash = "d134b2570da35bb60b4fd434d48f814c550221d6731af30322831c178dfb1042"
 
 [[files]]
 file = "scripts/buildcraft.zs"
