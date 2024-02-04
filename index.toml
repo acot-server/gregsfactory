@@ -664,11 +664,6 @@ hash = "568fdad52f685a4b155371508db94667f9a198168cfd602d806409313d0276cb"
 metafile = true
 
 [[files]]
-file = "mods/randompatches-forge.pw.toml"
-hash = "93d16979ce8714c02e8e13cfb36d7f604e75ca334ec3349bf6d4e8e42f1c5563"
-metafile = true
-
-[[files]]
 file = "mods/redstone-flux.pw.toml"
 hash = "c4730aa68206dba3e9fe24d60b107d914d202ba5e3f5842f06d3fa40ec05d06c"
 metafile = true
