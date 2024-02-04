@@ -34,7 +34,7 @@ hash = "fd68cd7868a96398c340f582b603035db825a72faa07650190fca1be41962d9b"
 
 [[files]]
 file = "config/forestry/lepidopterology.cfg"
-hash = "4e2688f581c0d5d75b355b5d53be77a38680f9f8ed923286c96ec5e130ca51b5"
+hash = "6c8f443492a865669eced3480204d12b8609d051a3930b645de1f89f251992a5"
 
 [[files]]
 file = "config/gregtech.cfg"
@@ -55,6 +55,90 @@ hash = "dca7f56eb4a3c9ebe814c32650dfa0f4da0e9177b48793fd690d378f8c8881ce"
 [[files]]
 file = "config/scalinghealth/main.cfg"
 hash = "9dd21f4bb12497e45fceca62ed8defa7c3b324d1a87017d2daebdda4ee9330bc"
+
+[[files]]
+file = "groovy/assets/placeholdername/lang/en_us.lang"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "groovy/postInit/adv_electronics.groovy"
+hash = "278d6539e73ac04c18a8667b916e2673cd808372088e98274a32259039e54b7d"
+
+[[files]]
+file = "groovy/postInit/alpha_electronics.groovy"
+hash = "53968faabef471293d64e886ac47c6df5b9115d89067d03f57d6c2bdaf6ed1c3"
+
+[[files]]
+file = "groovy/postInit/creative_stuff.groovy"
+hash = "5747ceb76e56ab9287713c5763a2bef992ff11acb647e90bef095533d2d71d4f"
+
+[[files]]
+file = "groovy/postInit/dark_matter_eletronics.groovy"
+hash = "4d191fa630cf3304f90269741ccf8b2c2168642dac5d94d34358f77ba30f5244"
+
+[[files]]
+file = "groovy/postInit/gt_parts_opv.groovy"
+hash = "904678664f50042b00d953494f7795716e7af27129bdce761ca93505fae9202b"
+
+[[files]]
+file = "groovy/postInit/gt_parts_uev.groovy"
+hash = "8a443a479652083fa97b4af2f2b1122cded7bfeac3ee865ea11f05e37df596e9"
+
+[[files]]
+file = "groovy/postInit/gt_parts_uhv.groovy"
+hash = "e920969570c44e334d19907667c055f9d743c177c4e313265248b5cbd23c4dac"
+
+[[files]]
+file = "groovy/postInit/gt_parts_uiv.groovy"
+hash = "5f939744a260bee537069a32fd05c37440c26737db452db249c9abefe2fa6d2f"
+
+[[files]]
+file = "groovy/postInit/gt_parts_uxv.groovy"
+hash = "fc8cf22562d16628a10a10c5dd0564c953a3bb83961af72740808c02499c16c1"
+
+[[files]]
+file = "groovy/postInit/main.groovy"
+hash = "3289f02f7af912a78451ecbdfa532306f8434c9e32f9d83b5195766c9570d147"
+
+[[files]]
+file = "groovy/postInit/opv.groovy"
+hash = "c45af8e937c1bb80d7618b82d1bb9e460bbbd169e50260e91042e2cb993471ad"
+
+[[files]]
+file = "groovy/postInit/phenomenal_eletronics.groovy"
+hash = "dc9788e21215cd7c1386ed4fb17d100e244194ee2b79f8af7a9296c76fc28fd5"
+
+[[files]]
+file = "groovy/postInit/sigma_eletronics.groovy"
+hash = "541e915ef7ab2be96aba3c8bdceed65bb0632844e7783745edb58185646ab7e4"
+
+[[files]]
+file = "groovy/postInit/smd.groovy"
+hash = "20e712db4a8a10e528d251b118231c25c0f4e38bc7a6898cf5abfbb4be717e69"
+
+[[files]]
+file = "groovy/postInit/stellarborn_eletronics.groovy"
+hash = "4c5ec2c130d611f2395c97766ee831b24e4d1f149af2ef5a838780a19a502026"
+
+[[files]]
+file = "groovy/postInit/uev.groovy"
+hash = "c389960e41d53c8c213d5e55281f915887a1638be3bea3874eb58b27f62d82ed"
+
+[[files]]
+file = "groovy/postInit/uhv.groovy"
+hash = "aad5e0747e1dca6c97f820671220329b3d04c90e28480d0bf41f3135ff86341d"
+
+[[files]]
+file = "groovy/postInit/uiv.groovy"
+hash = "10cef2a8dd89b7f0c645560e3e85d12dff12b3940eff651113f8e1804bbb98d3"
+
+[[files]]
+file = "groovy/postInit/uxv.groovy"
+hash = "255c6dfbb80921e449b4360508d2587261da085580487f2ac64178bff6918246"
+
+[[files]]
+file = "groovy/runConfig.json"
+hash = "3d9e19c05e38ec1cfa76358509ac0aea50ca7ca7c55a36ef17ae1c19c0fe2887"
 
 [[files]]
 file = "mods/actually-additions.pw.toml"
@@ -364,6 +448,10 @@ metafile = true
 [[files]]
 file = "mods/gregtech-1.12.2-2.7.4.3-beta.jar"
 hash = "0fb9d37581f78042a2903a77e16faba256bd324381bd312b51d726047bcaf29d"
+
+[[files]]
+file = "mods/groovyscript-0.6.4.jar"
+hash = "6a0b2f71ba7e13de7a66865d5269589007ac69b1f6cecc22a314471c7374d6be"
 
 [[files]]
 file = "mods/guide-api-legacy.pw.toml"
@@ -1238,11 +1326,11 @@ hash = "ec746280c958b858e861a67dae21d07358f14e524ee62aeccdbc76f41d3caf9d"
 
 [[files]]
 file = "resources/devtech/lang/en_us.lang"
-hash = "ce5933dacc7ac0d21c86d5dcfc0c938960c02eb16ec474659253a08cbb67decf"
+hash = "ea48c2692d1df51b2552afe57ddd6b3254f3b928fe33119195eac7c9d6e3ce18"
 
 [[files]]
 file = "resources/gregtech/lang/en_us.lang"
-hash = "8ef2ec12474f5f6fc2008c365b61a2d5491129f89d73548b3b9d80b0f7dadbc7"
+hash = "3c1315e547c143ce5083027676849a235fffffa3124105191d8a81c423e5cc05"
 
 [[files]]
 file = "resources/pack.mcmeta"
@@ -1254,7 +1342,7 @@ hash = "8c1155adf8a29be2094f383722e5a1bf816dc1cfc77ea0390ed42f82b5a90f03"
 
 [[files]]
 file = "scripts/acot_black_hole.zs"
-hash = "200d4820a6f695d3de725605f6d7cebf1cd79fbd8fb35e8e331a669985763fe0"
+hash = "eec67289340976b13a5b7277fd484f81fbad318ce93e9b2192df927eba9b5176"
 
 [[files]]
 file = "scripts/adv_fuel.zs"
@@ -1267,6 +1355,10 @@ hash = "b7c7d3af774490de2a9a2b153757d54418e8de444f66b9f65ec75b816bca368f"
 [[files]]
 file = "scripts/alpha_electronics.zs"
 hash = "3d9e6c883a42e3ca44d79ae364231bb8d6ef7b076c8e5f490daec7351a31faaf"
+
+[[files]]
+file = "scripts/bio-electronics.zs"
+hash = "7e32fa1e1a90225a6e6b24e640eefc41b116ea63de85a0b8c9236d4044dba9d7"
 
 [[files]]
 file = "scripts/buildcraft.zs"
@@ -1291,6 +1383,10 @@ hash = "eacce0c87c80064c37f54ffec5a43a8e8e2df5370420982ae7180273d08bd627"
 [[files]]
 file = "scripts/environmental_tech.zs"
 hash = "4654d64315955fae5d3e6e6b800c868f036694c7dd463d9244c373f5af76a2a8"
+
+[[files]]
+file = "scripts/fix_electronics.zs"
+hash = "260093beae60cfffd8d0a8a1b23a242f0f4f5cc08dc2e58e3ab5337837032dbf"
 
 [[files]]
 file = "scripts/global_var.zs"

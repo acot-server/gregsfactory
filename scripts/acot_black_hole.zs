@@ -277,21 +277,6 @@ se_black_hole.recipeBuilder()
     .duration(400)
     .buildAndRegister();
 
-circuit_assembler.recipeBuilder()
-    .inputs([
-      <gregtech:meta_item_1:592> * 64,
-      <gregtech:meta_item_1:592> * 64,
-      <gregtech:meta_item_1:262> * 64,
-      <gregtech:meta_item_1:262> * 64,
-      <ore:circuitLuv> * 16,
-      <ore:circuitIv> * 32
-    ])
-    .fluidInputs(<liquid:naquadah> * 5760)
-    .outputs(<contenttweaker:precursor_database> * 1)
-    .EUt(32768)
-    .duration(72000)
-    .buildAndRegister();
-
 global re_black_hole as RecipeMap = FactoryRecipeMap.start("Re_black_hole_art")
         .minInputs(0)
         .maxInputs(2)
