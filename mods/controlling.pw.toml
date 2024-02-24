@@ -1,0 +1,13 @@
+name = "Controlling"
+filename = "Controlling-3.0.12.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xv94TkTM/versions/buGCYKY1/Controlling-3.0.12.2.jar"
+hash-format = "sha1"
+hash = "64e791db7eaf3577223a708df0325f07762bd059"
+
+[update]
+[update.modrinth]
+mod-id = "xv94TkTM"
+version = "buGCYKY1"
