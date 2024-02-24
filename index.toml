@@ -610,7 +610,7 @@ metafile = true
 
 [[files]]
 file = "mods/optifine.pw.toml"
-hash = "f9c7a0987d2b67da1ea7faf566c69f988e033bb4e995330504a7ad1185dcdd64"
+hash = "37f97471b3661be7b81e40972719987d782bb8c8247aa67c56dc3a155188088f"
 metafile = true
 
 [[files]]
@@ -814,6 +814,10 @@ hash = "06509489093c63c40a16a5f7476a992343e1ccd206a8aab3c6e309e6f15a83cf"
 [[files]]
 file = "resources/contenttweaker/models/item/LV_computer_pregoc.json"
 hash = "7496a9f2f6b4f89be211d0c86e81f1d1863d3e8d42679f436015ef94600bf505"
+
+[[files]]
+file = "resources/contenttweaker/models/item/Lightmatter.json"
+hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
 
 [[files]]
 file = "resources/contenttweaker/models/item/LuV_computer_pregoc.json"

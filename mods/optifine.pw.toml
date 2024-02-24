@@ -9,5 +9,5 @@ hash = "3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e"
 
 [option]
 optional = true
-default = true
+default = false
 description = "Visual and performance enhancements"
