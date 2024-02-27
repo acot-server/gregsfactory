@@ -38,7 +38,7 @@ hash = "2330e05e72c1719ca975fe083da5cbfb971141d401b36773b209b626d65d8517"
 
 [[files]]
 file = "config/futuremc/futuremc.cfg"
-hash = "a87fb6dc77ff3c967f687d8dbb846937593630de35915768fb37ebcc4d255a63"
+hash = "912e22fa620aa13f760f17790a1561eea55506a8ad29bb0e03ae80031d0f006c"
 
 [[files]]
 file = "config/gregtech.cfg"
