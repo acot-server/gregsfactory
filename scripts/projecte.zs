@@ -28,10 +28,7 @@ recipes.addShaped("Collector_MK3_alt", <projecte:collector_mk3> * 1,
 <projecte:item.pe_matter>.displayName = "Impure Dark Matter";
 <projecte:item.pe_matter>.addTooltip("Primitive form of dark matter, it's enough to make armor and tools, but Enigmatic technologies need an extremly pure form of dark matter.");
 
-mods.jei.JEI.removeAndHide(<projecte:item.pe_rm_morning_star>.withTag({}));
 recipes.removeByRecipeName("gregtech:block_compress_blaze");
-mods.jei.JEI.removeAndHide(<projecte:item.pe_time_watch>.withTag({}));
-mods.jei.JEI.removeAndHide(<projecte:item.pe_rm_katar>.withTag({}));
 recipes.removeByRecipeName("projecte:transmutation_table");
 recipes.removeByRecipeName("projecte:philosophers_stone");
 recipes.removeByRecipeName("projecte:philosophers_stone_alt");
