@@ -2,7 +2,7 @@ import gregtech.*
 
 
 def assembly_line = recipemap('assembly_line');
-def research_station = recipemap('research_station')
+def research_station = recipemap('research_station');
 
 assembly_line.recipeBuilder()
     .inputs(
