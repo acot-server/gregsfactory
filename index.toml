@@ -37,6 +37,10 @@ file = "config/forestry/lepidopterology.cfg"
 hash = "2330e05e72c1719ca975fe083da5cbfb971141d401b36773b209b626d65d8517"
 
 [[files]]
+file = "config/futuremc/futuremc.cfg"
+hash = "a87fb6dc77ff3c967f687d8dbb846937593630de35915768fb37ebcc4d255a63"
+
+[[files]]
 file = "config/gregtech.cfg"
 hash = "1f2901d9169fd432c53aa6caa614b0cef8b8c2e3bc4d3b457dd864334fe8925f"
 
@@ -61,12 +65,20 @@ file = "groovy/assets/placeholdername/lang/en_us.lang"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "groovy/postInit/actualy_addition.groovy"
+hash = "1700394ea8475ce03a1ed9342ce026e15043c9c1b9fcd8adcab6534103f62b43"
+
+[[files]]
 file = "groovy/postInit/adv_electronics.groovy"
-hash = "b9fa5b8868062b6fa83ee57500a5551dac0e1b7c6283f09c399e464952340bd3"
+hash = "9551e8b9e3316a7d2fd465c369b5a296c96adbea552001c352d599bbd0100637"
 
 [[files]]
 file = "groovy/postInit/alpha_electronics.groovy"
 hash = "600d700501f8e92db2aa1f5e87d26dfe7c2adb6fad06738be907ae7cd9d56812"
+
+[[files]]
+file = "groovy/postInit/armor.groovy"
+hash = "445125b120c63938331b224521fa643acb817d6b40deb9864badb2356495f995"
 
 [[files]]
 file = "groovy/postInit/creative_stuff.groovy"
@@ -75,6 +87,10 @@ hash = "12cdc381c742624a6e2dbc972a81425544f1a38e3518e48619a480fee8122eed"
 [[files]]
 file = "groovy/postInit/dark_matter_eletronics.groovy"
 hash = "1f8e43550b47f3dc405f1915c9bd3557f6727edfe7747a6c4ce1a030aafb593c"
+
+[[files]]
+file = "groovy/postInit/fix.groovy"
+hash = "ff26a9aec8138d866c991ba0521ef41608d5a14906dc8312e63cb68f8e8aeddc"
 
 [[files]]
 file = "groovy/postInit/gt_parts_opv.groovy"
@@ -829,10 +845,6 @@ hash = "06509489093c63c40a16a5f7476a992343e1ccd206a8aab3c6e309e6f15a83cf"
 [[files]]
 file = "resources/contenttweaker/models/item/LV_computer_pregoc.json"
 hash = "7496a9f2f6b4f89be211d0c86e81f1d1863d3e8d42679f436015ef94600bf505"
-
-[[files]]
-file = "resources/contenttweaker/models/item/Lightmatter.json"
-hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
 
 [[files]]
 file = "resources/contenttweaker/models/item/LuV_computer_pregoc.json"
