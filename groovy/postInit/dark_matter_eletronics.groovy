@@ -18,17 +18,17 @@ assembly_line.recipeBuilder()
         metaitem('boltDarkmatteralloy') * 12  
     )
     .fluidInputs(fluid('americium') * 576)
-    .outputs(item('contenttweaker:delta_processor') * 4)
+    .outputs(metaitem('circuit.delta_processor') * 4)
     .stationResearch(b -> b.researchStack(metaitem('crystal.system_on_chip')).CWUt(16).EUt(512000))
     .EUt(300000)
-    .duration(4000)
+    .duration(2000)
     .buildAndRegister();
 
 //Delta Supercomputer -- UHV Circuit
 assembly_line.recipeBuilder()
     .inputs(
         metaitem('circuit_board.wetware') * 2,
-        item('contenttweaker:delta_processor') * 4,
+        metaitem('circuit.delta_processor') * 4,
         metaitem('component.smd.transistor.quantum') * 12,
         metaitem('component.smd.capacitor.quantum') * 12,
         metaitem('component.smd.resistor.quantum') * 12,
@@ -37,16 +37,16 @@ assembly_line.recipeBuilder()
         metaitem('wireFineDarkmatteralloy') * 16
     )
     .fluidInputs(fluid('americium') * 576)
-    .outputs(item('contenttweaker:delta_supercomputer') * 2)
-    .stationResearch(b -> b.researchStack(item('contenttweaker:delta_processor')).CWUt(32).EUt(680000))
+    .outputs(metaitem('circuit.delta_supercomputer') * 2)
+    .stationResearch(b -> b.researchStack(metaitem('circuit.delta_processor')).CWUt(32).EUt(680000))
     .EUt(1000000)
-    .duration(6000)
+    .duration(4000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
     .inputs(
         metaitem('stickLongDarkmatteralloy') * 32,
-        item('contenttweaker:delta_supercomputer') * 4,
+        metaitem('circuit.delta_supercomputer') * 4,
         metaitem('component.smd.transistor.quantum') * 12,
         metaitem('component.smd.capacitor.quantum') * 12,
         metaitem('component.smd.resistor.quantum') * 12,
@@ -61,8 +61,8 @@ assembly_line.recipeBuilder()
         fluid('polybenzimidazole') * 2304,
         fluid('soldering_alloy') * 5760
     )
-    .outputs(item('contenttweaker:delta_mainframe') * 1)
-    .stationResearch(b -> b.researchStack(item('contenttweaker:delta_supercomputer')).CWUt(48).EUt(1000000))
+    .outputs(metaitem('circuit.delta_mainframe') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('circuit.delta_supercomputer')).CWUt(48).EUt(1000000))
     .EUt(6000000)
-    .duration(8000)
+    .duration(6000)
     .buildAndRegister();

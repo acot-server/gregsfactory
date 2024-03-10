@@ -10,7 +10,7 @@ assembly_line.recipeBuilder()
         metaitem('quantum_tank.uhv') * 64,
         metaitem('gravistar') * 32,
         metaitem('electric.pump.opv') * 64,
-        item('contenttweaker:omega_universal_mainframe') * 2
+        metaitem('circuit.omega_universal_supercomputer') * 2
     )
     .fluidInputs(
         fluid('wakfustasis') * 64000
@@ -24,6 +24,8 @@ assembly_line.recipeBuilder()
 //Creatif quantum chest
 assembly_line.recipeBuilder()
     .inputs(
+        metaitem('infinite_energy') * 64,
+        metaitem('creative_tank') * 64,
         metaitem('quantum_chest.uhv') * 64,
         metaitem('quantum_chest.uhv') * 64,
         item('nae2:material', 4) * 64,
@@ -34,7 +36,7 @@ assembly_line.recipeBuilder()
         metaitem('gravistar') * 64,
         metaitem('robot.arm.opv') * 64,
         metaitem('robot.arm.opv') * 64,
-        item('contenttweaker:omega_universal_mainframe') * 64
+        metaitem('circuit.omega_universal_supercomputer') * 64
     )
     .fluidInputs(
         fluid('wakfustasis') * 64000
@@ -59,7 +61,7 @@ assembly_line.recipeBuilder()
         metaitem('gravistar') * 64,
         metaitem('max.battery') * 64,
         metaitem('max.battery') * 64,
-        item('contenttweaker:omega_universal_mainframe') * 4
+        metaitem('circuit.omega_universal_supercomputer') * 4
     )
     .fluidInputs(
         fluid('wakfustasis') * 64000

@@ -3,163 +3,144 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemDefinition;
 
 //LV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:lv_computer_pregoc>);
-<ore:circuitLv>.add(<contenttweaker:lv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:663>);
 
 //MV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:mv_computer_pregoc>);
-<ore:circuitLv>.add(<contenttweaker:mv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:mv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:664>);
+<ore:circuitLv>.add(<gregtech:meta_item_1:664>);
 
 //HV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:hv_computer_pregoc>);
-<ore:circuitLv>.add(<contenttweaker:hv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:hv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:hv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:665>);
+<ore:circuitLv>.add(<gregtech:meta_item_1:665>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:665>);
 
 //EV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:ev_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:ev_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:ev_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:ev_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:ev_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:666>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:666>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:666>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:666>);
 
 //IV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:iv_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:iv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:iv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:iv_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:iv_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:iv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:667>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:667>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:667>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:667>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:667>);
 
 //LuV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:luv_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:luv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:luv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:luv_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:luv_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:luv_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:luv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:668>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:668>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:668>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:668>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:668>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:668>);
 
 //ZPM Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:zpm_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:zpm_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:zpm_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:zpm_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:zpm_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:zpm_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:zpm_computer_pregoc>);
-<ore:circuitZpm>.add(<contenttweaker:zpm_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:669>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:669>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:669>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:669>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:669>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:669>);
+<ore:circuitLuv>.add(<gregtech:meta_item_1:669>);
 
 //UV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:uv_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:uv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:uv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:uv_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:uv_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:uv_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:uv_computer_pregoc>);
-<ore:circuitZpm>.add(<contenttweaker:uv_computer_pregoc>);
-<ore:circuitUv>.add(<contenttweaker:uv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:670>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:670>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:670>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:670>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:670>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:670>);
+<ore:circuitLuv>.add(<gregtech:meta_item_1:670>);
+<ore:circuitZpm>.add(<gregtech:meta_item_1:670>);
 
 //UHV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:uhv_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitZpm>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitUv>.add(<contenttweaker:uhv_computer_pregoc>);
-<ore:circuitUhv>.add(<contenttweaker:uhv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:671>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:671>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:671>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:671>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:671>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:671>);
+<ore:circuitLuv>.add(<gregtech:meta_item_1:671>);
+<ore:circuitZpm>.add(<gregtech:meta_item_1:671>);
+<ore:circuitUv>.add(<gregtech:meta_item_1:671>);
 
 //UEV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:uev_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitZpm>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitUv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitUhv>.add(<contenttweaker:uev_computer_pregoc>);
-<ore:circuitUev>.add(<contenttweaker:uev_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:672>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:672>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:672>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:672>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:672>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:672>);
+<ore:circuitLuv>.add(<gregtech:meta_item_1:672>);
+<ore:circuitZpm>.add(<gregtech:meta_item_1:672>);
+<ore:circuitUv>.add(<gregtech:meta_item_1:672>);
+<ore:circuitUhv>.add(<gregtech:meta_item_1:672>);
 
 //UIV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:uiv_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitZpm>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitUv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitUhv>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitUev>.add(<contenttweaker:uiv_computer_pregoc>);
-<ore:circuitUiv>.add(<contenttweaker:uiv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:673>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitLuv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitZpm>.add(<gregtech:meta_item_1:673>);
+<ore:circuitUv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitUhv>.add(<gregtech:meta_item_1:673>);
+<ore:circuitUev>.add(<gregtech:meta_item_1:673>);
 
 //UXV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:uxv_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitZpm>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitUv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitUhv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitUev>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitUiv>.add(<contenttweaker:uxv_computer_pregoc>);
-<ore:circuitUxv>.add(<contenttweaker:uxv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:674>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitLuv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitZpm>.add(<gregtech:meta_item_1:674>);
+<ore:circuitUv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitUhv>.add(<gregtech:meta_item_1:674>);
+<ore:circuitUev>.add(<gregtech:meta_item_1:674>);
+<ore:circuitUiv>.add(<gregtech:meta_item_1:674>);
 
 //OpV Precon Processor
-<ore:circuitUlv>.add(<contenttweaker:opv_computer_pregoc>); 
-<ore:circuitLv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitMv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitHv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitEv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitIv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitLuv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitZpm>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitUv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitUhv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitUev>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitUiv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitUxv>.add(<contenttweaker:opv_computer_pregoc>);
-<ore:circuitOpv>.add(<contenttweaker:opv_computer_pregoc>);
+<ore:circuitUlv>.add(<gregtech:meta_item_1:675>); 
+<ore:circuitLv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitMv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitHv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitEv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitIv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitLuv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitZpm>.add(<gregtech:meta_item_1:675>);
+<ore:circuitUv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitUhv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitUev>.add(<gregtech:meta_item_1:675>);
+<ore:circuitUiv>.add(<gregtech:meta_item_1:675>);
+<ore:circuitUxv>.add(<gregtech:meta_item_1:675>);
 
 
 //Delta Tier Circuit
-<ore:circuitUv>.add(<contenttweaker:delta_processor>);
-<ore:circuitUhv>.add(<contenttweaker:delta_supercomputer>);
-<ore:circuitUev>.add(<contenttweaker:delta_mainframe>);
+<ore:circuitUv>.add(<gregtech:meta_item_1:648>);
+<ore:circuitUhv>.add(<gregtech:meta_item_1:649>);
+<ore:circuitUev>.add(<gregtech:meta_item_1:650>);
 
 //Alpha Tier Circuit
-<ore:circuitUhv>.add(<contenttweaker:alpha_processor>);
-<ore:circuitUev>.add(<contenttweaker:alpha_supercomputer>);
-<ore:circuitUiv>.add(<contenttweaker:alpha_mainframe>);
+<ore:circuitUhv>.add(<gregtech:meta_item_1:651>);
+<ore:circuitUev>.add(<gregtech:meta_item_1:652>);
+<ore:circuitUiv>.add(<gregtech:meta_item_1:653>);
 
 //Sigma Tier Circuit
-<ore:circuitUev>.add(<contenttweaker:sigma_processor>);
-<ore:circuitUiv>.add(<contenttweaker:sigma_supercomputer>);
-<ore:circuitUxv>.add(<contenttweaker:sigma_mainframe>);
+<ore:circuitUev>.add(<gregtech:meta_item_1:654>);
+<ore:circuitUiv>.add(<gregtech:meta_item_1:655>);
+<ore:circuitUxv>.add(<gregtech:meta_item_1:656>);
 
 //Phenomenal Tier Circuit
-<ore:circuitUiv>.add(<contenttweaker:phenomenal_processor>);
-<ore:circuitUxv>.add(<contenttweaker:phenomenal_supercomputer>);
-<ore:circuitOpv>.add(<contenttweaker:phenomenal_mainframe>);
+<ore:circuitUiv>.add(<gregtech:meta_item_1:657>);
+<ore:circuitUxv>.add(<gregtech:meta_item_1:658>);
+<ore:circuitOpv>.add(<gregtech:meta_item_1:659>);
 
 //Stellarborn Tier Circuit
-<ore:circuitUxv>.add(<contenttweaker:omega_processor>);
-<ore:circuitOpv>.add(<contenttweaker:omega_supercomputer>);
-<ore:circuitOpv>.add(<contenttweaker:omega_universal_mainframe>);
-
-//removed circuit
-<ore:cricuitUev>.remove(<gregtech:meta_item_1:648>);
-<ore:circuitUiv>.remove(<gregtech:meta_item_1:649>);
-<ore:circuitUxv>.remove(<gregtech:meta_item_1:650>);
-<ore:circuitOpv>.remove(<gregtech:meta_item_1:651>);
+<ore:circuitUxv>.add(<gregtech:meta_item_1:660>);
+<ore:circuitOpv>.add(<gregtech:meta_item_1:661>);
+<ore:circuitOpv>.add(<gregtech:meta_item_1:662>);

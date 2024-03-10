@@ -41,7 +41,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 288,
         <liquid:thorium> * 1440
     ])
-    .outputs(<contenttweaker:lv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:663> * 10)
     .duration(100)
     .EUt(32768)
     .buildAndRegister();
@@ -59,7 +59,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 288,
         <liquid:thorium> * 1440
     ])
-    .outputs(<contenttweaker:mv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:664> * 10)
     .duration(100)
     .EUt(65536)
     .buildAndRegister();
@@ -77,7 +77,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 384,
         <liquid:thorium> * 2880
     ])
-    .outputs(<contenttweaker:hv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:665> * 10)
     .duration(100)
     .EUt(968304)
     .buildAndRegister();
@@ -95,7 +95,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 576,
         <liquid:uranium> * 576
     ])
-    .outputs(<contenttweaker:ev_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:666> * 10)
     .duration(100)
     .EUt(131072)
     .buildAndRegister();
@@ -113,7 +113,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 720,
         <liquid:uranium> * 1152
     ])
-    .outputs(<contenttweaker:iv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:667> * 10)
     .duration(100)
     .EUt(163840)
     .buildAndRegister();
@@ -131,7 +131,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 1152,
         <liquid:uranium> * 1440
     ])
-    .outputs(<contenttweaker:luv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:668> * 10)
     .duration(100)
     .EUt(393216)
     .buildAndRegister();
@@ -149,7 +149,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 1440,
         <liquid:uranium_235> * 1152
     ])
-    .outputs(<contenttweaker:luv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:669> * 10)
     .duration(100)
     .EUt(491520)
     .buildAndRegister();
@@ -167,7 +167,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 2304,
         <liquid:uranium_235> * 1440
     ])
-    .outputs(<contenttweaker:uv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:670> * 10)
     .duration(100)
     .EUt(688128)
     .buildAndRegister();
@@ -185,7 +185,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 2304,
         <liquid:plutonium_241> * 1440
     ])
-    .outputs(<contenttweaker:uhv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:671> * 10)
     .duration(100)
     .EUt(2752512)
     .buildAndRegister();
@@ -203,7 +203,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 2592,
         <liquid:plutonium_241> * 2304
     ])
-    .outputs(<contenttweaker:uev_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:672> * 10)
     .duration(100)
     .EUt(8257536)
     .buildAndRegister();
@@ -221,7 +221,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 2592,
         <liquid:plutonium_241> * 2304
     ])
-    .outputs(<contenttweaker:uiv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:673> * 10)
     .duration(100)
     .EUt(24772608)
     .buildAndRegister();
@@ -239,7 +239,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 2880,
         <liquid:naquadria> * 2304
     ])
-    .outputs(<contenttweaker:uxv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:674> * 10)
     .duration(100)
     .EUt(74317824)
     .buildAndRegister();
@@ -257,7 +257,7 @@ bio_circuit_assembler.recipeBuilder()
         <liquid:sterilized_growth_medium> * 3168,
         <liquid:naquadria> * 2880
     ])
-    .outputs(<contenttweaker:opv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:675> * 10)
     .duration(100)
     .EUt(222953472)
     .buildAndRegister();
@@ -265,14 +265,14 @@ bio_circuit_assembler.recipeBuilder()
 //MV Precog from LV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:lv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:663> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(14)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
         <liquid:thorium> * 1440
     ])
-    .outputs(<contenttweaker:mv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:664> * 10)
     .duration(100)
     .EUt(32768)
     .buildAndRegister();
@@ -280,14 +280,14 @@ bio_circuit_assembler.recipeBuilder()
 //HV Precog from MV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:mv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:664> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(15)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
         <liquid:thorium> * 1440
     ])
-    .outputs(<contenttweaker:hv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:665> * 10)
     .duration(100)
     .EUt(32768)
     .buildAndRegister();
@@ -295,14 +295,14 @@ bio_circuit_assembler.recipeBuilder()
 //EV Precog from HV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:hv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:665> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(16)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
         <liquid:thorium> * 2880
     ])
-    .outputs(<contenttweaker:ev_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:666> * 10)
     .duration(100)
     .EUt(65536)
     .buildAndRegister();
@@ -310,14 +310,14 @@ bio_circuit_assembler.recipeBuilder()
 //IV Precog from EV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:ev_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:666> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(17)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
         <liquid:uranium> * 288
     ])
-    .outputs(<contenttweaker:iv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:667> * 10)
     .duration(100)
     .EUt(65536)
     .buildAndRegister();
@@ -325,14 +325,14 @@ bio_circuit_assembler.recipeBuilder()
 //LuV Precog from IV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:iv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:667> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(18)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
         <liquid:uranium> * 576
     ])
-    .outputs(<contenttweaker:luv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:668> * 10)
     .duration(100)
     .EUt(131072)
     .buildAndRegister();
@@ -340,14 +340,14 @@ bio_circuit_assembler.recipeBuilder()
 //ZPM Precog from LuV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:luv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:668> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(19)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
         <liquid:uranium_235> * 576
     ])
-    .outputs(<contenttweaker:zpm_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:669> * 10)
     .duration(100)
     .EUt(262144)
     .buildAndRegister();
@@ -355,14 +355,14 @@ bio_circuit_assembler.recipeBuilder()
 //UV Precog from ZPM Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:zpm_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:669> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(20)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
         <liquid:uranium_235> * 720
     ])
-    .outputs(<contenttweaker:uv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:670> * 10)
     .duration(100)
     .EUt(524288)
     .buildAndRegister();
@@ -370,14 +370,14 @@ bio_circuit_assembler.recipeBuilder()
 //UHV Precog from UV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:uv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:670> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(21)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
         <liquid:plutonium_241> * 720
     ])
-    .outputs(<contenttweaker:uhv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:671> * 10)
     .duration(100)
     .EUt(2096150)
     .buildAndRegister();
@@ -385,14 +385,14 @@ bio_circuit_assembler.recipeBuilder()
 //UEV Precog from UHV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:uhv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:671> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(22)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 384,
         <liquid:plutonium_241> * 1152
     ])
-    .outputs(<contenttweaker:uev_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:672> * 10)
     .duration(100)
     .EUt(6288450)
     .buildAndRegister();
@@ -400,14 +400,14 @@ bio_circuit_assembler.recipeBuilder()
 //UIV Precog from UEV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:uev_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:672> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(23)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 384,
         <liquid:plutonium_241> * 1152
     ])
-    .outputs(<contenttweaker:uiv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:673> * 10)
     .duration(100)
     .EUt(18865350)
     .buildAndRegister();
@@ -415,14 +415,14 @@ bio_circuit_assembler.recipeBuilder()
 //UXV Precog from UIV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:uiv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:673> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(24)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 576,
         <liquid:naquadria> * 1440
     ])
-    .outputs(<contenttweaker:uxv_computer_pregoc> * 6)
+    .outputs(<gregtech:meta_item_1:674> * 10)
     .duration(100)
     .EUt(56596050)
     .buildAndRegister();
@@ -430,14 +430,14 @@ bio_circuit_assembler.recipeBuilder()
 //UXV Precog from UIV Precog
 
 bio_circuit_assembler.recipeBuilder()
-    .inputs(<contenttweaker:uxv_computer_pregoc> * 6)
+    .inputs(<gregtech:meta_item_1:674> * 10)
     .notConsumable(<contenttweaker:precursor_database>)
     .circuit(25)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 720,
         <liquid:naquadria> * 2880
     ])
-    .outputs(<contenttweaker:opv_computer_pregoc> * 12)
+    .outputs(<gregtech:meta_item_1:675> * 20)
     .duration(100)
     .EUt(169788150)
     .buildAndRegister();

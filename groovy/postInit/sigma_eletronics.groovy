@@ -19,16 +19,16 @@ assembly_line.recipeBuilder()
         metaitem('boltStellarite') * 12  
     )
     .fluidInputs(fluid('neutronium') * 288)
-    .outputs(item('contenttweaker:sigma_processor') * 4)
-    .stationResearch(b -> b.researchStack(item('contenttweaker:alpha_mainframe')).CWUt(96).EUt(780000))
+    .outputs(metaitem('circuit.sigma_processor') * 4)
+    .stationResearch(b -> b.researchStack(metaitem('circuit.alpha_mainframe')).CWUt(96).EUt(780000))
     .EUt(500000)
-    .duration(7000)
+    .duration(4000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
     .inputs(
         metaitem('circuit_board.wetware') * 2,
-        item('contenttweaker:sigma_processor') * 4,
+        metaitem('circuit.sigma_processor') * 4,
         metaitem('component.smd.transistor.wetware') * 24,
         metaitem('component.smd.capacitor.wetware') * 24,
         metaitem('component.smd.resistor.wetware') * 24,
@@ -37,16 +37,16 @@ assembly_line.recipeBuilder()
         metaitem('wireFineStellarite') * 16
     )
     .fluidInputs(fluid('neutronium') * 288)
-    .outputs(item('contenttweaker:sigma_supercomputer') * 2)
-    .stationResearch(b -> b.researchStack(item('contenttweaker:sigma_processor')).CWUt(114).EUt(1140000))
+    .outputs(metaitem('circuit.sigma_supercomputer') * 2)
+    .stationResearch(b -> b.researchStack(metaitem('circuit.sigma_processor')).CWUt(114).EUt(1140000))
     .EUt(6000000)
-    .duration(9000)
+    .duration(6000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
     .inputs(
         metaitem('stickLongStellarite') * 32,
-        item('contenttweaker:sigma_supercomputer') * 4,
+        metaitem('circuit.sigma_supercomputer') * 4,
         metaitem('component.smd.transistor.wetware') * 48,
         metaitem('component.smd.capacitor.wetware') * 48,
         metaitem('component.smd.resistor.wetware') * 48,
@@ -61,8 +61,8 @@ assembly_line.recipeBuilder()
         fluid('polybenzimidazole') * 2304,
         fluid('soldering_alloy') * 5760
     )
-    .outputs(item('contenttweaker:sigma_mainframe') * 1)
-    .stationResearch(b -> b.researchStack(item('contenttweaker:sigma_supercomputer')).CWUt(128).EUt(1650000))
+    .outputs(metaitem('circuit.sigma_mainframe') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('circuit.sigma_supercomputer')).CWUt(128).EUt(1650000))
     .EUt(48000000)
-    .duration(11000)
+    .duration(8000)
     .buildAndRegister();
