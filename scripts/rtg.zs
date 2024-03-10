@@ -91,7 +91,7 @@ assembler.recipeBuilder()
         <gregtech:fluid_pipe_tiny:324> * 1,
         <gregtech:meta_plate_double:25> * 1
     ])
-    .outputs(<contenttweaker:empty_nuclear_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:111> * 1)
     .EUt(64)
     .duration(1200)
     .buildAndRegister();
@@ -99,16 +99,16 @@ assembler.recipeBuilder()
 //U238 Fuel Rod
 canner.recipeBuilder()
     .inputs([
-        <contenttweaker:empty_nuclear_fuel_rod> * 1,
+        <gregtech:meta_item_1:111> * 1,
         <gregtech:meta_dust:116> * 1
     ])
-    .outputs(<contenttweaker:u238_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:112> * 1)
     .EUt(96)
     .duration(1200)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:u238_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:112> * 1)
     .EUt(-64)
     .duration(72000)
     .buildAndRegister();
@@ -116,16 +116,16 @@ rtg.recipeBuilder()
 //U235 Fuel Rod
 canner.recipeBuilder()
     .inputs([
-        <contenttweaker:empty_nuclear_fuel_rod> * 1,
+        <gregtech:meta_item_1:111> * 1,
         <gregtech:meta_dust:117> * 1
     ])
-    .outputs(<contenttweaker:u235_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:113> * 1)
     .EUt(96)
     .duration(1200)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:u235_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:113> * 1)
     .EUt(-128)
     .duration(72000)
     .buildAndRegister();
@@ -133,16 +133,16 @@ rtg.recipeBuilder()
 //Pu239 Fuel Rod
 canner.recipeBuilder()
     .inputs([
-        <contenttweaker:empty_nuclear_fuel_rod> * 1,
+        <gregtech:meta_item_1:111> * 1,
         <gregtech:meta_dust:81> * 1
     ])
-    .outputs(<contenttweaker:pu239_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:114> * 1)
     .EUt(224)
     .duration(1800)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:pu239_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:114> * 1)
     .EUt(-256)
     .duration(72000)
     .buildAndRegister();
@@ -150,16 +150,16 @@ rtg.recipeBuilder()
 //Pu241 Fuel Rod
 canner.recipeBuilder()
     .inputs([
-        <contenttweaker:empty_nuclear_fuel_rod> * 1,
+        <gregtech:meta_item_1:111> * 1,
         <gregtech:meta_dust:82> * 1
     ])
-    .outputs(<contenttweaker:pu241_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:115> * 1)
     .EUt(224)
     .duration(1800)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:pu241_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:115> * 1)
     .EUt(-512)
     .duration(72000)
     .buildAndRegister();
@@ -167,17 +167,17 @@ rtg.recipeBuilder()
 //U238+Pu239 Fuel Rod
 assembler.recipeBuilder()
     .inputs([
-        <contenttweaker:pu239_fuel_rod> * 1,
-        <contenttweaker:u238_fuel_rod> * 1
+        <gregtech:meta_item_1:112> * 1,
+        <gregtech:meta_item_1:114> * 1
     ])
     .fluidInputs(<liquid:lead> * 576)
-    .outputs(<contenttweaker:u238_pu239_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:116> * 1)
     .EUt(1024)
     .duration(2400)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:u238_pu239_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:116> * 1)
     .EUt(-1024)
     .duration(72000)
     .buildAndRegister();
@@ -185,17 +185,17 @@ rtg.recipeBuilder()
 //U235+Pu239
 assembler.recipeBuilder()
     .inputs([
-        <contenttweaker:pu239_fuel_rod> * 1,
-        <contenttweaker:u235_fuel_rod> * 1
+        <gregtech:meta_item_1:113> * 1,
+        <gregtech:meta_item_1:114> * 1
     ])
     .fluidInputs(<liquid:lead> * 576)
-    .outputs(<contenttweaker:u235_pu239_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:117> * 1)
     .EUt(1024)
     .duration(2400)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:u235_pu239_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:117> * 1)
     .EUt(-1536)
     .duration(72000)
     .buildAndRegister();
@@ -203,17 +203,17 @@ rtg.recipeBuilder()
 //U238+Pu241
 assembler.recipeBuilder()
     .inputs([
-        <contenttweaker:pu241_fuel_rod> * 1,
-        <contenttweaker:u238_fuel_rod> * 1
+        <gregtech:meta_item_1:112> * 1,
+        <gregtech:meta_item_1:115> * 1
     ])
     .fluidInputs(<liquid:lead> * 576)
-    .outputs(<contenttweaker:u238_pu241_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:118> * 1)
     .EUt(1024)
     .duration(2400)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:u238_pu241_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:118> * 1)
     .EUt(-2048)
     .duration(72000)
     .buildAndRegister();
@@ -221,17 +221,17 @@ rtg.recipeBuilder()
 //U235+Pu241
 assembler.recipeBuilder()
     .inputs([
-        <contenttweaker:pu241_fuel_rod> * 1,
-        <contenttweaker:u235_fuel_rod> * 1
+        <gregtech:meta_item_1:113> * 1,
+        <gregtech:meta_item_1:115> * 1
     ])
     .fluidInputs(<liquid:lead> * 576)
-    .outputs(<contenttweaker:u235_pu241_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:119> * 1)
     .EUt(1024)
     .duration(2400)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:u235_pu241_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:119> * 1)
     .EUt(-4096)
     .duration(72000)
     .buildAndRegister();
@@ -239,16 +239,16 @@ rtg.recipeBuilder()
 //Naquadah
 canner.recipeBuilder()
     .inputs([
-        <contenttweaker:empty_nuclear_fuel_rod> * 1,
+        <gregtech:meta_item_1:111> * 1,
         <gregtech:meta_dust:124> * 1
     ])
-    .outputs(<contenttweaker:nq_fuel_rod> * 1)
+    .outputs(<gregtech:meta_item_1:120> * 1)
     .EUt(3072)
     .duration(3000)
     .buildAndRegister();
 
 rtg.recipeBuilder()
-    .inputs(<contenttweaker:nq_fuel_rod> * 1)
+    .inputs(<gregtech:meta_item_1:120> * 1)
     .EUt(-8192)
     .duration(72000)
     .buildAndRegister();

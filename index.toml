@@ -70,11 +70,11 @@ hash = "1700394ea8475ce03a1ed9342ce026e15043c9c1b9fcd8adcab6534103f62b43"
 
 [[files]]
 file = "groovy/postInit/adv_electronics.groovy"
-hash = "9551e8b9e3316a7d2fd465c369b5a296c96adbea552001c352d599bbd0100637"
+hash = "55f310906fc94387a683ec7d4639dab2c3e81e6ebd9d94373392530f8e95efa1"
 
 [[files]]
 file = "groovy/postInit/alpha_electronics.groovy"
-hash = "600d700501f8e92db2aa1f5e87d26dfe7c2adb6fad06738be907ae7cd9d56812"
+hash = "90f00872ec13d36204a2178b300dff24b15197b763b2d97a428f599087f15790"
 
 [[files]]
 file = "groovy/postInit/armor.groovy"
@@ -82,11 +82,11 @@ hash = "445125b120c63938331b224521fa643acb817d6b40deb9864badb2356495f995"
 
 [[files]]
 file = "groovy/postInit/creative_stuff.groovy"
-hash = "12cdc381c742624a6e2dbc972a81425544f1a38e3518e48619a480fee8122eed"
+hash = "f5818e1e9030816ef757521441ba3bbdbe2119868a89f1b57859429478026654"
 
 [[files]]
 file = "groovy/postInit/dark_matter_eletronics.groovy"
-hash = "1f8e43550b47f3dc405f1915c9bd3557f6727edfe7747a6c4ce1a030aafb593c"
+hash = "17eaa1864800096a9de0823f59bc6b0262f1e9a13055632553968f7804006a72"
 
 [[files]]
 file = "groovy/postInit/fix.groovy"
@@ -122,11 +122,15 @@ hash = "6ea9ab702938d1171166ecaab5a00c933a300625ec4df6c63c452312b0bcfc13"
 
 [[files]]
 file = "groovy/postInit/phenomenal_eletronics.groovy"
-hash = "01eab4f24e34c04190f386fe9a0f832df38c559a11b1054cf490293a81f382f4"
+hash = "2621ae5872640344d97153c29b4a05b215321997e06bc7917483d3b86a4bae03"
+
+[[files]]
+file = "groovy/postInit/precursor_tech.groovy"
+hash = "e09f72e6f54ac35721340926b9296dea1c35b6426398d6d0c9ddae7ebe5313cc"
 
 [[files]]
 file = "groovy/postInit/sigma_eletronics.groovy"
-hash = "8ad31968129e1a238fb7711478484a319494b77506fd9aad83f48473d980766e"
+hash = "e5734c019b15d14f2a7fb12cfeb472db20367685c23cd42db82c7f0e84ebd990"
 
 [[files]]
 file = "groovy/postInit/smd.groovy"
@@ -134,7 +138,7 @@ hash = "8a3514fb87bd641732ec296780fcf58a4968266201fe7b3c97b8abbc54d1f75c"
 
 [[files]]
 file = "groovy/postInit/stellarborn_eletronics.groovy"
-hash = "598ee9c4b7799466e626d23d9ed1118bfd0026a05d0132f87ed55e434e9c7753"
+hash = "c5a82b44b7714c2d5b85e3d9606451320d942dc139a529dbd5b0673945e30365"
 
 [[files]]
 file = "groovy/postInit/uev.groovy"
@@ -142,7 +146,7 @@ hash = "002cbf7ec11bab41a56c85e99e0765caae2c983037c99cb113786f73dd2cc9c7"
 
 [[files]]
 file = "groovy/postInit/uhv.groovy"
-hash = "8167ef0b176cce79fa4ae51c6052b120d9636111a74c4e0044fde2d1d357f1d2"
+hash = "1f61569766de4609ac3b97a3e913c838806f00ee42f9a86566150a05a3423120"
 
 [[files]]
 file = "groovy/postInit/uiv.groovy"
@@ -151,6 +155,10 @@ hash = "419c8283cf252e75e09212104c088fa0278379a6bc1289c622966544ca890aa1"
 [[files]]
 file = "groovy/postInit/uxv.groovy"
 hash = "b3f51a840043496b67233474246b3f322ddcc4186679e2eb3659002d4c45b59b"
+
+[[files]]
+file = "groovy/postInit/wakfu_process.groovy"
+hash = "87ff1447b58e0192fd96542f0114f49551392588952c7efb3cafea1ebc4b97ea"
 
 [[files]]
 file = "groovy/runConfig.json"
@@ -269,6 +277,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "e6b6f908221c3ff5f821e0f648a05f037ca100a242fb3d0122db9209e2531be2"
+metafile = true
+
+[[files]]
+file = "mods/buildcraft-rf.pw.toml"
+hash = "1b2edc91936d2efa4368045cc414b21245a27ba6fbe3d09789cedc8eeb862ec7"
 metafile = true
 
 [[files]]
@@ -467,8 +480,8 @@ hash = "3c7a58fcef9e70066781f991e455df2bb0152f7fcebecbb4441270869e1f0b29"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-1.12.2-2.7.4.3-beta.jar"
-hash = "0fb9d37581f78042a2903a77e16faba256bd324381bd312b51d726047bcaf29d"
+file = "mods/gregtech-1.12.2-2.7.4.7-beta.jar"
+hash = "aa716e5701e9d77ddac106d5b740a9286014da754b5242ac75eb53a0497a74b4"
 
 [[files]]
 file = "mods/groovyscript-0.6.4.jar"
@@ -1091,272 +1104,12 @@ file = "resources/contenttweaker/models/item/zpm_resonating.json"
 hash = "1ef5ee50a742beda4c60c9ec2e008f5b7a76f09966afecbecf1db207aa3d053b"
 
 [[files]]
-file = "resources/contenttweaker/textures/items/Alpha_Mainframe.png"
-hash = "a32f9bf622f30c5d42e77e838377cbb81993321e84a773c2944811abc728e81c"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Alpha_Processor.png"
-hash = "836a116d1c34fc3d4292d11c0150907ae34b301fb2ae4a61a6f22b866d537d53"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Alpha_Supercomputer.png"
-hash = "df745145dfdd04f18297578c8009ecbfb517cafe6711dd30f509f0b976181df8"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Delta_Mainframe.png"
-hash = "27d3f5fff007150d1e5b42315c87cf23153d44b2edd3698f77baf81877ad9e6e"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Delta_Processor.png"
-hash = "f1b6764bae5290eb3d7b2edf1291aad43ace46d9853e5007dc3829a028c02946"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Delta_Supercomputer.png"
-hash = "f9e542e25543b3c2ea3e7dbee74d2352d813ff257c280d193ca522c7c33c2675"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/EV_computer_pregoc.png"
-hash = "bff8f145448dc4e6d08a8ff1c065af305045588d2e09e54b983ff236085f4654"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/HV_computer_pregoc.png"
-hash = "b1fd09564a72c5b11e9493345b0c3377ac9c16e159a2a8d0f355c0296eb923a4"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/IV_computer_pregoc.png"
-hash = "2cdad3f523251a3b479ea753816367ee1fa8fdf496980bbbe51905ca64d4f053"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/LV_computer_pregoc.png"
-hash = "a00626b077e9647104b4d1f40bfb57022ba66ec26ef506555ad07b5ccf5803be"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Lightmatter.png"
-hash = "1d7114b91c8f78df56df44d35ddac0795f20790b087ed24c312592de4e5c0e49"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/LuV_computer_pregoc.png"
-hash = "c1beb60fbfb3c0f85744e00e8a2f483d1437c39d88bf2200bde1be9568a382a6"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/MV_computer_pregoc.png"
-hash = "b4b3d3c68d67b0f433b50749d7e60140e6bd5772342cffc77143a8cde5a7ba94"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Nq_fuel_rod.png"
-hash = "7168c99a73cc90bea92d17f608b33cb877ac47b55c7e21e52bc35f02209f0235"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Omega_Processor.png"
-hash = "871465adec4a4fa4c6845e5d4b7992960231c3460a18b8ccac386d6eaa7a59b9"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Omega_Supercomputer.png"
-hash = "8357ad9af7ca3d673b18f535b97ad7ef2b785e699bf21ac1a9663a2fdf50711e"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Omega_Universal_Mainframe.png"
-hash = "938f1a512c9c649669dc00915ae01691561b1bdaca186a0d56d78ffe2ddfdf40"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/OpV_computer_pregoc.png"
-hash = "99efac8953538bef54f8deb3cc4f4a0c00e7b84b38796b8dce1fefac35ded1a2"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Phenomenal_Mainframe.png"
-hash = "27a26655728978aded1a7f1c73765213b1b9dce2633bde27fc591d37c7122c33"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Phenomenal_Processor.png"
-hash = "812fa860d327dfe337fccf1d3d4813075ab36996b1838607925ce22bfb951703"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Phenomenal_Supercomputer.png"
-hash = "7c06c628541ef3311f4b72e00232076d447def86b4baa031c6c01c3186711c96"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Pu239_fuel_rod.png"
-hash = "3122bfab03da0f27b4c883f6fedf80a5757ef483bbda7afd90abb624caa22bf9"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Pu241_fuel_rod.png"
-hash = "2c19b95e9ed7ac6dde3acad367ee3533499c955144a3384d59bbd3e7dd2bbf31"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Sigma_Mainframe.png"
-hash = "9c44f8f38026fabdb243f679dac2ebda6c8490597ea9bafa936bd2c46aae3c85"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Sigma_Processor.png"
-hash = "6fccdcf7bdea22f10711bc3e6e4e6ee54177e029c2d1f5ec4a2072edc3da3c32"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/Sigma_Supercomputer.png"
-hash = "def19c1f5775e998015bd3013172a1f9126023252dbea6e61999448e805ae1a1"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/U235_Pu239_fuel_rod.png"
-hash = "d7b93458b05937f7331566f1eed491cc0ce9fdda93a59f73b9ad832b00b0d9e4"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/U235_Pu241_fuel_rod.png"
-hash = "16c1be9d0f1365756da2d573e288f905e1b46e05c0474eec3fb99f0dd3de72ba"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/U235_fuel_rod.png"
-hash = "ace1908b836963f567464f739635b8ac598dff7f80d116c050bed6bf021ab60d"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/U238_Pu239_fuel_rod.png"
-hash = "5b525d927e665be1d1ddae60547322b03551a577726df737ad4ba56c96c33633"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/U238_Pu241_fuel_rod.png"
-hash = "0e6458be04b4c7f77c9ace7ee6cf78905f1d44b04bf8a64ffca073e2131885fc"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/U238_fuel_rod.png"
-hash = "bc50369073ddf5f0b26be4ce06261ef0e9a6944b9594029c2ca17acb3ed8de57"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/UEV_computer_pregoc.png"
-hash = "a6d77ed86972ba4c5c652743c467c16c670a7e3747ea20f694a0833a7aa76059"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/UHV_computer_pregoc.png"
-hash = "e02c2ff3fb766b526fecef8a68cf5553e4795aa91cd857bf7ccc87836e44ecb7"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/UIV_computer_pregoc.png"
-hash = "f0293c432117901ba5129ddfcf38b195f0c53714b1691d56d8562d532472e09b"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/UV_computer_pregoc.png"
-hash = "903162d35a4c3156774120c85b787c9cfe286611dbea3309e8f7436713c03f50"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/UXV_computer_pregoc.png"
-hash = "2d6ed738a4fef0e7d0fbf1f1f9ac533291a1013143b64dc6b40301f2ac6fc055"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/ZPM_computer_pregoc.png"
-hash = "0aa7759a39cf632fa26989a4119bf0c54da69e64da3443d151b41f848f523d22"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/alloys.png"
-hash = "bb42cf56747f4e0aeffa3fb018d2e1cc690efd5ab769e8fcbb6943b5f6874807"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/antimatter_field.png"
-hash = "f6b26f64e116ee161ad8fbe1ae17fa160adbdc8cc3fc7a403621fd23533682f2"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_ev.png"
-hash = "0d54ca239e81e2805e735ef342b828aee42f4a57e8bb25d1db2379d38ca3d4dd"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_hv.png"
-hash = "e5fa0fa6d2db223dcad8f0dc135bdbb08ca486efff016c6f09db08d13c6589f9"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_iv.png"
-hash = "dc919ddbb068cf092c68a47f09eee709bc16f51a2fdaf2881bd9c3a64b49c2fe"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_luv.png"
-hash = "795cf4fb2d2eb0482feba9211ee1b7ebeda4be96690cb1074a290546899a62d4"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_lv.png"
-hash = "ccf71b76e24f7fc36b50cb7011fbc087fd7fb08138b10173481f1efdc5249d2e"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_max.png"
-hash = "1eaa2e89c7a1d97d62e6bac70f9ed504a22eb6a67ff0511f7ab947c174af0504"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_mv.png"
-hash = "baa0d794d23fcd1ef838b5109e2e6940702730c413ffe786521c721aa1fb71e8"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_uev.png"
-hash = "52f678c0436fdcbc7d4b5b48601d9034953f81e1fb105645bdc02f4a4dfa9718"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_uhv.png"
-hash = "d2a842116f4fc6e3397d04d0231da974d7a4c1431af2614884e905b90c5251c6"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_uiv.png"
-hash = "078a6e296e2b40e19c614a45f4590031257d0aec81eebda6658412042b2ea813"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_uv.png"
-hash = "7a188fda7bd124678e25973bc7a45cec6eac6e46a1ec774c4fd8695cab10eea2"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/credit_zpm.png"
-hash = "bb6d91a5afd8a44b3e93fcbecdf7a00c85d59b11f31f6fd6ff097c203735d692"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/empty_nuclear_fuel_rod.png"
-hash = "6006b7767b602b1c84e3a79a6c75be8a285f46ca92f7531298096563250a9c66"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/ev_resonating.png"
-hash = "3aa8e0879878dc71030508ee3260841ff628c7b8d07910cfa1aa90a4fb1bae0f"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/hv_resonating.png"
-hash = "9b97fb095710f9f1859fa2cd9635179fa640a7e2353fe1ec79e387af69788dac"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/iv_resonating.png"
-hash = "89894f346eb7d78fcd6e47176734da5853a50d7894431b745bfa35d1c3aa5ba1"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/luv_resonating.png"
-hash = "20b33fe468a870328aff0c4a478debdace187542e2e1606bb788ae54208e9011"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/lv_resonating.png"
-hash = "34122b465058bf7c762d4b6ae5e91a8a0a234dd656b7aa99977f278f31215145"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/mv_resonating.png"
-hash = "2d9525307b1795565d01c9be11006f676137424f709cecb01165f581f956b4b1"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/precursor_database.png"
-hash = "009181a4378374a5d2a90c203b439728b31a18ecff2cf5955630b196f4c7411c"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/sr_betharian.png"
-hash = "865dc4c6f1df762d156722997626a66f5e0328949de3534c7db333d53b2ded47"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/uhv_resonating.png"
-hash = "ab22e51cc58300f6a033603517c3013d827f47424adb24fe2a87859da668be7c"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/ulv_resonating.png"
-hash = "723534211d420f4c8e99cfe4cfad25c1fa45b18c80c05579c17fba50d2a85461"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/uv_resonating.png"
-hash = "dfd99d342f4391b1793be4b67ee3cc6c8ae7d62cc688b54782df648fb50d22a4"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/zpm_resonating.png"
-hash = "ec746280c958b858e861a67dae21d07358f14e524ee62aeccdbc76f41d3caf9d"
-
-[[files]]
 file = "resources/devtech/lang/en_us.lang"
 hash = "ea48c2692d1df51b2552afe57ddd6b3254f3b928fe33119195eac7c9d6e3ce18"
 
 [[files]]
 file = "resources/gregtech/lang/en_us.lang"
-hash = "3c1315e547c143ce5083027676849a235fffffa3124105191d8a81c423e5cc05"
+hash = "e86c61644f29bf76f82b99dcc158f38be4eabcb607a12d9ca36845d3e9f195c4"
 
 [[files]]
 file = "resources/pack.mcmeta"
@@ -1368,7 +1121,7 @@ hash = "8c1155adf8a29be2094f383722e5a1bf816dc1cfc77ea0390ed42f82b5a90f03"
 
 [[files]]
 file = "scripts/acot_black_hole.zs"
-hash = "eec67289340976b13a5b7277fd484f81fbad318ce93e9b2192df927eba9b5176"
+hash = "049a12c6c36f22c93e7da286d70268bbab26e625a48e0ec0cb2543c6ea13112e"
 
 [[files]]
 file = "scripts/adv_fuel.zs"
@@ -1380,7 +1133,7 @@ hash = "b7c7d3af774490de2a9a2b153757d54418e8de444f66b9f65ec75b816bca368f"
 
 [[files]]
 file = "scripts/bio-electronics.zs"
-hash = "d134b2570da35bb60b4fd434d48f814c550221d6731af30322831c178dfb1042"
+hash = "5f15a6da93d2796ebccda2be7d601ce71fd81a1d1527ffdda1894a8556a75463"
 
 [[files]]
 file = "scripts/buildcraft.zs"
@@ -1388,15 +1141,15 @@ hash = "b66d46ee1c32e29836173607aef4275cec1c1c9402208e1a1b35b2c733fe7113"
 
 [[files]]
 file = "scripts/circuitoreditct.zs"
-hash = "2c10ed4664c577294e21e9b5f1c1714104d64480b2c3b08b385cd25dc745f8ed"
-
-[[files]]
-file = "scripts/contenttweaker.zs"
-hash = "5f4ac2dcbdfc5447ff2d431a1822e07a06c0e0b044c783d0a0e25e6961aec49c"
+hash = "cfa02752fe6ad504f9194e4f63c6c3bc88d0639f58bf6b12fe398cd5ac261255"
 
 [[files]]
 file = "scripts/dense_processing.zs"
 hash = "eacce0c87c80064c37f54ffec5a43a8e8e2df5370420982ae7180273d08bd627"
+
+[[files]]
+file = "scripts/ebf_coil.zs"
+hash = "bc23c6a5323de606fe4ba9b6da19aca9e41135eb509bb57621ce26937e8e90f9"
 
 [[files]]
 file = "scripts/environmental_tech.zs"
@@ -1416,7 +1169,7 @@ hash = "a8726a0deba3fc1ae737a257855337fa2c493210f140d63c0d0791b14628c46b"
 
 [[files]]
 file = "scripts/materials.zs"
-hash = "35f82b988f8969dc647891bad7fdc13407b7646695fc3b851bd3076b35a17c19"
+hash = "3856c4f78ceb9a61331035bfb0302cc3a052e2a0e2a950ecacd08afb9bae39c7"
 
 [[files]]
 file = "scripts/materials2.zs"
@@ -1452,7 +1205,7 @@ hash = "2874d5e6e3aa9472638d32d227d6ea947104d89e066119fb1602efe5f360b68c"
 
 [[files]]
 file = "scripts/rtg.zs"
-hash = "ff79f12ee4f6fee08516245f43d16303a782fcbd6014e108c95d14d0ba78f575"
+hash = "89b4c1548d70f7e27bd7f4cbe6daa7b019f24c98692e18773a90e55f3aa4d773"
 
 [[files]]
 file = "scripts/tanks.zs"
@@ -1460,11 +1213,7 @@ hash = "a301341067c1dd7edcddf7efac8da2b26db51c3275edb4f854c914c8ebff2999"
 
 [[files]]
 file = "scripts/tootips.zs"
-hash = "8d1ca75bfb4a87a4d4cae5d310f5b93a43c4058f2c313a5df4d5665d9fc9849c"
-
-[[files]]
-file = "scripts/wakfu_process.zs"
-hash = "7f775ea2b5366f2f0c328ef3320cbe6bc47a273ea399c0c92eb205a4852fb283"
+hash = "91fb2859fd4d9b4d36da448a76882ad31ccd89b90014c9ba6a8acb443a961702"
 
 [[files]]
 file = "scripts/wrought_iron.zs"

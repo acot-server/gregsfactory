@@ -1,6 +1,5 @@
 import crafttweaker.item.IItemStack as IItemStack;
 
-<contenttweaker:antimatter_field>.addTooltip(format.aqua("This is the new function of the legendary shield, containing anti matter,\n Naofumi probably hate you."));
 <gregtech:meta_item_1:663>.addTooltip(format.green("Blessed by the shroud,\n it can be used as a substitute for the circuits on this and lower tier."));
 <gregtech:meta_item_1:664>.addTooltip(format.darkGreen("Blessed by the shroud,\n it can be used as a substitute for the circuits on this and lower tier."));
 <gregtech:meta_item_1:665>.addTooltip(format.aqua("Blessed by the shroud,\n it can be used as a substitute for the circuits on this and lower tier."));

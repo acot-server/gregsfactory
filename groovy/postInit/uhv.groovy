@@ -4,7 +4,6 @@ import gregtech.*;
 def assembler = recipemap('assembler');
 def assembly_line = recipemap('assembly_line');
 def research_station = recipemap('research_station');
-def centrifuge = recipemap('centrifuge');    
 
 def motor = metaitem('electric.motor.uhv');
 def pump = metaitem('electric.pump.uhv');
@@ -397,15 +396,6 @@ crafting.addShaped('Wakfu Reactor Mk1', item('gregtech:machine', 32112) * 1,
         [cable,hull,cable],
         [circuitUV,circuitUHV,circuitUV]
     ]);
-
-//Wakfu Production
-centrifuge.recipeBuilder()
-    .inputs(item('minecraft:dragon_egg') * 1)
-    .notConsumable(item('contenttweaker:antimatter_field') * 1)
-    .fluidOutputs(fluid('wakfu') * 64000)
-    .duration(20000)
-    .EUt(800000)
-    .buildAndRegister();
 
 //UHV 4x Battery Buffer
 crafting.addShaped('UHV 4x Battery Buffer', item('gregtech:machine', 1324) * 1,

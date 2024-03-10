@@ -35,7 +35,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(1)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
@@ -53,7 +53,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(2)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
@@ -71,7 +71,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(3)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 384,
@@ -89,7 +89,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(4)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 576,
@@ -107,7 +107,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(5)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 720,
@@ -125,7 +125,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(6)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 1152,
@@ -143,7 +143,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(7)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 1440,
@@ -161,7 +161,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(8)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 2304,
@@ -179,7 +179,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(9)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 2304,
@@ -197,7 +197,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(10)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 2592,
@@ -215,7 +215,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(11)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 2592,
@@ -233,7 +233,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(12)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 2880,
@@ -251,7 +251,7 @@ bio_circuit_assembler.recipeBuilder()
         <gregtech:meta_item_1:407> * 1,
         <gregtech:meta_item_1:709> * 16
     ])
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(13)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 3168,
@@ -266,7 +266,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:663> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(14)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
@@ -281,7 +281,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:664> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(15)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
@@ -296,7 +296,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:665> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(16)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
@@ -311,7 +311,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:666> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(17)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
@@ -326,7 +326,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:667> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(18)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 144,
@@ -341,7 +341,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:668> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(19)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
@@ -356,7 +356,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:669> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(20)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
@@ -371,7 +371,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:670> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(21)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 288,
@@ -386,7 +386,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:671> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(22)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 384,
@@ -401,7 +401,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:672> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(23)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 384,
@@ -416,7 +416,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:673> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(24)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 576,
@@ -431,7 +431,7 @@ bio_circuit_assembler.recipeBuilder()
 
 bio_circuit_assembler.recipeBuilder()
     .inputs(<gregtech:meta_item_1:674> * 10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .circuit(25)
     .fluidInputs([
         <liquid:sterilized_growth_medium> * 720,

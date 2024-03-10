@@ -40,29 +40,9 @@ Builder.start(loc, id)
     .withBaseTexture(<blockstate:projecte:matter_block>)
     .buildAndRegister();
 
-
-assembly_line.recipeBuilder()
-    .inputs([
-        <gregtech:meta_block_frame_2:1> * 1,
-        <gregtech:meta_item_1:207> * 8,
-        <gregtech:meta_item_1:222> * 32,
-        <gregtech:meta_item_1:237> * 32,
-        <ore:circuitLuv> * 64,
-        <gregtech:meta_item_1:749> * 64
-    ])
-    .fluidInputs([
-        <liquid:tungsten_steel> * 36000,
-        <liquid:soldering_alloy> * 2880,
-        <liquid:polybenzimidazole> * 2880
-    ])
-    .outputs(<gregtech:machine:32500> * 1)
-    .EUt(30000)
-    .duration(10000)
-    .buildAndRegister();
-
 black_hole.recipeBuilder()
     .circuit(1)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 32,
         <liquid:tritanium> * 64
@@ -74,7 +54,7 @@ black_hole.recipeBuilder()
 
 black_hole.recipeBuilder()
     .circuit(2)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:titanium> * 144,
         <liquid:steel> * 288
@@ -86,7 +66,7 @@ black_hole.recipeBuilder()
 
 black_hole.recipeBuilder()
     .circuit(3)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:tungsten_steel> * 144,
         <liquid:chrome> * 144
@@ -126,30 +106,9 @@ Builder.start(loc1, id1)
     .withBaseTexture(<metastate:projecte:matter_block:1>)
     .buildAndRegister();
 
-
-
-assembly_line.recipeBuilder()
-    .inputs([
-        <gregtech:machine:32500> *1,
-        <gregtech:meta_item_1:208> * 8,
-        <gregtech:meta_item_1:223> * 32,
-        <gregtech:meta_item_1:238> * 32,
-        <ore:circuitZpm> * 64,
-        <gregtech:meta_item_1:750> * 64
-    ])
-    .fluidInputs([
-        <liquid:rhodium_plated_palladium> * 36000,
-        <liquid:soldering_alloy> * 2880,
-        <liquid:polybenzimidazole> * 2880
-    ])
-    .outputs(<gregtech:machine:32501> * 1)
-    .EUt(100000)
-    .duration(10000)
-    .buildAndRegister();
-
 ae_black_hole.recipeBuilder()
     .circuit(1)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs(
         <liquid:neutronium> * 16,
         <liquid:tritanium> * 32
@@ -161,7 +120,7 @@ ae_black_hole.recipeBuilder()
 
 ae_black_hole.recipeBuilder()
     .circuit(2)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 32,
         <liquid:darkmatteralloy> * 16
@@ -205,29 +164,9 @@ Builder.start(loc2, id2)
     .withBaseTexture(<metastate:gregtech:meta_block_compressed_2000:4>)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
-    .inputs([
-        <gregtech:machine:32501> * 1,
-        <gregtech:meta_item_1:209> * 8,
-        <gregtech:meta_item_1:224> * 32,
-        <gregtech:meta_item_1:239> * 32,
-        <ore:circuitUv> * 64,
-        <gregtech:meta_item_1:751> * 64
-    ])
-    .fluidInputs([
-        <liquid:rhodium_plated_palladium> * 36000,
-        <liquid:soldering_alloy> * 2880,
-        <liquid:polybenzimidazole> * 2880,
-        <liquid:darkmatteralloy> * 1440
-    ])
-    .outputs(<gregtech:machine:32502> * 1)
-    .EUt(1000000)
-    .duration(10000)
-    .buildAndRegister();
-
 se_black_hole.recipeBuilder()
     .circuit(1)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:darkenergyalloy> * 32,
         <liquid:darkmatteralloy> * 32
@@ -239,7 +178,7 @@ se_black_hole.recipeBuilder()
 
 se_black_hole.recipeBuilder()
     .circuit(2)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 64,
         <liquid:darkmatteralloy> * 64
@@ -251,7 +190,7 @@ se_black_hole.recipeBuilder()
 
 se_black_hole.recipeBuilder()
     .circuit(3)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 144,
         <liquid:tritanium> * 144
@@ -263,7 +202,7 @@ se_black_hole.recipeBuilder()
 
 se_black_hole.recipeBuilder()
     .circuit(4)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:darkenergyalloy> * 96,
         <liquid:stellarite> * 72
@@ -307,29 +246,9 @@ Builder.start(loc3, id3)
     .withBaseTexture(<metastate:gregtech:meta_block_compressed_2000:5>)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
-    .inputs([
-        <gregtech:machine:32502> * 1,
-        <gregtech:meta_item_1:210> * 8,
-        <gregtech:meta_item_1:225> * 32,
-        <gregtech:meta_item_1:240> * 32,
-        <ore:circuitUhv> * 64,
-        <gregtech:meta_item_1:754> * 64
-    ])
-    .fluidInputs([
-        <liquid:rhodium_plated_palladium> * 36000,
-        <liquid:darkmatteralloy> * 2880,
-        <liquid:polybenzimidazole> * 2880,
-        <liquid:darkenergyalloy> * 1440
-    ])
-    .outputs(<gregtech:machine:32503> * 1)
-    .EUt(10000000)
-    .duration(10000)
-    .buildAndRegister();
-
 re_black_hole.recipeBuilder()
     .circuit(1)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:darkenergyalloy> * 144,
         <liquid:stellarite> * 144
@@ -341,7 +260,7 @@ re_black_hole.recipeBuilder()
 
 re_black_hole.recipeBuilder()
     .circuit(2)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 144,
         <liquid:tritanium> * 144
@@ -353,7 +272,7 @@ re_black_hole.recipeBuilder()
 
 re_black_hole.recipeBuilder()
     .circuit(3)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 144,
         <liquid:darkmatteralloy> * 144
@@ -365,7 +284,7 @@ re_black_hole.recipeBuilder()
 
 re_black_hole.recipeBuilder()
     .circuit(4)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:darkenergyalloy> * 144,
         <liquid:darkmatteralloy> * 144
@@ -377,7 +296,7 @@ re_black_hole.recipeBuilder()
 
 re_black_hole.recipeBuilder()
     .circuit(5)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:runicalloy> * 72,
         <liquid:stellarite> * 144
@@ -424,29 +343,9 @@ Builder.start(loc4, id4)
     .withBaseTexture(<metastate:gregtech:meta_block_compressed_2000:6>)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
-    .inputs([
-        <gregtech:machine:32503> * 1,
-        <gregtech:meta_item_1:212> * 8,
-        <gregtech:meta_item_1:227> * 32,
-        <gregtech:meta_item_1:242> * 32,
-        <ore:circuitUiv> * 64,
-        <gregtech:meta_item_1:756> * 64
-    ])
-    .fluidInputs([
-        <liquid:rhodium_plated_palladium> * 36000,
-        <liquid:stellarite> * 2880,
-        <liquid:polybenzimidazole> * 2880,
-        <liquid:runicalloy> * 1440
-    ])
-    .outputs(<gregtech:machine:32504> * 1)
-    .EUt(80000000)
-    .duration(10000)
-    .buildAndRegister();
-
 te_black_hole.recipeBuilder()
     .circuit(1)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:stellarite> * 144,
         <liquid:runicalloy> * 144
@@ -458,7 +357,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(2)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 288,
         <liquid:tritanium> * 288
@@ -470,7 +369,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(3)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:neutronium> * 288,
         <liquid:darkmatteralloy> * 288
@@ -482,7 +381,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(4)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:darkenergyalloy> * 288,
         <liquid:darkmatteralloy> * 288
@@ -494,7 +393,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(5)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs([
         <liquid:wakfustasis> * 72,
         <liquid:runicalloy> * 144
@@ -512,7 +411,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(6)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs(
         <liquid:wakfustasis> * 8
     )
@@ -560,7 +459,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(7)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs(
         <liquid:wakfustasis> * 8
     )
@@ -608,7 +507,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(8)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs(
         <liquid:wakfustasis> * 8
     )
@@ -656,7 +555,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(9)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs(
         <liquid:wakfustasis> * 8
     )
@@ -704,7 +603,7 @@ te_black_hole.recipeBuilder()
 
 te_black_hole.recipeBuilder()
     .circuit(10)
-    .notConsumable(<contenttweaker:precursor_database>)
+    .notConsumable(<gregtech:meta_item_1:676>)
     .fluidInputs(
         <liquid:wakfustasis> * 8
     )

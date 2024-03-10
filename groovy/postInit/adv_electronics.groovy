@@ -17,8 +17,8 @@ assembly_line.recipeBuilder()
         fluid('naquadah') * 5760,
         fluid('soldering_alloy') * 2880
         )
-    .outputs(item('contenttweaker:precursor_database') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('tool.dataorb')).CWUt(4,2000000).EUt(32768))
+    .outputs(metaitem('circuit.sophia_data_base') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('circuit.wetware_processor')).CWUt(4,2000000).EUt(32768))
     .EUt(32768)
     .duration(72000)
     .buildAndRegister();

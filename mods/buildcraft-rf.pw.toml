@@ -1,0 +1,13 @@
+name = "BuildCraft RF: ReFluxified"
+filename = "BuildCraftRF-2.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b819327b511242afae902c8facaf53db25708514"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4631742
+project-id = 421463
