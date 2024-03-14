@@ -799,7 +799,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/f32.pw.toml"
-hash = "b44f10f85cd9e7288dabbba5440ff042379d9b5c8d7fd642bc25233d73c07b5a"
+hash = "ca0dce2fb48baf6a9d775396af7b0ec6239d372649c54e831bec8220f331a4ed"
 metafile = true
 
 [[files]]
@@ -858,6 +858,10 @@ hash = "06509489093c63c40a16a5f7476a992343e1ccd206a8aab3c6e309e6f15a83cf"
 [[files]]
 file = "resources/contenttweaker/models/item/LV_computer_pregoc.json"
 hash = "7496a9f2f6b4f89be211d0c86e81f1d1863d3e8d42679f436015ef94600bf505"
+
+[[files]]
+file = "resources/contenttweaker/models/item/Lightmatter.json"
+hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
 
 [[files]]
 file = "resources/contenttweaker/models/item/LuV_computer_pregoc.json"
