@@ -1,42 +1,6 @@
 import gregtech.*;
 
-def centrifuge = recipemap('centrifuge'); 
-
-centrifuge.recipeBuilder()
-    .inputs(item('minecraft:spider_eye') * 32)
-    .fluidInputs(fluid('sulfuric_acid') * 500)
-    .fluidOutputs(fluid('diluted_sulfuric_acid') * 500)
-    .outputs(item('gregtech:meta_dust_small', 32000) * 2)
-    .EUt(120000)
-    .duration(2000)
-    .buildAndRegister();
-
-centrifuge.recipeBuilder()
-    .inputs(item('minecraft:rotten_flesh') * 32)
-    .fluidInputs(fluid('sulfuric_acid') * 500)
-    .fluidOutputs(fluid('diluted_sulfuric_acid') * 500)
-    .outputs(item('gregtech:meta_dust_small', 32000) * 2)
-    .EUt(120000)
-    .duration(2000)
-    .buildAndRegister();
-
-centrifuge.recipeBuilder()
-    .inputs(item('minecraft:beef') * 32)
-    .fluidInputs(fluid('sulfuric_acid') * 500)
-    .fluidOutputs(fluid('diluted_sulfuric_acid') * 500)
-    .outputs(item('gregtech:meta_dust_small', 32000) * 2)
-    .EUt(120000)
-    .duration(2000)
-    .buildAndRegister();
-
-centrifuge.recipeBuilder()
-    .inputs(item('minecraft:chicken') * 32)
-    .fluidInputs(fluid('sulfuric_acid') * 500)
-    .fluidOutputs(fluid('diluted_sulfuric_acid') * 500)
-    .outputs(item('gregtech:meta_dust_small', 32000) * 2)
-    .EUt(120000)
-    .duration(2000)
-    .buildAndRegister();
+def centrifuge = recipemap('centrifuge');
 
 centrifuge.recipeBuilder()
     .inputs(item('minecraft:porkchop') * 32)
