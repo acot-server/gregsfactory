@@ -146,7 +146,7 @@ hash = "6f206e95b52db98112f3bd81541f0438fc8ecb27a63a022eac98d99445886c6a"
 
 [[files]]
 file = "groovy/assets/qilby/textures/blocks/darkmatter_coil.png"
-hash = "820fa348fa0d7ec7215ac6cd2669aabd14ced095447525bb660c2677bc40e96f"
+hash = "9cb65cff55fb989a9d12c3ddf6556464e31e08971d6675c962e538bcdf846e79"
 
 [[files]]
 file = "groovy/assets/qilby/textures/blocks/runicalloy_coil.png"
@@ -179,6 +179,10 @@ hash = "90f00872ec13d36204a2178b300dff24b15197b763b2d97a428f599087f15790"
 [[files]]
 file = "groovy/postInit/armor.groovy"
 hash = "445125b120c63938331b224521fa643acb817d6b40deb9864badb2356495f995"
+
+[[files]]
+file = "groovy/postInit/coils.groovy"
+hash = "147f9fb65c41566ea6a6619ec7612f2c80f7ef1a129c8ca67a78a512f52180be"
 
 [[files]]
 file = "groovy/postInit/creative_stuff.groovy"
@@ -258,7 +262,7 @@ hash = "b3f51a840043496b67233474246b3f322ddcc4186679e2eb3659002d4c45b59b"
 
 [[files]]
 file = "groovy/postInit/wakfu_process.groovy"
-hash = "87ff1447b58e0192fd96542f0114f49551392588952c7efb3cafea1ebc4b97ea"
+hash = "fc9c93fd6aa39306f2215e8d37aac3654566e50a927133e556584182f1df3d85"
 
 [[files]]
 file = "groovy/preInit/coils.groovy"
@@ -584,8 +588,8 @@ hash = "3c7a58fcef9e70066781f991e455df2bb0152f7fcebecbb4441270869e1f0b29"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-1.12.2-2.7.4.7-beta.jar"
-hash = "aa716e5701e9d77ddac106d5b740a9286014da754b5242ac75eb53a0497a74b4"
+file = "mods/gregtech-1.12.2-2.7.4.Qilby-beta.jar"
+hash = "a20de6b78335cfeedab8fab763cd6578fb589959a0006b6724ec29e3ad39d255"
 
 [[files]]
 file = "mods/groovyscript-0.6.4.jar"
