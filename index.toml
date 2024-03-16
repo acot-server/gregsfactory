@@ -65,6 +65,106 @@ file = "groovy/assets/placeholdername/lang/en_us.lang"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "groovy/assets/qilby/blockstates/darkenergyalloy_coil.json"
+hash = "2014a78c82eec55794e1468cea23193caefe7912d84eb1e4c3a8dd950d2174b5"
+
+[[files]]
+file = "groovy/assets/qilby/blockstates/darkmatter_coil.json"
+hash = "816085b3dcd13608acdfcafec763d19cdd90e05e98c8d25b7c229217096f1d8c"
+
+[[files]]
+file = "groovy/assets/qilby/blockstates/runicalloy_coil.json"
+hash = "fc91e18a7e0d6eb2fe6d6fdba4513151f9728178e57a09f22aab7fcc4ed3ed74"
+
+[[files]]
+file = "groovy/assets/qilby/blockstates/stasis_coil.json"
+hash = "b9502a75730a0d6c60b5cc7eedad7f1d7c6e96cbd0df045e40c44c83418284c5"
+
+[[files]]
+file = "groovy/assets/qilby/blockstates/stellarite_coil.json"
+hash = "c0d30d3bc254b5b07f8fb7afa9086f36ccdb3ca0df4b35fe63c9b41e0baf04b5"
+
+[[files]]
+file = "groovy/assets/qilby/blockstates/wakfustasis_coil.json"
+hash = "bdba2792541de0f7e7091f13e27b0627e1b8dc763ffc29044337c600a4349668"
+
+[[files]]
+file = "groovy/assets/qilby/lang/en_us.lang"
+hash = "17604ccf44c7e4852cf58625689bf615d6bd1030748898126cb49f53e88e3af4"
+
+[[files]]
+file = "groovy/assets/qilby/models/block/darkenergyalloy_coil.json"
+hash = "a95d8089c81d5ceb60dc62b8f352e4606450ab784a834e636aa473904f158873"
+
+[[files]]
+file = "groovy/assets/qilby/models/block/darkmatter_coil.json"
+hash = "4dedc1ed6459b1448bdb7eb88e6177eb8570944f73991613e999adff895c2ed3"
+
+[[files]]
+file = "groovy/assets/qilby/models/block/runicalloy_coil.json"
+hash = "e3d9c5df24baede2054c808fec6ecf407814fecfabf97766ea03cd71e3fb6799"
+
+[[files]]
+file = "groovy/assets/qilby/models/block/stasis_coil.json"
+hash = "de885b56322b344baec8277c892b2e8271bc79d44b73afa4c1e4e980ba66e8f2"
+
+[[files]]
+file = "groovy/assets/qilby/models/block/stellarite_coil.json"
+hash = "2c27aff880063ce4f7407b9e90ceda945dd31888ffea1982bd1b93d944a7d895"
+
+[[files]]
+file = "groovy/assets/qilby/models/block/wakfustasis_coil.json"
+hash = "f91c8c65fe07eeb0e9a8a7d1e2143e20b57a0c3e30963847dcb4d19fe4fda94c"
+
+[[files]]
+file = "groovy/assets/qilby/models/item/darkenergyalloy_coil.json"
+hash = "21931df3e28447c99e74aa9e4272b62ce7e763d953b5ba02a84c285a46caca8a"
+
+[[files]]
+file = "groovy/assets/qilby/models/item/darkmatter_coil.json"
+hash = "143942789e77c1680abc9013b779191906f4cfdcf0d70bdde586b5763e89cf2e"
+
+[[files]]
+file = "groovy/assets/qilby/models/item/runicalloy_coil.json"
+hash = "36829fd56479732cd1c6e89d83d6157a854850876c3d44eec25c0570f249b4be"
+
+[[files]]
+file = "groovy/assets/qilby/models/item/stasis_coil.json"
+hash = "db268e55c45339eb93a53623586b10238434f7f401953a8c8515e19e00026bbf"
+
+[[files]]
+file = "groovy/assets/qilby/models/item/stellarite_coil.json"
+hash = "2cb0ab70c71dcc0d8869a1d7d1033a2dfb650503febb14dc4ce5cc385843e6af"
+
+[[files]]
+file = "groovy/assets/qilby/models/item/wakfustasis_coil.json"
+hash = "1b15e92cf0363c30482d736c719f6fa276a03979652a37f2b8d94e09755fb190"
+
+[[files]]
+file = "groovy/assets/qilby/textures/blocks/darkenergyalloy_coil.png"
+hash = "6f206e95b52db98112f3bd81541f0438fc8ecb27a63a022eac98d99445886c6a"
+
+[[files]]
+file = "groovy/assets/qilby/textures/blocks/darkmatter_coil.png"
+hash = "820fa348fa0d7ec7215ac6cd2669aabd14ced095447525bb660c2677bc40e96f"
+
+[[files]]
+file = "groovy/assets/qilby/textures/blocks/runicalloy_coil.png"
+hash = "bd4a8f4af23d4c53ea061209324c2408a3c5c010d2979d5d0345957faa74e35f"
+
+[[files]]
+file = "groovy/assets/qilby/textures/blocks/stasis_coil.png"
+hash = "b369e04fe9a2edafb3bc7af34b6101f293e2f6153cc3301d90ccfc8539ec1bc4"
+
+[[files]]
+file = "groovy/assets/qilby/textures/blocks/stellarite_coil.png"
+hash = "241624fe8608f72eb1f6120ead4592472d9549f77387c0f886f1418e99221e21"
+
+[[files]]
+file = "groovy/assets/qilby/textures/blocks/wakfustasis_coil.png"
+hash = "55e6aae74c2a6a378a7feb0ecac92cc1022f3e69df588a095902c83c81be1ea1"
+
+[[files]]
 file = "groovy/postInit/actualy_addition.groovy"
 hash = "1700394ea8475ce03a1ed9342ce026e15043c9c1b9fcd8adcab6534103f62b43"
 
@@ -161,8 +261,12 @@ file = "groovy/postInit/wakfu_process.groovy"
 hash = "87ff1447b58e0192fd96542f0114f49551392588952c7efb3cafea1ebc4b97ea"
 
 [[files]]
+file = "groovy/preInit/coils.groovy"
+hash = "87954ba49d7b84d4c7e05077567a952343013af8463370b3cd2bc8c35829659a"
+
+[[files]]
 file = "groovy/runConfig.json"
-hash = "3d9e19c05e38ec1cfa76358509ac0aea50ca7ca7c55a36ef17ae1c19c0fe2887"
+hash = "f591cf63c708c1e0c6567dd16de594009828ef6ab21fa8e738e712781543e03e"
 
 [[files]]
 file = "mods/actually-additions.pw.toml"
@@ -858,10 +962,6 @@ hash = "06509489093c63c40a16a5f7476a992343e1ccd206a8aab3c6e309e6f15a83cf"
 [[files]]
 file = "resources/contenttweaker/models/item/LV_computer_pregoc.json"
 hash = "7496a9f2f6b4f89be211d0c86e81f1d1863d3e8d42679f436015ef94600bf505"
-
-[[files]]
-file = "resources/contenttweaker/models/item/Lightmatter.json"
-hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
 
 [[files]]
 file = "resources/contenttweaker/models/item/LuV_computer_pregoc.json"
