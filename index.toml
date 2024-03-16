@@ -1317,7 +1317,7 @@ hash = "a301341067c1dd7edcddf7efac8da2b26db51c3275edb4f854c914c8ebff2999"
 
 [[files]]
 file = "scripts/tootips.zs"
-hash = "91fb2859fd4d9b4d36da448a76882ad31ccd89b90014c9ba6a8acb443a961702"
+hash = "7254c82452786c4749c7cc2561103241abaa6a2a125098afc01aea8b9537b15f"
 
 [[files]]
 file = "scripts/wrought_iron.zs"
