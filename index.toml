@@ -37,10 +37,6 @@ file = "config/forestry/lepidopterology.cfg"
 hash = "2330e05e72c1719ca975fe083da5cbfb971141d401b36773b209b626d65d8517"
 
 [[files]]
-file = "config/futuremc/futuremc.cfg"
-hash = "912e22fa620aa13f760f17790a1561eea55506a8ad29bb0e03ae80031d0f006c"
-
-[[files]]
 file = "config/gregtech.cfg"
 hash = "1f2901d9169fd432c53aa6caa614b0cef8b8c2e3bc4d3b457dd864334fe8925f"
 
