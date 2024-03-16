@@ -1257,7 +1257,7 @@ hash = "eacce0c87c80064c37f54ffec5a43a8e8e2df5370420982ae7180273d08bd627"
 
 [[files]]
 file = "scripts/ebf_coil.zs"
-hash = "bc23c6a5323de606fe4ba9b6da19aca9e41135eb509bb57621ce26937e8e90f9"
+hash = "b7619eccb487d93434e67de6e787f144dd1de84fe118dc23d0aad2b626bc4d6e"
 
 [[files]]
 file = "scripts/environmental_tech.zs"
