@@ -964,6 +964,10 @@ file = "resources/contenttweaker/models/item/LV_computer_pregoc.json"
 hash = "7496a9f2f6b4f89be211d0c86e81f1d1863d3e8d42679f436015ef94600bf505"
 
 [[files]]
+file = "resources/contenttweaker/models/item/Lightmatter.json"
+hash = "08d9b450887a307309b006ad575544a347a2e125e193101306d8f134af811519"
+
+[[files]]
 file = "resources/contenttweaker/models/item/LuV_computer_pregoc.json"
 hash = "54cc170758dc933020a910b2bdb895b1030f7f57cf14e53cd5471029e2335dd2"
 
