@@ -33,6 +33,10 @@ file = "config/environmentaltech/multiblocks/void_miner/ore/tier_6.json"
 hash = "fd68cd7868a96398c340f582b603035db825a72faa07650190fca1be41962d9b"
 
 [[files]]
+file = "config/forestry/farm.cfg"
+hash = "82d1494d19e5e151a779f2b8a09f9dc24d9cfcf545e5f82a03ee07ae3520ad84"
+
+[[files]]
 file = "config/forestry/lepidopterology.cfg"
 hash = "2330e05e72c1719ca975fe083da5cbfb971141d401b36773b209b626d65d8517"
 
