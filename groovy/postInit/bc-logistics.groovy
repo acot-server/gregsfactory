@@ -31,4 +31,4 @@ crafting.addShaped(
     item('buildcraftbuilders:quarry'),
     [[ore('gearSteel'), ore('circuitMv'), ore('gearSteel')],
      [ore('gearRoseGold'), ore('gearSteel'), ore('gearRoseGold')],
-     [metaitem('electric.motor.mv'), metaitem('tool.drill_mv'), metaitem('electric.motor.mv')]])
+     [metaitem('electric.motor.mv'), item('gregtech:drill_mv'), metaitem('electric.motor.mv')]])
