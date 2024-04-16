@@ -186,7 +186,7 @@ hash = "445125b120c63938331b224521fa643acb817d6b40deb9864badb2356495f995"
 
 [[files]]
 file = "groovy/postInit/bc-logistics.groovy"
-hash = "7da8cccc354d3302da20cd2b06fe03d12db9a6b517ecad4833936cf33e1065b0"
+hash = "8c3a010e65cbae77be15a42c754cbcc09e68d773500760c1d09dc0cab3b382f7"
 
 [[files]]
 file = "groovy/postInit/coils.groovy"
