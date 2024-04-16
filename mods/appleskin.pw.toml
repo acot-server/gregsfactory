@@ -1,0 +1,13 @@
+name = "AppleSkin"
+filename = "AppleSkin-mc1.12-1.0.14.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EsAfCjCV/versions/Tsz4BT2X/AppleSkin-mc1.12-1.0.14.jar"
+hash-format = "sha1"
+hash = "d798af79de48be0f00c772943e5ec5a2fb5659fa"
+
+[update]
+[update.modrinth]
+mod-id = "EsAfCjCV"
+version = "Tsz4BT2X"

@@ -1,0 +1,13 @@
+name = "Fancy Lamps"
+filename = "fancylamps-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a6fb0a15784dbaab4a003911deaa35566bc7bab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2863411
+project-id = 309652

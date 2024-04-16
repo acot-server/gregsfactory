@@ -1,0 +1,13 @@
+name = "ElecCore"
+filename = "ElecCore-1.12.2-1.9.453.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "112cda98b049902b8c073ec37b96495ff5e0bdf6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2853959
+project-id = 227391

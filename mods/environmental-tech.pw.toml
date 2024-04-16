@@ -1,0 +1,13 @@
+name = "Environmental Tech"
+filename = "environmentaltech-1.12.2-2.0.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dGdhZiPO/versions/k48mmbV0/environmentaltech-1.12.2-2.0.20.1.jar"
+hash-format = "sha1"
+hash = "2505c74c38e7083448a9473a7fba4713d9d620c1"
+
+[update]
+[update.modrinth]
+mod-id = "dGdhZiPO"
+version = "k48mmbV0"

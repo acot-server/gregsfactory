@@ -1,0 +1,13 @@
+name = "Guide-API"
+filename = "Guide-API-1.12-2.1.8-63.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EM9fahS3/versions/2NQHu8oL/Guide-API-1.12-2.1.8-63.jar"
+hash-format = "sha1"
+hash = "095b3b85d05118602c7678beb1e56d26930fd0e7"
+
+[update]
+[update.modrinth]
+mod-id = "EM9fahS3"
+version = "2NQHu8oL"

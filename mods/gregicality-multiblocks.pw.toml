@@ -1,0 +1,13 @@
+name = "Gregicality Multiblocks"
+filename = "GregicalityMultiblocks-1.2.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tZiutdLG/versions/EBaj6aJx/GregicalityMultiblocks-1.2.5.jar"
+hash-format = "sha1"
+hash = "3c98fb95f1267623a9b9b3e290372cc0a705e150"
+
+[update]
+[update.modrinth]
+mod-id = "tZiutdLG"
+version = "EBaj6aJx"

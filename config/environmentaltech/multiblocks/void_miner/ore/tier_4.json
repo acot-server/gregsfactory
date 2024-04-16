@@ -1,0 +1,19 @@
+{
+  "outputs": [
+    {
+      "target": "white",
+      "weight": 50,
+      "id": "gregtech:meta_block_compressed_2000:8"
+    },
+    {
+      "target": "red",
+      "weight": 50,
+      "id": "gregtech:meta_block_compressed_2000:9"
+    },
+    {
+      "target": "black",
+      "weight": 10,
+      "id": "gregtech:meta_block_compressed_2000:10"
+    }
+  ]
+}

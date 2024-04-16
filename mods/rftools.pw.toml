@@ -1,0 +1,13 @@
+name = "RFTools (Legacy)"
+filename = "rftools-1.12-7.73.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FwyGRcXc/versions/xRnNLLgU/rftools-1.12-7.73.jar"
+hash-format = "sha1"
+hash = "16a4e8c1907bdaac546ab3fd56904d202da427f3"
+
+[update]
+[update.modrinth]
+mod-id = "FwyGRcXc"
+version = "xRnNLLgU"

@@ -1,0 +1,13 @@
+name = "faithful"
+filename = "Faithful-1.12.zip"
+side = "client"
+
+[download]
+url = "https://push.annwan.me/Faithful-1.12.zip"
+hash-format = "sha256"
+hash = "198cde632ab8e6ed21fcc614255b2e4e6bdd309c145f72df314209864fa283a3"
+
+[option]
+optional = true
+default = true
+description = "32x textures for vanilla blocks"

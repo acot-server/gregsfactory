@@ -1,0 +1,13 @@
+name = "Cathedral"
+filename = "Cathedral-1.12.2-1.9.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c73049f19499f6e6201e75cbdf05a1ed8f25536a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2915940
+project-id = 302514

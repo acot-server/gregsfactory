@@ -1,0 +1,13 @@
+name = "Advent Of Ascension"
+filename = "AoA3-3.3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9qn2AQBc/versions/1.12.2-3.3.6/AoA3-3.3.6.jar"
+hash-format = "sha1"
+hash = "b0e46f6c8d608972157d5ba27f7b093c46797e5a"
+
+[update]
+[update.modrinth]
+mod-id = "9qn2AQBc"
+version = "z3x4nTNg"

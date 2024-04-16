@@ -1,0 +1,13 @@
+name = "MalisisDoors"
+filename = "malisisdoors-1.12.2-7.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "87e694ed0722b4106242faf5dd33f7e86929ec88"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2526674
+project-id = 223891

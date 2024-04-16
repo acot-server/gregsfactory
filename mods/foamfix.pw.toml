@@ -1,0 +1,13 @@
+name = "FoamFix"
+filename = "foamfix-0.10.15-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jupr7Bf5/versions/oEGIQQnQ/foamfix-0.10.15-1.12.2.jar"
+hash-format = "sha1"
+hash = "b179ee981e06e396cb060045cb076c857985494a"
+
+[update]
+[update.modrinth]
+mod-id = "jupr7Bf5"
+version = "oEGIQQnQ"

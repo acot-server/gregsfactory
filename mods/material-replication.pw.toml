@@ -1,0 +1,13 @@
+name = "Material Replication"
+filename = "MaterialReplication-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a467753c2ddc03dca74e274934442abd38546b63"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4801376
+project-id = 874493
