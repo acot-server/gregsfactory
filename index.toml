@@ -186,7 +186,7 @@ hash = "445125b120c63938331b224521fa643acb817d6b40deb9864badb2356495f995"
 
 [[files]]
 file = "groovy/postInit/bc-logistics.groovy"
-hash = "3aa179dbac725561728e03baf8c4c41fe7aa3027ebfc866bdaaa161232c852b1"
+hash = "7da8cccc354d3302da20cd2b06fe03d12db9a6b517ecad4833936cf33e1065b0"
 
 [[files]]
 file = "groovy/postInit/coils.groovy"
@@ -759,6 +759,11 @@ metafile = true
 [[files]]
 file = "mods/nae2.pw.toml"
 hash = "c873096b91156cd72345e082b701201721773393fd359c0ed37b25d5f4227a78"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-items-1-8.pw.toml"
+hash = "80de77b428b9141eef0540ed1e6d1fba63cff28d8a73c458587f43bac975d7c5"
 metafile = true
 
 [[files]]
