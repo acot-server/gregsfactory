@@ -57,6 +57,10 @@ file = "config/loliasm.cfg"
 hash = "dca7f56eb4a3c9ebe814c32650dfa0f4da0e9177b48793fd690d378f8c8881ce"
 
 [[files]]
+file = "config/materialreplication.cfg"
+hash = "58346aa6fe6965ef85f2ebcd36f7c626329c807725c446d3697a012850db2705"
+
+[[files]]
 file = "config/scalinghealth/main.cfg"
 hash = "9dd21f4bb12497e45fceca62ed8defa7c3b324d1a87017d2daebdda4ee9330bc"
 
