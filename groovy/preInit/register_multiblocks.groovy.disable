@@ -1,0 +1,3 @@
+import gregtech.common.metatileentities.MetaTileEntities
+
+MetaTileEntities.register(20000, new BlackHoleGeneratorMkIController(new ResourceLocation("qilby", "black_hole_generator_1")))

@@ -41,7 +41,7 @@ assembler.recipeBuilder()
     ])
     .fluidInputs(<liquid:plutonium_241> * 1440)
     .outputs(<projecte:transmutation_table> * 1)
-    .EUt(420)
+    .EUt(396625813)
     .duration(1200)
     .buildAndRegister();
 

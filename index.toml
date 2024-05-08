@@ -169,6 +169,14 @@ file = "groovy/assets/qilby/textures/blocks/wakfustasis_coil.png"
 hash = "55e6aae74c2a6a378a7feb0ecac92cc1022f3e69df588a095902c83c81be1ea1"
 
 [[files]]
+file = "groovy/common_classes/BlackHoleGeneratorMkIController.groovy"
+hash = "cd39462c68ff7d4e05322e62602dc21dc04af0ffdc9658da169ad505aa3d5b6d"
+
+[[files]]
+file = "groovy/common_classes/QilbyRecipeMaps.groovy"
+hash = "3098a9bb82c4dfadeb1a4f8c15d45425b0c6d5b5ab1f9e6c357d9a8ab6b96d3d"
+
+[[files]]
 file = "groovy/postInit/EIO_conduit.groovy"
 hash = "bf1a59964c778bf6961f52cc8fe334c6bbd4f0b16ead69c1654d9bf13acaea2b"
 
@@ -289,8 +297,12 @@ file = "groovy/preInit/coils.groovy"
 hash = "87954ba49d7b84d4c7e05077567a952343013af8463370b3cd2bc8c35829659a"
 
 [[files]]
+file = "groovy/preInit/register_multiblocks.groovy.disable"
+hash = "c3f97569482ef4b3eeda685535e4a2e8d6b27ccf5bc7f997f26534f476ad39fc"
+
+[[files]]
 file = "groovy/runConfig.json"
-hash = "f591cf63c708c1e0c6567dd16de594009828ef6ab21fa8e738e712781543e03e"
+hash = "71a4f327ef88aed8f33fc88690b99487651fab2ab8a6633eb5a64015c05cd911"
 
 [[files]]
 file = "mods/actually-additions.pw.toml"
@@ -1024,7 +1036,7 @@ hash = "6db911f91f642f278ae039b654bb4f40db3a81b70ee20996b70989524bb20415"
 
 [[files]]
 file = "scripts/projecte.zs"
-hash = "893ebd7a3536eb288e00bb5f74e1739ba2ea6b10755cdd416528a17c1db1befe"
+hash = "16d065a36cd765b90e42cc2204e5181044111c6cf31d4dbd517f4d8cb4372441"
 
 [[files]]
 file = "scripts/recipe_map.zs"
