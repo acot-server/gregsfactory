@@ -65,10 +65,6 @@ file = "config/scalinghealth/main.cfg"
 hash = "9dd21f4bb12497e45fceca62ed8defa7c3b324d1a87017d2daebdda4ee9330bc"
 
 [[files]]
-file = "groovy/assets/placeholdername/lang/en_us.lang"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "groovy/assets/qilby/blockstates/darkenergyalloy_coil.json"
 hash = "2014a78c82eec55794e1468cea23193caefe7912d84eb1e4c3a8dd950d2174b5"
 
@@ -94,7 +90,7 @@ hash = "bdba2792541de0f7e7091f13e27b0627e1b8dc763ffc29044337c600a4349668"
 
 [[files]]
 file = "groovy/assets/qilby/lang/en_us.lang"
-hash = "17604ccf44c7e4852cf58625689bf615d6bd1030748898126cb49f53e88e3af4"
+hash = "51044eff6595a599d7355da4c8f8de10c81d5d5a34c5d2ff764fd50e7215ca57"
 
 [[files]]
 file = "groovy/assets/qilby/models/block/darkenergyalloy_coil.json"
@@ -169,12 +165,16 @@ file = "groovy/assets/qilby/textures/blocks/wakfustasis_coil.png"
 hash = "55e6aae74c2a6a378a7feb0ecac92cc1022f3e69df588a095902c83c81be1ea1"
 
 [[files]]
-file = "groovy/common_classes/BlackHoleGeneratorMkIController.groovy"
-hash = "cd39462c68ff7d4e05322e62602dc21dc04af0ffdc9658da169ad505aa3d5b6d"
+file = "groovy/classes/MetaTileEntityBlackHoleGeneratorMkI.groovy"
+hash = "cfe50a8eacef7f2d1d0aeb21e4cffe83c290899789cccaaba2394c86d4aa6488"
 
 [[files]]
-file = "groovy/common_classes/QilbyRecipeMaps.groovy"
-hash = "3098a9bb82c4dfadeb1a4f8c15d45425b0c6d5b5ab1f9e6c357d9a8ab6b96d3d"
+file = "groovy/classes/QilbyRecipeMaps.groovy"
+hash = "a87d52d93f5f3d5485d90708c4a103139d5778d5f19509c1d827f16a4a7124ea"
+
+[[files]]
+file = "groovy/classes/how-to-make-a-multiblock.org"
+hash = "5f5c206d80448587b195512bdec951fa6ee90c744a6165445cf3bbde6c5c1299"
 
 [[files]]
 file = "groovy/postInit/EIO_conduit.groovy"
@@ -241,6 +241,10 @@ file = "groovy/postInit/gt_parts_uxv.groovy"
 hash = "f5cccfe279dcb249afc156af6bd862f1b07468e7640fc10f4086694b06207480"
 
 [[files]]
+file = "groovy/postInit/machines.groovy"
+hash = "a0f9ad58948980e471e45ea44ca7e83492c062bb82e2442a3d34508e8dc9951d"
+
+[[files]]
 file = "groovy/postInit/opv.groovy"
 hash = "512cf049edc78ab1daed58363aff69af23cdc53ab6b41d731c523774aae205c4"
 
@@ -297,12 +301,8 @@ file = "groovy/preInit/coils.groovy"
 hash = "87954ba49d7b84d4c7e05077567a952343013af8463370b3cd2bc8c35829659a"
 
 [[files]]
-file = "groovy/preInit/register_multiblocks.groovy.disable"
-hash = "c3f97569482ef4b3eeda685535e4a2e8d6b27ccf5bc7f997f26534f476ad39fc"
-
-[[files]]
 file = "groovy/runConfig.json"
-hash = "71a4f327ef88aed8f33fc88690b99487651fab2ab8a6633eb5a64015c05cd911"
+hash = "0776760e73ab9bb0629ceaffc529cc2bca22eca5e27f1d3c4e1b6521c9b7a163"
 
 [[files]]
 file = "mods/actually-additions.pw.toml"
@@ -954,12 +954,17 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/f32.pw.toml"
-hash = "ca0dce2fb48baf6a9d775396af7b0ec6239d372649c54e831bec8220f331a4ed"
+hash = "eb15cc4b6b393445f325a33820017bdfc2f608abade6853b133f45b66d0c4a61"
 metafile = true
 
 [[files]]
 file = "resourcepacks/faithful.pw.toml"
 hash = "e83509fa695a2705f8d05b2a2154daf8f433631914ec74b221d050d6c5ebde55"
+metafile = true
+
+[[files]]
+file = "resourcepacks/gregtech-refreshed.pw.toml"
+hash = "c48d5417ff26ace18ab7061758233ba7d972f75433124e8779596d8ea6d868ac"
 metafile = true
 
 [[files]]
@@ -1057,3 +1062,15 @@ hash = "a301341067c1dd7edcddf7efac8da2b26db51c3275edb4f854c914c8ebff2999"
 [[files]]
 file = "scripts/tootips.zs"
 hash = "7254c82452786c4749c7cc2561103241abaa6a2a125098afc01aea8b9537b15f"
+
+[[files]]
+file = "utils/read_schematic.py"
+hash = "e94d36cbdc020ebb1885d015841daa2f9174d9aae7fb5f45a84311f0c0725329"
+
+[[files]]
+file = "utils/schematic_to_multiblock_pattern.lua"
+hash = "33d3d09faca15fa65816341fefb2922cf8536ccc47bede1efc144ed868acf9dc"
+
+[[files]]
+file = "utils/schematic_to_multiblock_pattern.moon"
+hash = "e5b47f7873baeb26cb793ef34c89baf47c98739503aa86da02731c5c985b3b39"

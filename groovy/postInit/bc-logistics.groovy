@@ -22,8 +22,8 @@ def changes = [
 ]
 
 changes.each { thing, craft ->
-    crafting.removeByOutput(item(thing));
-    crafting.addShaped(item(thing) * 32, craft);
+    crafting.removeByOutput(item(thing))
+    crafting.addShaped(item(thing) * 32, craft)
 }
 
 crafting.removeByOutput(item('buildcraftbuilders:quarry'))

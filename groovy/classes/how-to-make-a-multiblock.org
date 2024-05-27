@@ -1,0 +1,74 @@
+#+TITLE: How to make a multiblock
+
+* Step 1: Create the class
+
+#+begin_src groovy
+  import gregtech.api.metatileentity.MetaTileEntity
+  import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
+  import gregtech.api.metatileentity.multiblock.IMultiblockPart
+  import gregtech.api.metatileentity.multiblock.RecipeMapMultiblockController
+  import gregtech.api.pattern.BlockPattern
+  import gregtech.api.pattern.FactoryBlockPattern
+  import gregtech.api.recipes.builders.SimpleRecipeBuilder //¹
+  import gregtech.api.recipes.RecipeMap
+
+  import gregtech.client.renderer.texture.Textures
+  import gregtech.client.renderer.ICubeRenderer
+
+  import gregtech.common.blocks.BlockGlassCasing
+  import gregtech.common.blocks.BlockFusionCasing
+  import gregtech.common.blocks.MetaBlocks
+
+  import net.minecraft.util.ResourceLocation
+
+  import net.minecraftforge.fml.relauncher.Side
+  import net.minecraftforge.fml.relauncher.SideOnly
+
+
+
+  // import classes.QilbyRecipeMaps
+
+  public class MetaTileEntity/*Name of Multiblock*/ extends RecipeMapMultiblockController {
+
+      private static final RecipeMap<SimpleRecipeBuilder> RECIPE_MAP = new RecipeMap<>( //¹
+	  "black_hole_generator_1",
+	  /* # entrées items */, /* # sorties item*/, /* # entrées liquide */, /*# sorties liquides*/,
+	  new SimpleRecipeBuilder(), //¹
+	  false
+      )
+    
+      public MetaTileEntity/*Name of Multiblock*/(ResourceLocation metaTileEntityId) {
+	  super(metaTileEntityId, RECIPE_MAP)
+      }
+
+      @Override
+      public MetaTileEntity createMetaTileEntity(IGregTechTileEntity tileEntity) {
+	  return new MetaTileEntity/*Name of Multiblock*/(metaTileEntityId)
+      }
+
+      @Override
+      protected BlockPattern createStructurePattern() {
+	  return FactoryBlockPattern.start()
+	      .aisle("CCCCC", "CCCCC", "CGGGC", "CCCCC", "CCCCC")
+	      .aisle("CCCCC", "C###C", "G#D#G", "C###C", "CCCCC")
+	      .aisle("CCCCC", "C#D#C", "GDRDG", "C#D#C", "CCCCC")
+	      .aisle("CCCCC", "C###C", "G#D#G", "C###C", "CCCCC")
+	      .aisle("CCCCC", "CCSCC", "CGGGC", "CCCCC", "CCCCC")
+	      .where('S' as char, selfPredicate())
+	      .where('G' as char, MetaBlocks.TRANSPARENT_CASING.getState(BlockGlassCasing.CasingType.FUSION_GLASS))
+	      .where('C' as char, MetaBlocks.FUSION_CASING.getState(BlockFusionCasing.CasingType.FUSION_CASING)
+		     .or(autoAbilities()))
+	      .where('D' as char, MetaBlocks.FUSION_CASING.getState(BlockFusionCasing.CasingType.FUSION_COIL))
+	      .where('G' as char, blockstate('minecraft:stone'))
+	      .where('#' as char, air())
+	      .build() // Pattern to replace
+      }
+
+      @Override
+      @SideOnly(Side.CLIENT)
+      public ICubeRenderer getBaseTexture(IMultiblockPart sourcePart) {
+	  return /* texture à utiliser pour les hatchs quand bien formés */
+      }
+  }
+
+#+end_src
