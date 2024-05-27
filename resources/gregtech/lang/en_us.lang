@@ -1,18 +1,3 @@
-gregtech.material.basicmixedalloy=Elementary Metal Agglomerate
-gregtech.material.moderatemixedalloy=High Yield Meltal Agglomerate
-gregtech.material.densemetalalloy=Extreme Density Metal Agglomerate
-gregtech.material.alkalinegroup=Alkaline Metal Group
-gregtech.material.alkalineearth=Alkaline-Earth Metal Group
-gregtech.material.tranmetgpone=Transition Metal Sub-Group 1
-gregtech.material.tranmetgptwo=Transition Metal Sub-Group 2
-gregtech.material.transmetgthree=Transition Metal Sub-Group 3
-gregtech.material.lanthanide=Lanthanides Metal Group
-gregtech.material.actinide=Actinides Metal Group
-gregtech.material.poormetal=Poor Metal Group
-gregtech.material.othmetals=Metaloids and other Group
-gregtech.material.nblgas=Noble Gas Group
-gregtech.material.comgas=Common Gas
-
 multiblocktweaker.machine.black_hole.name=Enigmatic Black Hole Generator
 multiblocktweaker.machine.black_hole.tooltip=Use Precursor Databank to make real Dark Matter
 recipemap.Black_hole_syhnt.name=Enigmatic Black Hole Generator

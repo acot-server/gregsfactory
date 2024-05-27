@@ -34,7 +34,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('devtech:bioassembler.zpm') * 1)
+    .outputs(metaitem('bio_circuit_assembler.zpm') * 1)
     .stationResearch(b -> b.researchStack(metaitem('circuit.wetware_mainframe')).CWUt(128,2560000).EUt(580000))
     .EUt(131072)
     .duration(1200)
@@ -51,8 +51,8 @@ assembly_line.recipeBuilder()
     .fluidInputs(
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('devtech:bioassembler.uv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('devtech:bioassembler.zpm')).CWUt(144,2880000).EUt(2000000))
+    .outputs(metaitem('bio_circuit_assembler.uv') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.zpm')).CWUt(144,2880000).EUt(2000000))
     .EUt(524288)
     .duration(1200)
     .buildAndRegister();
@@ -68,8 +68,8 @@ assembly_line.recipeBuilder()
     .fluidInputs(
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('devtech:bioassembler.uhv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('devtech:bioassembler.uv')).CWUt(160,3200000).EUt(8000000))
+    .outputs(metaitem('bio_circuit_assembler.uhv') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uv')).CWUt(160,3200000).EUt(8000000))
     .EUt(2000000)
     .duration(1200)
     .buildAndRegister();
@@ -85,8 +85,8 @@ assembly_line.recipeBuilder()
     .fluidInputs(
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('devtech:bioassembler.uev') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('devtech:bioassembler.uhv')).CWUt(172,35200006).EUt(24000000))
+    .outputs(metaitem('bio_circuit_assembler.uev') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uhv')).CWUt(172,35200006).EUt(24000000))
     .EUt(8000000)
     .duration(1200)
     .buildAndRegister();
@@ -102,8 +102,8 @@ assembly_line.recipeBuilder()
     .fluidInputs(
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('devtech:bioassembler.uiv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('devtech:bioassembler.uev')).CWUt(192,3840000).EUt(60000000))
+    .outputs(metaitem('bio_circuit_assembler.uiv') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uev')).CWUt(192,3840000).EUt(60000000))
     .EUt(32000000)
     .duration(1200)
     .buildAndRegister();
@@ -119,8 +119,8 @@ assembly_line.recipeBuilder()
     .fluidInputs(
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('devtech:bioassembler.uxv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('devtech:bioassembler.uiv')).CWUt(224,4480000).EUt(160000000))
+    .outputs(metaitem('bio_circuit_assembler.uxv') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uiv')).CWUt(224,4480000).EUt(160000000))
     .EUt(128000000)
     .duration(1200)
     .buildAndRegister();
@@ -136,8 +136,8 @@ assembly_line.recipeBuilder()
     .fluidInputs(
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('devtech:bioassembler.opv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('devtech:bioassembler.uxv')).CWUt(240,4800000).EUt(320000000))
+    .outputs(metaitem('bio_circuit_assembler.opv') * 1)
+    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uxv')).CWUt(240,4800000).EUt(320000000))
     .EUt(500000000)
     .duration(1200)
     .buildAndRegister();

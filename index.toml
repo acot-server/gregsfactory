@@ -182,7 +182,7 @@ hash = "bf1a59964c778bf6961f52cc8fe334c6bbd4f0b16ead69c1654d9bf13acaea2b"
 
 [[files]]
 file = "groovy/postInit/adv_electronics.groovy"
-hash = "55f310906fc94387a683ec7d4639dab2c3e81e6ebd9d94373392530f8e95efa1"
+hash = "d23918d93d3edf32e7e88f46d088805f72f8fdbdd13411d350f428797e8b507e"
 
 [[files]]
 file = "groovy/postInit/ae2.groovy"
@@ -206,11 +206,15 @@ hash = "147f9fb65c41566ea6a6619ec7612f2c80f7ef1a129c8ca67a78a512f52180be"
 
 [[files]]
 file = "groovy/postInit/creative_stuff.groovy"
-hash = "f5818e1e9030816ef757521441ba3bbdbe2119868a89f1b57859429478026654"
+hash = "70e28994db9aa93c698276112099d014dc62056d8376eacda51da5d19b8637c1"
 
 [[files]]
 file = "groovy/postInit/dark_matter_eletronics.groovy"
 hash = "17eaa1864800096a9de0823f59bc6b0262f1e9a13055632553968f7804006a72"
+
+[[files]]
+file = "groovy/postInit/dense_processing.groovy"
+hash = "ca94eba154b3d6774495802761b5c7094a573c21ada21c49b440340632deafba"
 
 [[files]]
 file = "groovy/postInit/early_game_fixes.groovy"
@@ -610,8 +614,8 @@ hash = "3c7a58fcef9e70066781f991e455df2bb0152f7fcebecbb4441270869e1f0b29"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-1.12.2-2.7.4.Qilby-beta.jar"
-hash = "a20de6b78335cfeedab8fab763cd6578fb589959a0006b6724ec29e3ad39d255"
+file = "mods/gregtech-1.12.2-2.7.4-Shinonome-beta.jar"
+hash = "2be363ff3d262bc62441f3c55d5bbeb0364141ec1c6caadaca80227f6cabc3e7"
 
 [[files]]
 file = "mods/groovyscript-0.6.4.jar"
@@ -963,12 +967,13 @@ hash = "e83509fa695a2705f8d05b2a2154daf8f433631914ec74b221d050d6c5ebde55"
 metafile = true
 
 [[files]]
-file = "resources/devtech/lang/en_us.lang"
-hash = "ea48c2692d1df51b2552afe57ddd6b3254f3b928fe33119195eac7c9d6e3ce18"
+file = "resourcepacks/gregtech-refreshed.pw.toml"
+hash = "c48d5417ff26ace18ab7061758233ba7d972f75433124e8779596d8ea6d868ac"
+metafile = true
 
 [[files]]
 file = "resources/gregtech/lang/en_us.lang"
-hash = "e86c61644f29bf76f82b99dcc158f38be4eabcb607a12d9ca36845d3e9f195c4"
+hash = "61aef3b726392cae733c5409e3e830c9673e7fe9f8df6bf14addba315e03285b"
 
 [[files]]
 file = "resources/pack.mcmeta"
@@ -988,19 +993,11 @@ hash = "a54abff6c4872afcd0b4e05947a4abad07ea65931a15d214266fe4dd21ed2fe8"
 
 [[files]]
 file = "scripts/bio-electronics.zs"
-hash = "f92e7b4dea0342395d3281c5b1c5cec7d1ca993967063c65c2ea25cc107d02fa"
+hash = "0b3db7c1b82e1a02b474710914a98fe06317ea1830699d4054b9ec4082a65f0d"
 
 [[files]]
 file = "scripts/circuitoreditct.zs"
 hash = "cfa02752fe6ad504f9194e4f63c6c3bc88d0639f58bf6b12fe398cd5ac261255"
-
-[[files]]
-file = "scripts/dense_processing.zs"
-hash = "eacce0c87c80064c37f54ffec5a43a8e8e2df5370420982ae7180273d08bd627"
-
-[[files]]
-file = "scripts/ebf_coil.zs"
-hash = "b7619eccb487d93434e67de6e787f144dd1de84fe118dc23d0aad2b626bc4d6e"
 
 [[files]]
 file = "scripts/environmental_tech.zs"
@@ -1019,14 +1016,6 @@ file = "scripts/jei.zs"
 hash = "a8726a0deba3fc1ae737a257855337fa2c493210f140d63c0d0791b14628c46b"
 
 [[files]]
-file = "scripts/materials.zs"
-hash = "3856c4f78ceb9a61331035bfb0302cc3a052e2a0e2a950ecacd08afb9bae39c7"
-
-[[files]]
-file = "scripts/materials2.zs"
-hash = "b233c5c70f132cc3d68767c52622c972d6cd3cea7a81b4306b8cf694e7a4a70d"
-
-[[files]]
 file = "scripts/mfr.zs"
 hash = "a56da32b901af31283d429df146bdd3104cda1563d868b4bfb404ff6c5f5aab9"
 
@@ -1040,15 +1029,11 @@ hash = "16d065a36cd765b90e42cc2204e5181044111c6cf31d4dbd517f4d8cb4372441"
 
 [[files]]
 file = "scripts/recipe_map.zs"
-hash = "580c5d75376c0cb57c12dcb7d1aae97d752149a1d3c0938d95c742927b4b6caa"
+hash = "21153de5a7d23f0f183428ebbe0247a2c584c834e36607e19b654133ba0a712f"
 
 [[files]]
 file = "scripts/rock_breaker.zs"
 hash = "2874d5e6e3aa9472638d32d227d6ea947104d89e066119fb1602efe5f360b68c"
-
-[[files]]
-file = "scripts/rtg.zs"
-hash = "89b4c1548d70f7e27bd7f4cbe6daa7b019f24c98692e18773a90e55f3aa4d773"
 
 [[files]]
 file = "scripts/tanks.zs"

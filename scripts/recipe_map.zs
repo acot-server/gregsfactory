@@ -17,21 +17,6 @@ import mods.gregtech.recipe.RecipeMap;
 val wakfureactor as RecipeMap = <recipemap:wakfu_generator>;
 val naquadahgen as RecipeMap = <recipemap:naquadah_generator>;
 
-MachineBuilder.create(32100, "wakfugenerator")
-    .setRecipeMap(wakfureactor)
-    .setRenderer("machines/wakfu_reactor")
-    .addTier(10,11,12,13,14)
-    .setGenerator()
-    .buildAndRegister();
-
-MachineBuilder.create(32100, "naquadahgenerator")
-    .setRecipeMap(naquadahgen)
-    .setRenderer("machines/naquadah_reactor")
-    .addTier(5,6,7,8,9)
-    .setGenerator()
-    .buildAndRegister();
-    
-
 wakfureactor.recipeBuilder()
     .fluidInputs(<liquid:wakfu> * 1)
     .EUt(8388608)

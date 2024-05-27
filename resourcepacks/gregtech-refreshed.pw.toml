@@ -1,0 +1,18 @@
+name = "GregTech: Refreshed"
+filename = "GregTech Refreshed v0.7 [1.12].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZemCyvLM/versions/VkAoaulJ/GregTech%20Refreshed%20v0.7%20%5B1.12%5D.zip"
+hash-format = "sha1"
+hash = "3ff03f0be50e402236bfd271d2503a03d22d8ec0"
+
+[update]
+[update.modrinth]
+mod-id = "ZemCyvLM"
+version = "VkAoaulJ"
+
+[option]
+optional = true
+default = false
+description = "GT-Modern textures for Gregtech"

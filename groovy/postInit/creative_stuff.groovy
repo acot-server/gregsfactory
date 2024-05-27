@@ -7,10 +7,11 @@ def research_station = recipemap('research_station');
 //Creatif quantum tank
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('quantum_tank.uhv') * 64,
-        metaitem('gravistar') * 32,
-        metaitem('electric.pump.opv') * 64,
-        metaitem('circuit.omega_universal_supercomputer') * 2
+        metaitem('quantum_tank.uhv') * 16,
+        metaitem('gravistar') * 64,
+        metaitem('electric.pump.opv') * 16,
+        item('nae2:material', 8) * 16,
+        metaitem('circuit.omega_universal_supercomputer') * 4
     )
     .fluidInputs(
         fluid('wakfustasis') * 64000
@@ -24,18 +25,14 @@ assembly_line.recipeBuilder()
 //Creatif quantum chest
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('infinite_energy') * 64,
-        metaitem('creative_tank') * 64,
-        metaitem('quantum_chest.uhv') * 64,
-        metaitem('quantum_chest.uhv') * 64,
-        item('nae2:material', 4) * 64,
-        item('nae2:material', 4) * 64,
-        metaitem('conveyor.module.opv') * 64,
-        metaitem('conveyor.module.opv') * 64,
+        metaitem('infinite_energy') * 16,
+        metaitem('creative_tank') * 16,
+        metaitem('quantum_chest.uhv') * 16,
+        item('nae2:material', 4) * 16,
+        metaitem('conveyor.module.opv') * 16,
         item('avaritiaddons:avaritiaddons_chest', 1) * 4,
         metaitem('gravistar') * 64,
-        metaitem('robot.arm.opv') * 64,
-        metaitem('robot.arm.opv') * 64,
+        metaitem('robot.arm.opv') * 16,
         metaitem('circuit.omega_universal_supercomputer') * 64
     )
     .fluidInputs(
@@ -50,17 +47,12 @@ assembly_line.recipeBuilder()
 //Creatif energy emmiter
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('devtech:wakfugenerator.max') * 64,
-        metaitem('devtech:wakfugenerator.max') * 64,
-        metaitem('field.generator.opv') * 64,
-        metaitem('field.generator.opv') * 64,
-        metaitem('emitter.opv') * 64,
-        metaitem('emitter.opv') * 64,
-        metaitem('sensor.opv') * 64,
-        metaitem('sensor.opv') * 64,
+        metaitem('wakfu_reactor.max') * 16,
+        metaitem('field.generator.opv') * 16,
+        metaitem('emitter.opv') * 16,
+        metaitem('sensor.opv') * 16,
         metaitem('gravistar') * 64,
-        metaitem('max.battery') * 64,
-        metaitem('max.battery') * 64,
+        metaitem('max.battery') * 8,
         metaitem('circuit.omega_universal_supercomputer') * 4
     )
     .fluidInputs(
