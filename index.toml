@@ -182,7 +182,7 @@ hash = "aed8f259a46b4565c43f044b687b1688bc4596421987fe8ae253284bb7c171b4"
 
 [[files]]
 file = "groovy/postInit/adv_electronics.groovy"
-hash = "54e9801284b2788e9ab294d879cc5d5cca77e2bf17c7e2745059230c63f75d90"
+hash = "90fd4f8db49bdfa10e8319bd61c491fc9c4b0dc4c3cf8c3815ff3f7d274ebe00"
 
 [[files]]
 file = "groovy/postInit/ae2.groovy"
@@ -190,7 +190,7 @@ hash = "1b5f7830c7a465d75939e500d335cadc318da52b1e360872b895c4f189ad1f86"
 
 [[files]]
 file = "groovy/postInit/alpha_electronics.groovy"
-hash = "9a627e017dcf8254eecf62dc255f1a79e4a90011f5bf8e6d7d75a969b12e2c7e"
+hash = "c99b196b10b60f485ba004462f2388061a5c719bf1086ab51068746efd703582"
 
 [[files]]
 file = "groovy/postInit/armor.groovy"
@@ -199,6 +199,10 @@ hash = "1af443c8516f959d860cf12eb3620c12b71a75f5dd5d4cc51a1b2a9f0d78bd31"
 [[files]]
 file = "groovy/postInit/bc-logistics.groovy"
 hash = "8c0e2c4b00b43e976e02044c68f426ba4716232ace8bacda1c0e355896d9df3a"
+
+[[files]]
+file = "groovy/postInit/bio_electronic_adv.groovy"
+hash = "e5c0546db34e9a0b7a717d93678a1897080dce8948484345badd642364d233be"
 
 [[files]]
 file = "groovy/postInit/coils.groovy"
@@ -210,7 +214,7 @@ hash = "df34ceb988d5f25b622105c652843459811f101a7441fc7272ed7f8ee25c4591"
 
 [[files]]
 file = "groovy/postInit/dark_matter_eletronics.groovy"
-hash = "a677fa76f968fbd813f4a6015d57b8433e8d9fe862921de567316b06bd513446"
+hash = "c5f3ff2621d189d87ea2568ce638d4b4e06ab6d0213a2fc6144fcdb8ea1d65c9"
 
 [[files]]
 file = "groovy/postInit/dense_processing.groovy"
@@ -245,12 +249,20 @@ file = "groovy/postInit/gt_parts_uxv.groovy"
 hash = "4788afa380ae5613a525f41eb50f7c3d460bd541c49fcff52428f4dc270339a8"
 
 [[files]]
+file = "groovy/postInit/misc.groovy"
+hash = "3f51e0c6bea19c01f6fbc663a730e4cce8c29044b0c1f6b8e8aab8b629a96331"
+
+[[files]]
+file = "groovy/postInit/new_silicon.groovy"
+hash = "4a9baa1b383378cee00f5a8be1c04431aa40b0690fb8d8d450252fc06668b694"
+
+[[files]]
 file = "groovy/postInit/opv.groovy"
-hash = "2c51ac38565cf00c018a1738134300c6d674a1b392b922f1cb337e36d898d761"
+hash = "92f9a84033c57bb6823302d964d0f07fad366b4cb03fc29784f95878700a568c"
 
 [[files]]
 file = "groovy/postInit/phenomenal_eletronics.groovy"
-hash = "c9407a8e5db88f34adf70e1efa7554b941d0a54fa475469a833b567ef1999948"
+hash = "40810b5cd9f70f5d3e7d87db3925cff0f43425d3ae4f48ffd376e1438dc22972"
 
 [[files]]
 file = "groovy/postInit/precursor_tech.groovy"
@@ -262,35 +274,35 @@ hash = "0b45b380f3af044427e64b6579df6adfc46c9f268a3bd6a49ce2e90f256ecb24"
 
 [[files]]
 file = "groovy/postInit/sigma_eletronics.groovy"
-hash = "f2f66abbf538aadc6b5700aeeb08776384352d4f42e4f24479fb4ba2495a544a"
+hash = "440076d9b41104fecdad28054330592d1e706e9045fd996735c4488d49ed8501"
 
 [[files]]
 file = "groovy/postInit/smd.groovy"
-hash = "20e712db4a8a10e528d251b118231c25c0f4e38bc7a6898cf5abfbb4be717e69"
+hash = "33145e4866a3aa287274cd39ecf3b8e1126f98a46ec09ac77c2865e0f9c4dd80"
 
 [[files]]
 file = "groovy/postInit/stellarborn_eletronics.groovy"
-hash = "062fc8fa7939fdd87ca22e8915cf5a9036a8879ce0d899259e3932e21a23b95b"
+hash = "a3ec5c24cbe1d206796ce310f521636181eabebcaf3e2e889e5c3f1e8c9e6e54"
 
 [[files]]
 file = "groovy/postInit/uev.groovy"
-hash = "10baa13e60146a165a4a88558218cb707cb453dabe8c8e047bae6e6e88854cee"
+hash = "8f20d612a19581b2acd9b73c54f2b1936ab149385eb298484192aafbc1544188"
 
 [[files]]
 file = "groovy/postInit/uhv.groovy"
-hash = "af55d68203893f2c4a2c8e0d3119ed5c7ef79edacac4397de340afb02e7ccdff"
+hash = "eaf5fa2873418a30888fc1d6722bd60cc89f014ab47d6e51251b7588d613ff87"
 
 [[files]]
 file = "groovy/postInit/uiv.groovy"
-hash = "a2e6d030d760fa6e388d160650a0d43594f136fcc1e9b62b8354d733f4e61bb1"
+hash = "4edd6306eb5399a73fed849881dfc12207b71cfbda5b3a2786575deb2c6008ca"
 
 [[files]]
 file = "groovy/postInit/uxv.groovy"
-hash = "d1d25f37b46e5cb58ee98e71f0ea96ce28d412657e94a1099ac035e5b8624c6a"
+hash = "dd43150018964974a33fb6b38baf4990f4ba626df40ef49deec8816170060cec"
 
 [[files]]
 file = "groovy/postInit/wakfu_process.groovy"
-hash = "8fff583b286f7b948b0017e978c0f078e4dd1d746760b444d684055a24cda055"
+hash = "513f164eacc0642462f7f0872a7eebe23b6dbd5b9dd86d095a63d18faf0f2dbc"
 
 [[files]]
 file = "groovy/postInit/wrought_iron.groovy"
@@ -992,10 +1004,6 @@ file = "scripts/adv_fuel.zs"
 hash = "a54abff6c4872afcd0b4e05947a4abad07ea65931a15d214266fe4dd21ed2fe8"
 
 [[files]]
-file = "scripts/bio-electronics.zs"
-hash = "b0a7144830d8a6d04d13fe0a640f313d5301b2ace972ff1222a32b84f7d6c505"
-
-[[files]]
 file = "scripts/circuitoreditct.zs"
 hash = "cfa02752fe6ad504f9194e4f63c6c3bc88d0639f58bf6b12fe398cd5ac261255"
 
@@ -1022,6 +1030,10 @@ hash = "a56da32b901af31283d429df146bdd3104cda1563d868b4bfb404ff6c5f5aab9"
 [[files]]
 file = "scripts/naquadah_reactor.zs"
 hash = "6db911f91f642f278ae039b654bb4f40db3a81b70ee20996b70989524bb20415"
+
+[[files]]
+file = "scripts/opv.zs.old"
+hash = "4a55ba0291281066678576ad66fb214cfd36571d2b34df5b87e40f8194947c21"
 
 [[files]]
 file = "scripts/projecte.zs"
