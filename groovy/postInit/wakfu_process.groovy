@@ -7,7 +7,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 500)
     .fluidOutputs(fluid('diluted_sulfuric_acid') * 500)
     .outputs(item('gregtech:meta_dust_small', 32000) * 2)
-    .EUt(120000)
+    .EUt(120)
     .duration(2000)
     .buildAndRegister();
 
@@ -16,7 +16,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 500)
     .fluidOutputs(fluid('diluted_sulfuric_acid') * 500)
     .outputs(item('gregtech:meta_dust_small', 32000) * 2)
-    .EUt(120000)
+    .EUt(120)
     .duration(2000)
     .buildAndRegister();
 
@@ -25,7 +25,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(fluid('diluted_sulfuric_acid') * 5000)
     .outputs(metaitem('dustWakfu') * 4)
-    .EUt(640000)
+    .EUt(640)
     .duration(2000)
     .buildAndRegister();
 
@@ -34,7 +34,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(fluid('diluted_sulfuric_acid') * 5000)
     .outputs(metaitem('dustWakfu') * 6)
-    .EUt(1200000)
+    .EUt(1200)
     .duration(2000)
     .buildAndRegister();
 
@@ -43,7 +43,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(fluid('diluted_sulfuric_acid') * 5000)
     .outputs(metaitem('dustWakfu') * 10)
-    .EUt(1200000)
+    .EUt(1200)
     .duration(2000)
     .buildAndRegister();
 
@@ -60,6 +60,6 @@ centrifuge.recipeBuilder()
     .inputs(metaitem('dustWakfu') * 9)
     .fluidInputs(fluid('hydrofluoric_acid') * 5000)
     .outputs(metaitem('dustSmallStasis') * 2)
-    .EUt(1200000)
+    .EUt(1200)
     .duration(2000)
     .buildAndRegister();
