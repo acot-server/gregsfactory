@@ -60,7 +60,7 @@ def LNtFpipe = metaitem('pipeLargeFluidNeutronium'); //Large Neutronium Fluid Pi
 def SBring = metaitem('ringStyreneButadieneRubber'); //Styrene butadiene rubber ring
 def gstar = metaitem('gravistar'); //Gravi-Star
 def frame = metaitem('frameTritanium'); //Tritanium Frame
-def UHPIC = metaitem('plate.ultra_high_power_integrated_circuit'); //UHPIC
+def UHPIC = metaitem('plate.infinity_high_power_integrated_circuit'); //UHPIC
 def SMDT = metaitem('smd.capacitor.supracausal'); 
 def SMDC = metaitem('smd.transistor.supracausal');
 def SMDR = metaitem('smd.diode.supracausal');
@@ -426,7 +426,7 @@ mods.gregtech.assembly_line.removeByInput(300000, [metaitem('plateDoubleDarmstad
 //Lightmatter extremly small capacitor
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 1,
+        metaitem('circuit_board.enigmatic') * 1,
         Plate * 16,
         circuitOPV * 4,
         metaitem('phi.uxv') * 1,
@@ -452,7 +452,7 @@ assembly_line.recipeBuilder()
 //Primal Doifus
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 1,
+        metaitem('circuit_board.enigmatic') * 1,
         Plate * 16,
         circuitOPV * 8,
         item('gregtech:meta_item_1:758') * 1,
@@ -478,7 +478,7 @@ assembly_line.recipeBuilder()
 //Pure Light Matter Transciver
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 1,
+        metaitem('circuit_board.enigmatic') * 1,
         Plate * 16,
         circuitOPV * 16,
         metaitem('elia.opv') * 16,
@@ -632,7 +632,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.opv') * 1,
         metaitem('cableGtSingleRunicalloy') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         ore('circuitOpv') * 1,
         metaitem('phi.uxv') * 1
     )
@@ -650,7 +650,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input.opv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleRunicalloy') * 1,
         metaitem('phi.uxv') * 1,
         metaitem('transformer.opv') * 1
@@ -664,7 +664,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_4a.opv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleRunicalloy') * 1,
         metaitem('phi.uxv') * 1,
         metaitem('transformer.hi_amp.opv') * 1
@@ -678,7 +678,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_16a.opv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleRunicalloy') * 1,
         metaitem('phi.uxv') * 1,
         metaitem('transformer.adjustable.opv') * 1
@@ -693,7 +693,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.opv') * 1,
         metaitem('cableGtSingleRunicalloy') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         ore('circuitOpv') * 1,
         metaitem('emitter.opv') * 1
     )
@@ -711,7 +711,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output.opv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleRunicalloy') * 1,
         metaitem('phi.uxv') * 1,
         metaitem('transformer.opv') * 1,
@@ -726,7 +726,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_4a.opv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleRunicalloy') * 1,
         metaitem('phi.uxv') * 1,
         metaitem('transformer.hi_amp.opv') * 1,
@@ -741,7 +741,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_16a.opv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleRunicalloy') * 1,
         metaitem('phi.uxv') * 1,
         metaitem('transformer.adjustable.opv') * 1,

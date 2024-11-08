@@ -60,11 +60,11 @@ def LNtFpipe = metaitem('pipeLargeFluidNeutronium'); //Large Neutronium Fluid Pi
 def SBring = metaitem('ringStyreneButadieneRubber'); //Styrene butadiene rubber ring
 def gstar = metaitem('gravistar'); //Gravi-Star
 def frame = metaitem('frameDarkenergyalloy'); //Tritanium Frame
-def UHPIC = metaitem('plate.ultra_high_power_integrated_circuit'); //UHPIC
-def SMDT = metaitem('smd.transistor.supracausal'); //SMD Supra-Causal Transistor
-def SMDC = metaitem('smd.capacitor.supracausal'); //SMD Supra-Causal Capacitor
-def SMDR = metaitem('smd.resistor.supracausal'); //SMD Supra-Causal Resistor
-def SMDD = metaitem('smd.diode.supracausal'); //SMD Supra-Causal Diode
+def UHPIC = metaitem('plate.ultimate_high_power_integrated_circuit'); //XHPIC
+def SMDT = metaitem('component.smd.transistor.wetware'); //SMD Supra-Causal Transistor
+def SMDC = metaitem('component.smd.capacitor.wetware'); //SMD Supra-Causal Capacitor
+def SMDR = metaitem('component.smd.resistor.wetware'); //SMD Supra-Causal Resistor
+def SMDD = metaitem('component.smd.diode.wetware');
 
 //UIV Machine Casing
 crafting.addShaped('UIV Machine Casing', item('gregtech:machine_casing', 11) * 1,
@@ -418,7 +418,7 @@ crafting.addShaped('UIV 16x Battery Buffer', item('gregtech:machine', 1354) * 1,
 //Dark Matter Capacitor
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 1,
+        metaitem('circuit_board.enigmatic') * 1,
         Plate * 16,
         circuitUIV * 4,
         metaitem('alpha.uev') * 1,
@@ -572,7 +572,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.uiv') * 1,
         metaitem('cableGtSingleDarkenergyalloy') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         ore('circuitUiv') * 1,
         metaitem('alpha.uev') * 1
     )
@@ -590,7 +590,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input.uiv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtHexDarkenergyalloy') * 1,
         metaitem('alpha.uev') * 1,
         metaitem('transformer.uiv') * 1
@@ -604,7 +604,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_4a.uiv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleDarkenergyalloy') * 1,
         metaitem('alpha.uev') * 1,
         metaitem('transformer.hi_amp.uiv') * 1
@@ -618,7 +618,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_16a.uiv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleDarkenergyalloy') * 1,
         metaitem('alpha.uev') * 1,
         metaitem('transformer.adjustable.uiv') * 1
@@ -633,7 +633,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.uiv') * 1,
         metaitem('cableGtSingleDarkenergyalloy') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         ore('circuitUiv') * 1,
         metaitem('emitter.uiv') * 1
     )
@@ -651,7 +651,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output.uiv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtHexDarkenergyalloy') * 1,
         metaitem('alpha.uev') * 1,
         metaitem('transformer.uiv') * 1,
@@ -666,7 +666,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_4a.uiv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleDarkenergyalloy') * 1,
         metaitem('alpha.uev') * 1,
         metaitem('transformer.hi_amp.uiv') * 1,
@@ -681,7 +681,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_16a.uiv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleDarkenergyalloy') * 1,
         metaitem('alpha.uev') * 1,
         metaitem('transformer.adjustable.uiv') * 1,

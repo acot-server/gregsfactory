@@ -24,7 +24,7 @@ assembly_line.recipeBuilder()
 
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 1,
+        metaitem('circuit_board.enigmatic') * 1,
         metaitem('circuit.alpha_processor') * 4,
         metaitem('component.smd.transistor.quantum') * 4,
         metaitem('component.smd.capacitor.quantum') * 4,

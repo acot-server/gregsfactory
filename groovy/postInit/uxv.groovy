@@ -60,11 +60,11 @@ def LNtFpipe = metaitem('pipeLargeFluidNeutronium'); //Large Neutronium Fluid Pi
 def SBring = metaitem('ringStyreneButadieneRubber'); //Styrene butadiene rubber ring
 def gstar = metaitem('gravistar'); //Gravi-Star
 def frame = metaitem('frameTritanium'); //Tritanium Frame
-def UHPIC = metaitem('plate.ultra_high_power_integrated_circuit'); //UHPIC
-def SMDT = metaitem('smd.transistor.supracausal'); //SMD Supra-Causal Transistor
-def SMDC = metaitem('smd.capacitor.supracausal'); //SMD Supra-Causal Capacitor
-def SMDR = metaitem('smd.resistor.supracausal'); //SMD Supra-Causal Resistor
-def SMDD = metaitem('smd.diode.supracausal'); //SMD Supra-Causal Diode
+def UHPIC = metaitem('plate.ultimate_high_power_integrated_circuit'); //UHPIC
+def SMDT = metaitem('component.smd.transistor.wetware'); //SMD Supra-Causal Transistor
+def SMDC = metaitem('component.smd.capacitor.wetware'); //SMD Supra-Causal Capacitor
+def SMDR = metaitem('component.smd.resistor.wetware'); //SMD Supra-Causal Resistor
+def SMDD = metaitem('component.smd.diode.wetware'); //SMD Supra-Causal Diode
 
 //UXV Machine Casing
 crafting.addShaped("UXV Machine Casing", item('gregtech:machine_casing', 12) * 1,
@@ -417,7 +417,7 @@ crafting.addShaped("UXV 16x Battery Buffer", item('gregtech:machine:1355') * 1,
 //Runic Stellarite Powered Capacitor
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 1,
+        metaitem('circuit_board.enigmatic') * 1,
         Plate * 16,
         circuitUXV * 6,
         metaitem('sigma.uiv') * 1,
@@ -571,7 +571,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.uxv') * 1,
         metaitem('cableGtSingleStellarite') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         ore('circuitUxv') * 1,
         metaitem('sigma.uiv') * 1
     )
@@ -589,7 +589,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input.uxv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleStellarite') * 1,
         metaitem('sigma.uiv') * 1,
         metaitem('transformer.uxv') * 1
@@ -603,7 +603,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_4a.uxv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleStellarite') * 1,
         metaitem('sigma.uiv') * 1,
         metaitem('transformer.hi_amp.uxv') * 1
@@ -617,7 +617,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_16a.uxv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleStellarite') * 1,
         metaitem('sigma.uiv') * 1,
         metaitem('transformer.adjustable.uxv') * 1
@@ -632,7 +632,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.uxv') * 1,
         metaitem('cableGtSingleStellarite') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         ore('circuitUxv') * 1,
         metaitem('emitter.uxv') * 1
     )
@@ -650,7 +650,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output.uxv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleStellarite') * 1,
         metaitem('sigma.uiv') * 1,
         metaitem('transformer.uxv') * 1,
@@ -665,7 +665,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_4a.uxv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleStellarite') * 1,
         metaitem('sigma.uiv') * 1,
         metaitem('transformer.hi_amp.uxv') * 1,
@@ -680,7 +680,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_16a.uxv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleStellarite') * 1,
         metaitem('sigma.uiv') * 1,
         metaitem('transformer.adjustable.uxv') * 1,

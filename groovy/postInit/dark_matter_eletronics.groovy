@@ -27,7 +27,7 @@ assembly_line.recipeBuilder()
 //Delta Supercomputer -- UHV Circuit
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 2,
+        metaitem('circuit_board.enigmatic') * 2,
         metaitem('circuit.delta_processor') * 4,
         metaitem('component.smd.transistor.quantum') * 12,
         metaitem('component.smd.capacitor.quantum') * 12,

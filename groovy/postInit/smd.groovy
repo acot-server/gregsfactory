@@ -12,7 +12,7 @@ def research_station = recipemap('research_station');
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_foil', 334) * 1,
-        item('gregtech:meta_item_1', 282) * 1,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 1,
         item('gregtech:meta_wire_fine', 128) * 8
     ])
     .fluidInputs(fluid('polybenzimidazole') * 288)
@@ -25,7 +25,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_dust', 342) * 1,
-        item('gregtech:meta_item_1', 282) * 1,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 1,
         item('gregtech:meta_wire_fine', 126) * 8
     ])
     .fluidInputs(fluid('polybenzimidazole') * 288)
@@ -38,7 +38,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_foil', 128) * 4,
-        item('gregtech:meta_item_1', 282) * 1,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 1,
         item('gregtech:meta_foil', 396) * 1
     ])
     .fluidInputs(fluid('polybenzimidazole') * 36)
@@ -51,7 +51,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_dust', 351) * 1,
-        item('gregtech:meta_item_1', 282) * 1,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 1,
         item('gregtech:meta_wire_fine', 344) * 8
     ])
     .fluidInputs(fluid('polybenzimidazole') * 36)
@@ -64,7 +64,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_foil', 32003) * 2,
-        item('gregtech:meta_item_1', 387) * 1,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 1,
         item('gregtech:meta_foil', 32004) * 2
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)
@@ -77,7 +77,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_wire_fine', 32003) * 2,
-        item('gregtech:meta_item_1', 387) * 1,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 1,
         item('gregtech:meta_wire_fine', 32004) * 2
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)
@@ -90,7 +90,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_wire_fine', 32003) * 8,
-        item('gregtech:meta_item_1', 387) * 1,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 1,
         item('gregtech:meta_dust', 342) * 2
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)
@@ -103,7 +103,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_wire_fine', 32003) * 8,
-        item('gregtech:meta_item_1', 387) * 1,
+        metaitem('plate.ultimate_high_power_integrated_circuit') * 1,
         item('gregtech:meta_foil', 32003) * 2
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)
@@ -112,11 +112,11 @@ assembler.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
-//Supracausal Transistor
+//Supracausal Transistore
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_wire_fine', 32006) * 8,
-        ore('circuitUiv') * 1,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 1,
         item('gregtech:meta_foil', 32005) * 2
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)
@@ -129,7 +129,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_foil', 32006) * 2,
-        ore('circuitUiv') * 1,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 1,
         item('gregtech:meta_foil', 32005) * 2
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)
@@ -142,7 +142,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_wire_fine', 32006) * 8,
-        ore('circuitUiv') * 1,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 1,
         item('gregtech:meta_dust', 342) * 2
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)
@@ -155,7 +155,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         item('gregtech:meta_wire_fine', 32006) * 8,
-        ore('circuitUiv') * 1,
+        metaitem('plate.infinity_high_power_integrated_circuit') * 1,
         item('gregtech:meta_wire_fine', 32005) * 8
     ])
     .fluidInputs(fluid('polybenzimidazole') * 144)

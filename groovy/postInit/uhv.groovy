@@ -59,11 +59,10 @@ def LNtFpipe = metaitem('pipeLargeFluidNeutronium'); //Large Neutronium Fluid Pi
 def SBring = metaitem('ringStyreneButadieneRubber'); //Styrene butadiene rubber ring
 def gstar = metaitem('gravistar'); //Gravi-Star
 def frame = metaitem('frameWakfu'); //Tritanium Frame
-def UHPIC = metaitem('plate.ultra_high_power_integrated_circuit'); //UHPIC
-def SMDT = metaitem('component.smd.transistor.wetware'); //SMD Wetware Transistor
-def SMDC = metaitem('component.smd.capacitor.wetware'); //SMD Wetware Capacitor
-def SMDR = metaitem('component.smd.resistor.wetware'); //SMD Wetware Resistor
-def SMDD = metaitem('component.smd.diode.wetware'); //SMD Wetware Diode
+def SMDT = metaitem('component.smd.transistor.quantum'); //SMD quantum Transistor
+def SMDC = metaitem('component.smd.capacitor.quantum'); //SMD quantum Capacitor
+def SMDR = metaitem('component.smd.resistor.quantum'); //SMD quantum Resistor
+def SMDD = metaitem('component.smd.diode.quantum'); //SMD quantum Diode
 
 
 //Epic Electric Furnace I
@@ -197,7 +196,7 @@ assembly_line.recipeBuilder()
         Plate * 16,
         circuitUHV * 4,
         metaitem('energy.cluster') * 1,
-        UHPIC * 32,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         SMDD * 16,
         SMDC * 16,
         SMDR * 16,
@@ -221,12 +220,12 @@ mods.gregtech.assembly_line.removeByInput(200000, [metaitem('circuit_board.wetwa
 
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('circuit_board.wetware') * 1,
+        metaitem('circuit_board.enigmatic') * 1,
         metaitem('plateAmericium') * 16,
         ore('circuitUv') * 4,
         metaitem('energy.module') * 1,
         metaitem('field.generator.zpm') * 1,
-        UHPIC * 32,
+        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
         SMDD * 16, 
         SMDC * 16, 
         SMDR * 16, 
@@ -375,7 +374,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.uhv') * 1,
         metaitem('cableGtSingleWakfu') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         ore('circuitUhv') * 1,
         metaitem('delta.uhv') * 1
     )
@@ -392,7 +391,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input.uhv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleWakfu') * 1,
         metaitem('energy.cluster') * 1,
         metaitem('transformer.uhv') * 1
@@ -406,7 +405,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_4a.uhv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleWakfu') * 1,
         metaitem('energy.cluster') * 1,
         metaitem('transformer.hi_amp.uhv') * 1
@@ -420,7 +419,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.input_16a.uhv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleWakfu') * 1,
         metaitem('energy.cluster') * 1,
         metaitem('transformer.adjustable.uhv') * 1
@@ -435,7 +434,7 @@ assembly_line.recipeBuilder()
     .inputs(
         metaitem('hull.uhv') * 1,
         metaitem('cableGtSingleWakfu') * 1,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         ore('circuitUev') * 1,
         metaitem('emitter.uhv') * 1
     )
@@ -452,7 +451,7 @@ assembly_line.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output.uhv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleWakfu') * 1,
         metaitem('energy.cluster') * 1,
         metaitem('transformer.uhv') * 1,
@@ -467,7 +466,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_4a.uhv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleWakfu') * 1,
         metaitem('energy.cluster') * 1,
         metaitem('transformer.hi_amp.uhv') * 1,
@@ -482,7 +481,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(
         metaitem('energy_hatch.output_16a.uhv') * 2,
-        metaitem('plate.ultra_high_power_integrated_circuit') * 8,
+        metaitem('plate.extreme_high_power_integrated_circuit') * 8,
         metaitem('cableGtDoubleWakfu') * 1,
         metaitem('energy.cluster') * 1,
         metaitem('transformer.adjustable.uhv') * 1,

@@ -3,6 +3,7 @@ import gregtech.*
 
 def assembly_line = recipemap('assembly_line');
 def research_station = recipemap('research_station');
+def chemical_reactor = recipemap('chemical_reactor')
 
 assembly_line.recipeBuilder()
     .inputs(
@@ -23,121 +24,43 @@ assembly_line.recipeBuilder()
     .duration(72000)
     .buildAndRegister();
 
+
 assembly_line.recipeBuilder()
     .inputs(
-        metaitem('hull.zpm') * 1,
-        metaitem('petri_dish') * 8,
+        metaitem('board.wetware') * 16,
+        ore('pipeTinyFluidDraconium') * 32,
+        metaitem('electric.pump.zpm') * 16,
         ore('circuitZpm') * 4,
-        metaitem('electric.pump.zpm') * 2,
-        metaitem('rotorNaquadahAlloy') * 4
+        ore('circuitLuv') * 12
     )
     .fluidInputs(
+        fluid('sterilized_growth_medium') * 500,
         fluid('soldering_alloy') * 2880
         )
-    .outputs(metaitem('bio_circuit_assembler.zpm') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('circuit.wetware_mainframe')).CWUt(128,2560000).EUt(580000))
-    .EUt(131072)
-    .duration(1200)
+    .outputs(metaitem('board.enigmatic') * 16)
+    .stationResearch(b -> b.researchStack(metaitem('circuit.sophia_data_base')).CWUt(8,8000000).EUt(32768))
+    .EUt(491520)
+    .duration(500)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(
-        metaitem('hull.uv') * 1,
-        metaitem('petri_dish') * 8,
-        ore('circuitUv') * 4,
-        metaitem('electric.pump.uv') * 2,
-        metaitem('rotorDarkmatteralloy') * 4
-    )
-    .fluidInputs(
-        fluid('soldering_alloy') * 2880
+        metaitem('board.enigmatic') * 8,
+        ore('foilTrinium') * 64
         )
-    .outputs(metaitem('bio_circuit_assembler.uv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.zpm')).CWUt(144,2880000).EUt(2000000))
-    .EUt(524288)
-    .duration(1200)
+    .fluidInputs(fluid('iron_iii_chloride') * 8000)
+    .outputs(metaitem('circuit_board.enigmatic') * 8)
+    .EUt(491520)
+    .duration(500)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(
-        metaitem('hull.uhv') * 1,
-        metaitem('petri_dish') * 8,
-        ore('circuitUhv') * 4,
-        metaitem('electric.pump.uhv') * 2,
-        metaitem('rotorDarkenergyalloy') * 4
-    )
-    .fluidInputs(
-        fluid('soldering_alloy') * 2880
+        metaitem('board.enigmatic') * 8,
+        ore('foilTrinium') * 64
         )
-    .outputs(metaitem('bio_circuit_assembler.uhv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uv')).CWUt(160,3200000).EUt(8000000))
-    .EUt(2000000)
-    .duration(1200)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs(
-        metaitem('hull.uev') * 1,
-        metaitem('petri_dish') * 8,
-        ore('circuitUev') * 4,
-        metaitem('electric.pump.uev') * 2,
-        metaitem('rotorStellarite') * 4
-    )
-    .fluidInputs(
-        fluid('soldering_alloy') * 2880
-        )
-    .outputs(metaitem('bio_circuit_assembler.uev') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uhv')).CWUt(172,35200006).EUt(24000000))
-    .EUt(8000000)
-    .duration(1200)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs(
-        metaitem('hull.uiv') * 1,
-        metaitem('petri_dish') * 8,
-        ore('circuitUiv') * 4,
-        metaitem('electric.pump.uiv') * 2,
-        metaitem('rotorStellarite') * 4
-    )
-    .fluidInputs(
-        fluid('soldering_alloy') * 2880
-        )
-    .outputs(metaitem('bio_circuit_assembler.uiv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uev')).CWUt(192,3840000).EUt(60000000))
-    .EUt(32000000)
-    .duration(1200)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs(
-        metaitem('hull.uxv') * 1,
-        metaitem('petri_dish') * 8,
-        ore('circuitUxv') * 4,
-        metaitem('electric.pump.uxv') * 2,
-        metaitem('rotorRunicalloy') * 4
-    )
-    .fluidInputs(
-        fluid('soldering_alloy') * 2880
-        )
-    .outputs(metaitem('bio_circuit_assembler.uxv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uiv')).CWUt(224,4480000).EUt(160000000))
-    .EUt(128000000)
-    .duration(1200)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs(
-        metaitem('hull.opv') * 1,
-        metaitem('petri_dish') * 8,
-        ore('circuitOpv') * 4,
-        metaitem('electric.pump.opv') * 2,
-        metaitem('rotorWakfustasis') * 4
-    )
-    .fluidInputs(
-        fluid('soldering_alloy') * 2880
-        )
-    .outputs(metaitem('bio_circuit_assembler.opv') * 1)
-    .stationResearch(b -> b.researchStack(metaitem('bio_circuit_assembler.uxv')).CWUt(240,4800000).EUt(320000000))
-    .EUt(500000000)
-    .duration(1200)
+    .fluidInputs(fluid('sodium_persulfate') * 16000)
+    .outputs(metaitem('circuit_board.enigmatic') * 8)
+    .EUt(491520)
+    .duration(500)
     .buildAndRegister();
