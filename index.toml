@@ -206,7 +206,7 @@ hash = "1cbce3fcee6dbfc49f62ad275314893668ba077ecb3a7a6fe9a7cffa6e95c936"
 
 [[files]]
 file = "groovy/postInit/coils.groovy"
-hash = "147f9fb65c41566ea6a6619ec7612f2c80f7ef1a129c8ca67a78a512f52180be"
+hash = "1ac73fc42d3cfe3577ee32e61458cbaf253a29b0cc62fda35b2e2c7a060e4738"
 
 [[files]]
 file = "groovy/postInit/creative_stuff.groovy"
@@ -254,7 +254,7 @@ hash = "eceb62a70f3b92e3d2d2645e46f808d2b886d8b72bb91f8d8bf59a09cb2d8fbf"
 
 [[files]]
 file = "groovy/postInit/new_silicon.groovy"
-hash = "abf493db3397599c7486fb66bf11b130ad1bfe5ac86f65fe7146dd4bf7c572fd"
+hash = "231797dc4932702a9a09d6f2e3f8fa4f1edc628f856a1b3d648dd7363069231f"
 
 [[files]]
 file = "groovy/postInit/opv.groovy"
@@ -302,7 +302,7 @@ hash = "e981dfc31726f7d53f57c9fbe465f8400cee37c2937ef815a71a808e7aff2f1b"
 
 [[files]]
 file = "groovy/postInit/wakfu_process.groovy"
-hash = "b881acb6c38956fd7deb1b1b0e6d99ca0ef25b5b709b1d4b1dc4cf722daf89ae"
+hash = "db5b9afc2e0f561425e36254ba9238e011943fac094336c16660131779fc64dc"
 
 [[files]]
 file = "groovy/postInit/wrought_iron.groovy"

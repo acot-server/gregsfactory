@@ -29,7 +29,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
         fluid('diluted_sulfuric_acid') * 5000,
-        fluid('wakfu') * 144
+        fluid('wakfu') * 576
         )
     .EUt(640)
     .duration(2000)
@@ -40,7 +40,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
         fluid('diluted_sulfuric_acid') * 5000,
-        fluid('wakfu') * 288
+        fluid('wakfu') * 1728
         )
     .EUt(1200)
     .duration(2000)
@@ -51,7 +51,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
         fluid('diluted_sulfuric_acid') * 5000,
-        fluid('wakfu') * 432
+        fluid('wakfu') * 5184
         )
     .EUt(1200)
     .duration(2000)
@@ -62,7 +62,7 @@ centrifuge.recipeBuilder()
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
         fluid('diluted_sulfuric_acid') * 5000,
-        fluid('wakfu') * 576
+        fluid('wakfu') * 15552
         )
     .EUt(1200)
     .duration(2000)
@@ -71,7 +71,7 @@ centrifuge.recipeBuilder()
 centrifuge.recipeBuilder()
     .inputs(metaitem('dustWakfu') * 9)
     .fluidInputs(fluid('hydrofluoric_acid') * 5000)
-    .outputs(metaitem('dustSmallStasis') * 2)
+    .fluidOutputs(fluid('stasis') * 72)
     .EUt(1200)
     .duration(2000)
     .buildAndRegister();
