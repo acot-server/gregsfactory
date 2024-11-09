@@ -484,20 +484,20 @@ cutter.recipeBuilder()
     .inputs(metaitem('wafer.extreme_high_power_integrated_circuit') * 1)
     .outputs(metaitem('plate.extreme_high_power_integrated_circuit') * 16)
     .EUt(122880)
-    .duration(6000)
+    .duration(1000)
     .buildAndRegister();
 
 cutter.recipeBuilder()
     .inputs(metaitem('wafer.ultimate_high_power_integrated_circuit') * 1)
     .outputs(metaitem('plate.ultimate_high_power_integrated_circuit') * 16)
     .EUt(491520)
-    .duration(6000)
+    .duration(1000)
     .buildAndRegister();
 
 cutter.recipeBuilder()
     .inputs(metaitem('wafer.infinity_high_power_integrated_circuit') * 1)
     .outputs(metaitem('plate.infinity_high_power_integrated_circuit') * 16)
     .EUt(1966080)
-    .duration(6000)
+    .duration(1000)
     .buildAndRegister();
 

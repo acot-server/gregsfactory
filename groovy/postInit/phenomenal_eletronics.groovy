@@ -22,7 +22,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.phanon_processor') * 4)
     .stationResearch(b -> b.researchStack(metaitem('circuit.sigma_mainframe')).CWUt(144).EUt(1000000))
     .EUt(2000000)
-    .duration(5000)
+    .duration(1000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -40,7 +40,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.phanon_supercomputer') * 2)
     .stationResearch(b -> b.researchStack(metaitem('circuit.phanon_processor')).CWUt(160).EUt(1500000))
     .EUt(16000000)
-    .duration(7000)
+    .duration(2000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -64,5 +64,5 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.phanon_mainframe') * 1)
     .stationResearch(b -> b.researchStack(metaitem('circuit.phanon_supercomputer')).CWUt(176).EUt(3000000))
     .EUt(120000000)
-    .duration(9000)
+    .duration(3000)
     .buildAndRegister();

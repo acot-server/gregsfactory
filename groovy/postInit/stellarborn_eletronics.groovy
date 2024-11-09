@@ -22,7 +22,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.omega_processor') * 4)
     .stationResearch(b -> b.researchStack(metaitem('circuit.phanon_mainframe')).CWUt(192,2560000).EUt(75000000))
     .EUt(6000000)
-    .duration(6000)
+    .duration(1000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -40,7 +40,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.omega_supercomputer') * 2)
     .stationResearch(b -> b.researchStack(metaitem('circuit.omega_processor')).CWUt(208,5120000).EUt(150000000))
     .EUt(48000000)
-    .duration(8000)
+    .duration(2000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -64,5 +64,5 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.omega_universal_supercomputer') * 1)
     .stationResearch(b -> b.researchStack(metaitem('circuit.omega_supercomputer')).CWUt(256,10240000).EUt(300000000))
     .EUt(600000000)
-    .duration(10000)
+    .duration(3000)
     .buildAndRegister();

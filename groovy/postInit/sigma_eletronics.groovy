@@ -22,7 +22,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.sigma_processor') * 4)
     .stationResearch(b -> b.researchStack(metaitem('circuit.alpha_mainframe')).CWUt(96).EUt(780000))
     .EUt(500000)
-    .duration(4000)
+    .duration(1000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -40,7 +40,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.sigma_supercomputer') * 2)
     .stationResearch(b -> b.researchStack(metaitem('circuit.sigma_processor')).CWUt(114).EUt(1140000))
     .EUt(6000000)
-    .duration(6000)
+    .duration(2000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -64,5 +64,5 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.sigma_mainframe') * 1)
     .stationResearch(b -> b.researchStack(metaitem('circuit.sigma_supercomputer')).CWUt(128).EUt(1650000))
     .EUt(48000000)
-    .duration(8000)
+    .duration(3000)
     .buildAndRegister();

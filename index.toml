@@ -190,7 +190,7 @@ hash = "a44b54aa33944580ca61b78ab0a1ad85eb178782cd16a292dae139c0444aae60"
 
 [[files]]
 file = "groovy/postInit/alpha_electronics.groovy"
-hash = "db1e8eea149023d96efba470c40a8670fd80fc5928d5b87ca2205ed3705e2ba2"
+hash = "d5f69c6e56daec60f2340fd76656e3565b6243358619a0d1a5f5b1ec8bfe6bc1"
 
 [[files]]
 file = "groovy/postInit/armor.groovy"
@@ -214,7 +214,7 @@ hash = "70e28994db9aa93c698276112099d014dc62056d8376eacda51da5d19b8637c1"
 
 [[files]]
 file = "groovy/postInit/dark_matter_eletronics.groovy"
-hash = "ef2005f3f028238d56bdb50e33a50ff9aa7d983c04c450c09ebcc1e672d7dc21"
+hash = "ef1cabaae5a9af0bf847a77cc0bb03f1e9fa7f6a534e685c9f0fe19ddf82a639"
 
 [[files]]
 file = "groovy/postInit/dense_processing.groovy"
@@ -254,7 +254,7 @@ hash = "eceb62a70f3b92e3d2d2645e46f808d2b886d8b72bb91f8d8bf59a09cb2d8fbf"
 
 [[files]]
 file = "groovy/postInit/new_silicon.groovy"
-hash = "231797dc4932702a9a09d6f2e3f8fa4f1edc628f856a1b3d648dd7363069231f"
+hash = "d1ebfee6594a29d95f5ae0dba9d8f4b4386de93f371e9d99dda55a21e879ee76"
 
 [[files]]
 file = "groovy/postInit/opv.groovy"
@@ -262,7 +262,7 @@ hash = "520890687a814240edad5b127870dc5e1d09a9b825a6b4e4c5ade5707cb26274"
 
 [[files]]
 file = "groovy/postInit/phenomenal_eletronics.groovy"
-hash = "198875d8513a5623176fbaad2ae32f6e282c77b5ff1568b8d5ce385cec81edbb"
+hash = "70a4cd935127987f17d3bed3bdd100d21a80151e37adb2ef9ead29a45f3a0fe3"
 
 [[files]]
 file = "groovy/postInit/precursor_tech.groovy"
@@ -274,7 +274,7 @@ hash = "6ecebfb4a566c14f8d9f9345b867b0f506d099203bcdc4f73c20ebd353108895"
 
 [[files]]
 file = "groovy/postInit/sigma_eletronics.groovy"
-hash = "fdca1fdcf44d8b17bdc8ddae68166499103b37e807a2a4044234a77d61e7cf78"
+hash = "eea07d6526277ef2ed299b9071c463c6d661892b49e43da3de310b1916c93c81"
 
 [[files]]
 file = "groovy/postInit/smd.groovy"
@@ -282,7 +282,7 @@ hash = "386ecc4a4a95ea8bc54a208adc35550a08a56d2fe0a77293478d95d4a3ab5f0b"
 
 [[files]]
 file = "groovy/postInit/stellarborn_eletronics.groovy"
-hash = "d5347deee636b186da108a124b44515347712b2e2ba2f98fc00d5143a51fc72b"
+hash = "5d49b99b14baa33b97b99e2c53748dea299f18ee4043c7a4c3e99d589bbb9223"
 
 [[files]]
 file = "groovy/postInit/uev.groovy"

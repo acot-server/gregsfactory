@@ -21,7 +21,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.delta_processor') * 4)
     .stationResearch(b -> b.researchStack(metaitem('crystal.system_on_chip')).CWUt(16).EUt(512000))
     .EUt(300000)
-    .duration(2000)
+    .duration(1000)
     .buildAndRegister();
 
 //Delta Supercomputer -- UHV Circuit
@@ -40,7 +40,7 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.delta_supercomputer') * 2)
     .stationResearch(b -> b.researchStack(metaitem('circuit.delta_processor')).CWUt(32).EUt(680000))
     .EUt(1000000)
-    .duration(4000)
+    .duration(2000)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -64,5 +64,5 @@ assembly_line.recipeBuilder()
     .outputs(metaitem('circuit.delta_mainframe') * 1)
     .stationResearch(b -> b.researchStack(metaitem('circuit.delta_supercomputer')).CWUt(48).EUt(1000000))
     .EUt(6000000)
-    .duration(6000)
+    .duration(3000)
     .buildAndRegister();
