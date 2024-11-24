@@ -1,8 +1,8 @@
 import gregtech.*;
 
-def centrifuge = recipemap('centrifuge');
+def chemical_reactor = recipemap('chemical_reactor')
 
-centrifuge.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(ore('listAllFood') * 32)
     .fluidInputs(fluid('sulfuric_acid') * 500)
     .fluidOutputs(
@@ -13,7 +13,7 @@ centrifuge.recipeBuilder()
     .duration(2000)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(ore('treeSapling') * 32)
     .fluidInputs(fluid('sulfuric_acid') * 500)
     .fluidOutputs(
@@ -24,7 +24,7 @@ centrifuge.recipeBuilder()
     .duration(2000)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(item('botania:manaresource', 5) * 1)
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
@@ -35,7 +35,7 @@ centrifuge.recipeBuilder()
     .duration(2000)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(item('draconicevolution:chaos_shard', 2) * 1)
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
@@ -46,7 +46,7 @@ centrifuge.recipeBuilder()
     .duration(2000)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(item('draconicevolution:chaos_shard', 1) * 1)
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
@@ -57,7 +57,7 @@ centrifuge.recipeBuilder()
     .duration(2000)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(item('draconicevolution:chaos_shard') * 1)
     .fluidInputs(fluid('sulfuric_acid') * 5000)
     .fluidOutputs(
@@ -68,7 +68,7 @@ centrifuge.recipeBuilder()
     .duration(2000)
     .buildAndRegister();
 
-centrifuge.recipeBuilder()
+chemical_reactor.recipeBuilder()
     .inputs(metaitem('dustWakfu') * 9)
     .fluidInputs(fluid('hydrofluoric_acid') * 5000)
     .fluidOutputs(fluid('stasis') * 72)
