@@ -302,7 +302,7 @@ hash = "e981dfc31726f7d53f57c9fbe465f8400cee37c2937ef815a71a808e7aff2f1b"
 
 [[files]]
 file = "groovy/postInit/wakfu_process.groovy"
-hash = "db5b9afc2e0f561425e36254ba9238e011943fac094336c16660131779fc64dc"
+hash = "dd33b525e7804521b6f06ca00773da8ced78cb211a72e2bb708977db00fc14cc"
 
 [[files]]
 file = "groovy/postInit/wrought_iron.groovy"
